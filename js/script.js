@@ -38,10 +38,10 @@
 				var name = s.name;;
 				var title = s.title;;
 				var text = s.text;;
+				var icon = s.icon;;
 				
 				$('<div class="marker_category" class="white"/>')
-		        // .html('<a href="#" name="catIndex_' + i + '" id="category_' + name + '" onclick="populateCategories($(this).attr(\'id\'),$(this).siblings(\'div\'),$(this).attr(\'name\'))">' + title + '</a><div id="category_div_' + name +'" class="hidden"/>')
-		        .html('<span class="cat_indicator">&nbsp;</span><a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '">' + title + '</a><div id="category_div_' + name +'" class="hidden"/>')
+		        .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '"><img class="cat_icon" src="images/icons/' + icon + '" alt="' + id + '"/>' + title + '<span class="cat_indicator">&nbsp;</span></a><div id="category_div_' + name +'" class="hidden"/>')
 		        .appendTo("#categories");
 
 				markerArray[i-0] = new Array();
@@ -134,7 +134,8 @@
 			var catID = 'category not found';
 			var defaultIcon = 'default.png';
 
-			markerArray.push(perform(category)); 
+
+			markerArray[markerArray.length] = perform(category);
 
 			// extract important category info & defaults
 			$.each(categories, function(i,s){
@@ -166,13 +167,12 @@
 				var lon  = s.lon;;
 				if (s.info){var info = s.info;;}
 				if (s.img){
-					if(s.img.indexOf(":") == -1){
+					if(s.img.indexOf(":") === -1){
 						var img  = 'images/objects/' + category + '/' + s.img;;
 					}
 					else {
 						var img = s.img;
 					}
-					
 				}
 				if (s.video){var video = s.video;;}
 				if (s.icon){var icon = 'images/icons/' + s.icon;;} else {var icon = 'images/icons/' + defaultIcon;;}
@@ -289,10 +289,6 @@
 			// push category to array to check if populated later
 			
 			markerCatArray[markerCatArray.length] = category;
-
-			//markerCatArray.push(category);
-
-	        //markerArray[catID].push(marker);
 	    	
 	        //build polygon key icon
 	        var icon = '<div class="polygon_key" style="border-color:'+borderColor+';background-color:'+fillColor+'">&nbsp;</div>';
@@ -306,9 +302,6 @@
 	        .appendTo(target);
 
 		});
-
-		
-
 
 		//load map layer
 		parkingLayer = new google.maps.KmlLayer(polygonFile);

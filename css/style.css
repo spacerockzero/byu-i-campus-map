@@ -384,10 +384,7 @@ td {
   display: none;
 }
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
+/*.hidden { display: none !important; visibility: hidden; }*/
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden {
   border: 0;
@@ -533,6 +530,7 @@ body {
   font-size: 25px;
   color: white;
   padding: 0 15px;
+  margin: 0px;
 }
 #menu h2 {
   margin-left: 10px;
@@ -551,17 +549,18 @@ body {
 
   border-radius: 5px;
   color: #606060;
+  overflow: hidden;
   border: solid 1px #b7b7b7;
   background: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ededed));
-  background: -moz-linear-gradient(top, #ffffff, #ededed);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+  background: -moz-linear-gradient(top, #ffffff, #dddddd);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd');
 }
 #menu .marker_category::hover {
-  background: #ededed;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dcdcdc));
-  background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+  background: #cccccc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+  background: -moz-linear-gradient(top, #ffffff, #cccccc);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc');
 }
 #menu .marker_category:active {
   color: #999;
@@ -569,11 +568,18 @@ body {
   background: -moz-linear-gradient(top, #ededed, #ffffff);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
 }
+#menu .marker_category img.cat_icon {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-right: 10px;
+  top: -3px;
+}
 #menu .marker_category span.cat_indicator {
   float: right;
-  top: 18px;
-  position: relative;
-  right: 15px;
+  top: 11px;
+  position: absolute;
+  right: 7px;
   width: 10px;
   height: 6px;
   cursor: pointer;
@@ -589,15 +595,29 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin: 6px 0;
-  padding: 4px 10px;
+  padding: 3px 3px 1px;
   text-decoration: none;
+  position: relative;
+  text-shadow: 1px 1px 3px white;
+  outline: none;
+}
+#menu .marker_category a:hover,
+#menu .marker_category a:active,
+#menu .marker_category a:visited {
+  outline: none;
+  border: 0px;
+}
+#menu .marker_category div {
+  border-top: 1px dashed #DEDEDE;
+  background: #EFEFEF;
 }
 #menu .marker_category div.hidden {
   display: none;
+  visibility: hidden;
 }
 #menu .marker_category div.cat_description {
   margin-bottom: 5px;
-  padding: 4px 10px;
+  padding: 10px 10px 0px;
 }
 #menu .marker_category img {
   width: 20px;
@@ -620,7 +640,10 @@ body {
   width: 20px;
   height: 19px;
   float: left;
-  margin-left: 10px;
+  /*margin-left: 10px;
+			margin-top: 5px;*/
+
+  margin: 5px 0px 5px 10px;
   border: 2px solid;
 }
 #menu ul {
@@ -634,7 +657,7 @@ body {
 
 }
 #menu ul.object_list li:hover {
-  background: #555;
+  background: #999;
   color: #fff;
   cursor: pointer;
   cursor: hand;
@@ -677,6 +700,11 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ffffff));
   background: -moz-linear-gradient(top, #ededed, #ffffff);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.ie9 #menu .marker_category,
+.ie8 #menu .marker_category,
+.ie7 #menu .marker_category {
+  border-radius: 0px;
 }
 /* #Media Queries
 ================================================== */

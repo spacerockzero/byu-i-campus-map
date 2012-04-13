@@ -38,19 +38,23 @@
           <li>Added expand/contract indicator arrow to each category</li>
           <li>On object categories -> required data: name, lattitude, longitude. All other values are programmatically optional to the program, and will be tested before proceeding.</li>
           <li>Added an animation queue stop() to the category slidetoggle(), to prevent it from building up queued animations.</li>
-          <li>Changed js pattern of array.push(arrayItem) functions to array[array.length] = arrayItem; pattern for a performance improvement of 5-50% (according to: <a href="http://stackoverflow.com/questions/153381/javascript-string-concatenation-faster-than-this-example">this article</a>.)</li>
+          <li>Changed js pattern of array.push(arrayItem) functions to array[array.length] = arrayItem; pattern for a Javascript array performance improvement of 5-50% (according to: <a href="http://stackoverflow.com/questions/153381/javascript-string-concatenation-faster-than-this-example">this article</a>.)</li>
           <li>Added Webcams layer that autoupdates webcam images</li>
           <li>Object images (when available) have percentage-based widths, and scale to fit the proportions of the window (matching the infopane proportions)</li>
+          <li>Fixed IE 7 Legacy issues with drop-down category areas</li>
+          <li>Added default icons to category headings, to further strengthen and clarify the interface link with users</li>
         </ul>
         <br/>
       	<strong>To Do:</strong><br/>
         <ul>
           <li>Use marker icons to specify campus tour regions (North, Middle and South)</li>
         	<li>Campus outline polygon layer default on load (not provided yet)</li>
-          <li>IE 7 Legacy issues with drop-down category areas</li>
           <li>Get more selective/minimal Jquery library</li>
           <li>Trigger caching preload of background resources just after map + interface have loaded</li>
           <li>Get more refined drawing of parking map</li>
+          <li>Further abstract the polygon layer process and functions, to enable map to add new polygon layers easily</li>
+          <li>Enable use of nested layers, due to deeper nested data in JSON file</li>
+          <li>Convert all campus tour videos and their embedding code into html5 with a flash fallback for older browsers, to further speed things up without needing to install quicktime plugin</li>
         </ul>
       </div>
     </article>
@@ -84,6 +88,8 @@
           <li>Provide mobile and tablet-specific responsive style for small screens</li>
           <li>Use category default icon on category heading, to further clarify what the category is/represents (clarify and solidify user expectations)</li>
           <li>Get all object images in the same width and height, to speed up renders on marker select, and to prevent some visual inconsistencies when markers are selected.</li>
+          <li>Create deployment version, minifying and compressing everything to smallest sizes possible, spriting all possible images as well.</li>
+          <li>Once a deployment version has been reached, an appcache manifest will be set up to locally cache static resources and further enhance speed.</li>
         </ul>
         <br/>
         <strong>Proposals:</strong><br/>

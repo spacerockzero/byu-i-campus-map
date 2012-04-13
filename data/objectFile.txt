@@ -2,7 +2,15 @@
   "info": {
     "categories": [
       {
-        "ID": 1,
+        "ID":1,
+        "name": "campustour",
+        "title": "Campus Tour",
+        "text": "A campus tour is now available online!",
+        "icon": "tour.png",
+        "type": "object"
+      },
+      {
+        "ID": 2,
         "name": "buildings",
         "title": "Buildings",
         "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.",
@@ -10,16 +18,16 @@
         "type": "object"
       },
       {
-        "ID": 2,
+        "ID": 3,
         "name": "parking",
         "title": "Parking",
         "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.",
-        "icon": "bigcity2.png",
+        "icon": "parking.png",
         "type": "polygon",
         "url": "parking.kml"
       },
       {
-        "ID": 3,
+        "ID": 4,
         "name": "playfields",
         "title": "Playfields",
         "text": "Recreational areas often scheduled for Student Activities.",
@@ -27,19 +35,11 @@
         "type": "object"
       },
       {
-        "ID":4,
+        "ID":5,
         "name": "construction",
         "title": "Construction Sites",
         "text": "Campus is continually improving. Take a look!",
         "icon": "construction.png",
-        "type": "object"
-      },
-      {
-        "ID":5,
-        "name": "campustour",
-        "title": "Campus Tour",
-        "text": "A campus tour is now available online!",
-        "icon": "tour.png",
         "type": "object"
       },
       {
@@ -53,6 +53,62 @@
     ]
   },
   "dataObjects": {
+    "campustour": [
+      {
+        "name": "Introduction",
+        "code": "INTRODUCTION",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/01-intro.mov",
+        "info": "Campus tours introduction",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Campus History",
+        "code": "CAMPUSHISTORY",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/02-campus_history.mov",
+        "info": "Campus History",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Jacob Spori Building",
+        "code": "SPORI",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/03-jacobspori.mov",
+        "info": "Jacob Spori Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Eliza R. Snow Center for the Performing Arts",
+        "code": "SNOW",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/04-snow.mov",
+        "info": "Eliza R. Snow Center for the Performing Arts",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Oscar A. Kirkham Building",
+        "code": "KIRKHAM",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/05-kirkham.mov",
+        "info": "Oscar A. Kirkham Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "George S. Romney Science Building",
+        "code": "ROMNEY",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/06-romney.mov",
+        "info": "George S. Romney Science Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      }
+    ],
     "buildings": [
       {
         "name": "AGM - Ag. Engineering Bldg.",
@@ -520,26 +576,6 @@
         "link": "http://www.byui.edu/agriculture/"
       }
     ],
-    "campustour": [
-      {
-        "name": "Introduction",
-        "code": "INTRODUCTION",
-        "lat": 43.811265,
-        "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/01-intro.mov",
-        "info": "Campus tours introduction",
-        "link": "http://www2.byui.edu/PR/webtour/"
-      },
-      {
-        "name": "Campus History",
-        "code": "CAMPUSHISTORY",
-        "lat": 43.811265,
-        "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/02-campus_history.mov",
-        "info": "Campus History",
-        "link": "http://www2.byui.edu/PR/webtour/"
-      }
-    ],
     "webcams": [
       {
         "name": "BYU-Idaho Center",
@@ -557,6 +593,15 @@
         "lon": -111.786779,
         "img": "http://www2.byui.edu/images/copyspot.asp",
         "info": "The Copy Spot is a place to print, bind, laminate and make copies.",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Thomas E. Ricks Gardens",
+        "code": "RICKSGARDENS",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "img": "http://www2.byui.edu/images/gardens.asp",
+        "info": "The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.",
         "link": "http://www2.byui.edu/PR/webtour/"
       }
     ]
