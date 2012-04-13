@@ -1,0 +1,467 @@
+{
+  "info": {
+    "categories": [
+      {
+        "ID": 1,
+        "name": "buildings",
+        "title": "Buildings",
+        "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.",
+        "icon": "building.png",
+        "zoom": "17"
+      },
+      {
+        "ID": 2,
+        "name": "parking",
+        "title": "Parking",
+        "text": "Parking Areas.",
+        "icon": "bigcity2.png",
+        "type": "polygon",
+        "url": "parking.kml"
+      },
+      {
+        "ID": 3,
+        "name": "playfields",
+        "title": "Playfields",
+        "text": "Recreational areas often scheduled for Student Activities.",
+        "icon": "sports_default.png"
+      },
+      {
+        "ID":4,
+        "name": "construction",
+        "title": "Construction Sites",
+        "text": "Campus is continually improving. Take a look!",
+        "icon": "construction.png"
+      }
+    ]
+  },
+  "dataObjects": {
+    "buildings": [
+      {
+        "name": "AGM - Ag. Engineering Bldg.",
+        "code": "AGM",
+        "lat":  43.813304,
+        "lon": -111.783140,
+        "info": "Lab area for Department of Agribusiness, Plant & Animal Science.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "ASB - Auxiliary Services Bldg.",
+        "code": "ASB",
+        "lat":  43.814100,
+        "lon": -111.783147,
+        "info": "Division of Continuing Education, University Press, a Copy Spot, the university's central warehouse, purchasing and travel offices.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "AUS - Mark Austin Technical & Engineering Bldg.",
+        "code": "AUS",
+        "lat":  43.815756,
+        "lon": -111.784646,
+        "info": "Department of Architecture & Construction, Department of Automotive Technology, Department of Computer Science and Engineering, and Department of Mechanical Engineering.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "BCTR - BYU-Idaho Center",
+        "code": "BCTR",
+        "lat":  43.818514,
+        "lon": -111.785046,
+        "info": "The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full basketball courts, opened following a dedication on Dec. 17, 2010.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "BEN - Ezra Taft Benson Agricultural & Biological Sciences Bldg.",
+        "code": "BEN",
+        "lat":  43.815441,
+        "lon": -111.783076,
+        "info": "Department of Biology, Department of Horticulture, laboratories, greenhouses, horticulture outlet for studio flowers and plant sales, and the Wildlife Museum.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "BID - Biddulph Hall (men)",
+        "code": "BID",
+        "lat":  43.817054,
+        "lon": -111.785123,
+        "info": "Men's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "BRN - Barnes Hall (women)",
+        "code": "BRN",
+        "lat":  43.819171,
+        "lon": -111.778768,
+        "info": "Women's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "CHP - Chapman Hall (men)",
+        "code": "CHP",
+        "lat":  43.818202,
+        "lon":  -111.780259,
+        "info": "Men's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "CLK - John L. Clarke Bldg.",
+        "code": "CLK",
+        "lat":  43.820179,
+        "lon":  -111.781751,
+        "info": "Department of Health Science, Department of Interior Design, Department of Nursing, Department of Home and Family, preschool for the child development program, Testing Services.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "CML - Construction Management Lab",
+        "code": "CML",
+        "lat":  43.815239,
+        "lon":  -111.787772,
+        "info": "Lab area for Department of Department of Architecture and Construction.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "HIN - Gordon B. Hinckley Bldg.",
+        "code": "HIN",
+        "lat":  43.815841,
+        "lon":  -111.779900,
+        "info": "Department of Teacher Education, faculty offices, Institute classes, and a stake center.",
+        "img": "buildings/hinckley.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "HRT - John W. Hart Physical Education Bldg.",
+        "code": "HRT",
+        "lat":  43.819535,
+        "lon": -111.785311,
+        "info": "Department of Exercise & Sports Science, Main Gymnasium/Hart Auditorium, Auxiliary Gym, field house, swimming pool, racquetball courts, dressing rooms, physical fitness and wellness centers.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "HTG - Heating Plant",
+        "code": "HTG",
+        "lat":  43.817298,
+        "lon":  -111.786003,
+        "info": "BYU-Idaho support facility for heating and hot water.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "KER - Kerr Hall (women)",
+        "code": "KER",
+        "lat":  43.819258,
+        "lon":  -111.779575,
+        "info": "Women's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "KIM - Spencer W. Kimball Student & Admin. Services Bldg.",
+        "code": "KIM",
+        "lat":  43.817071,
+        "lon":  -111.781492,
+        "info": "Academic Administrative Services, Accounting Office, Admissions Office, Alumni Office, Career & Academic Advising, Cashier and Ticket Services, Dean of Students Office, Executive Offices, Financial Services, Housing Office, Human Resources, International Services, Internship and Career Services, Police, Registrar & Records Office, Scholarships Office, Student Honor Office, and University Relations Office.",
+        "img": "buildings/kimball2.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "KRK - Oscar A. Kirkham Bldg.",
+        "code": "KRK",
+        "lat":  43.821114,
+        "lon":  -111.781479,
+        "info": "Department of Dance, Kirkham Auditorium, Arena Theater, and ceramics and sculpture studios.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "LAM - Lamprecht Hall",
+        "code": "LAM",
+        "lat":  43.818234,
+        "lon":  -111.779517,
+        "info": "Women's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "MC  - Hyrum Manwaring Student Center",
+        "code": "MC",
+        "lat":  43.818356,
+        "lon":  -111.782436,
+        "info": "Bookstore, Food Services and catering office, bowling alley, ballrooms, the ID Center, Lost and Found, and Scheduling Office.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "MCK - David O. McKay Library",
+        "code": "MCK",
+        "lat":  43.819310,
+        "lon":  -111.783182,
+        "info": "Department of Academic Learning, book collection, e-book collection, periodicals, computers labs, Family History Center,  archives, a Copy Spot, a special exhibition area, instructional technology labs, equipment checkout and rental, and a self-serve recording room.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "PER - Perkins Hall (women)",
+        "code": "PER",
+        "lat":  43.819253,
+        "lon":  -111.780264,
+        "info": "Women's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "PPG - Physical Plant Grounds Construction & Sign Shop",
+        "code": "PPG",
+        "lat":  43.815277,
+        "lon":  -111.786379,
+        "info": "BYU-Idaho support facility for landscaping, ground maintenance and signage.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "PPO - Physical Plant Office Bldg.",
+        "code": "PPO",
+        "lat": 43.81605433714605,
+        "lon": -111.7853369234744,
+        "info": "Physical Facilities Office and administrative offices for buildings and grounds, custodial, media services, telecommunications, safety, and support services.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "PPS - Physical Plant Shop Bldg.",
+        "code": "PPS",
+        "lat": 43.81594597634651,
+        "lon": -111.7859443479993,
+        "info": "Central shops for carpentry; electrical; fleet services; heating, ventilation, and air conditioning; locks and keys; and plumbing and mechanical operations.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "PWS - Plumbing & Welding Shop",
+        "code": "PWS",
+        "lat":  43.81526579736887,
+        "lon":  -111.7853107728127,
+        "info": "Central shop for plumbing and welding services.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "RGS - Radio and Graphic Services Bldg.",
+        "code": "RGS",
+        "lat":  43.81706519459516,
+        "lon":  -111.7789434430949,
+        "info": "University Communications, KBYI FM 100.5, KBYR 91.5, Creative Services (graphic design and photography).",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "RIC - Ricks Hall (women)",
+        "code": "RIC",
+        "lat":  43.81812607978744,
+        "lon":  -111.778914594058,
+        "info": "Women's housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "RIG - Rigby Hall (faculty offices)",
+        "code": "RIG",
+        "lat":  43.81696924342953,
+        "lon":  -111.7841900066221,
+        "info": "Faculty offices, Student Orientation Office.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "RKS - Thomas E. Ricks Bldg.",
+        "code": "RKS",
+        "lat":  43.81514466531412,
+        "lon": -111.7812015011548,
+        "info": "Department of History, Geography and Political Science; Department of Mathematics; Department of Psychology; and Department of Sociology and Social Work.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "ROM - George S. Romney Bldg.",
+        "code": "ROM",
+        "lat":  43.81943529937006,
+        "lon":  -111.7832273352486,
+        "info": "Department of Chemistry, Department of Geology, Department of Recreation Leadership, Department of Physics, the planetarium, hall displays, and the Geology Museum.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "SHC - Student Health & Counseling Center",
+        "code": "SHC",
+        "lat":  43.81681618820919,
+        "lon":  -111.7792542421602,
+        "info": "Student Health Center (pharmacy, laboratory, x-ray and orthopedic services), Student Counseling Center (individual, group, and marital counseling).",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "SMI - Joseph Fielding Smith Bldg.",
+        "code": "SMI",
+        "lat": 43.81920193746524,
+        "lon": -111.7815120835109,
+        "info": "Department of Accounting, Department of Business Management, Department of Economics, Department of Computer Information Technology, Department of Foreign Languages & Literatures, Online Testing Center.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "SNO - Eliza R. Snow Performing Arts Center",
+        "code": "SNO",
+        "lat":  43.82040568861844,
+        "lon":  -111.7834341454015,
+        "info": "Department of Music, Department of Theatre, Barrus Concert Hall, Recital Hall, Snow Drama Theater, Blackbox Theatre, and costume shop.",
+        "img": "buildings/music.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "SPO - Jacob Spori Bldg.",
+        "code": "SPO",
+        "lat": 43.82013049760194,
+        "lon": -111.7814491412516,
+        "info": "Department of Communication, Department of Art, art galleries, and artifacts from original Spori Building.",
+        "img": "buildings/spori.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "STA - BYU-Idaho Stadium",
+        "code": "STA",
+        "lat": 43.8203142379387,
+        "lon": -111.7858582214964,
+        "info": "Location of the Outdoor Resource Center. Equipment rentals and retail sales.",
+        "img": "buildings/stadium.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "TAY - John Taylor Bldg.",
+        "code": "TAY",
+        "lat":  43.81705797643297,
+        "lon":  -111.7811963030408,
+        "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area.",
+        "img": "buildings/taylor.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "TRK - BYU-I Track & Field",
+        "code": "TRK",
+        "lat": 43.82062309752545,
+        "lon": -111.7844109782628,
+        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "TRG - Thomas E. Ricks Memorial Gardens",
+        "code": "TRG",
+        "lat": 43.81582205080509,
+        "lon": -111.7815419421354,
+        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "UV  - University Village (families)",
+        "code": "UV",
+        "lat": 43.81043018645631,
+        "lon": -111.7880177484073,
+        "info": "Family housing.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "VOS - Vehicle Operations Service Station",
+        "code": "VOS",
+        "lat": 43.81528245659366,
+        "lon": -111.7859468775369,
+        "info": "Support area for the university's fleet services.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "University Stake Center",
+        "code": "UniversityStakeCenter",
+        "lat": 43.81091259491949,
+        "lon": -111.7810747356341,
+        "info": "Meetinghouse for The Church of Jesus Christ of Latter-day Saints.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "Rexburg Temple",
+        "code": "RexburgTemple",
+        "lat": 43.810832416805,
+        "lon": -111.7784921749187,
+        "info": "Owned and operated by The Church of Jesus Christ of Latter-day Saints.",
+        "img": "buildings/rexburg_temple.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      }
+    ],
+    "playfields": [
+      {
+        "name": "BBD - Baseball Diamond",
+        "code": "1",
+        "lat": 43.810832436805,
+        "lon": -111.7784921739187,
+        "info": "Recreational area often scheduled for Student Activities.",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "ESF - East Soccer Field",
+        "code": "2",
+        "lat": 43.810832416805,
+        "lon": -111.7784931749187,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "LEP - Lower East Playfield",
+        "code": "3",
+        "lat": 43.810832416805,
+        "lon": -111.7784921749137,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "LWP - Lower West Playfield",
+        "code": "4",
+        "lat": 43.810832416305,
+        "lon": -111.7784921749187,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "STF - Stadium Track and Field",
+        "code": "5",
+        "lat": 43.810832416605,
+        "lon": -111.7784921749186,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "SVC - Sand Volleyball Courts",
+        "code": "6",
+        "lat": 43.810832416835,
+        "lon": -111.7784921739187,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "TCL - Tennis Courts, Lower",
+        "code": "7",
+        "lat": 43.810832416808,
+        "lon": -111.7784921748187,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "TCU - Tennis Courts, Upper",
+        "code": "8",
+        "lat": 43.810832416895,
+        "lon": -111.7784921749187,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "UP  - Upper Playfield",
+        "code": "9",
+        "lat": 43.810,
+        "lon": -111.778,
+        "img": "playfields/playfield.jpg",
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "WSF - West Soccer Field",
+        "code": "10",
+        "lat": 43.810832416805,
+        "lon": -111.7784921949187,
+        "link": "http://www.byui.edu/agriculture/"
+      },
+      {
+        "name": "7th South Activity Fields",
+        "code": "11",
+        "lat": 43.810832416809,
+        "lon": -111.7784921749187,
+        "link": "http://www.byui.edu/agriculture/"
+      }
+    ],
+    "construction": [
+      {
+        "name": "Taylor Quad",
+        "code": "TYLRQUADCONST",
+        "lat": 43.816,
+        "lon": -111.774,
+        "info": "A beautiful water feature and walking path with foliage are currently being added to the center of the Taylor Quad.",
+        "link": "http://www.byui.edu/agriculture/"
+      }
+    ] 
+  }
+}

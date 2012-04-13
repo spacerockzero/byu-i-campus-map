@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>BYU-I Campus Map</title>
+		<link rel="stylesheet" href="css/map3.css" type="text/css" media="all" />
+
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=false"></script>
+    	<script type="text/javascript" src="js/lib/jquery-1.7.min.js"></script>
+	</head>
+
+	<body onload="initialize(),windowResize()" onresize="windowResize()">
+	  	<div id="map_canvas" style="width:80%"></div>
+	  	<div id="menu"style="width:20%">
+	  		<h1 id="title">BYU-I Campus Map</h1>
+	  		<nav id="categories"></nav>
+	  	</div>
+	  	<div id="info"></div>
+	  	<script type="text/javascript" src="js/byui_map.js"></script>
+	</body>
+</html>

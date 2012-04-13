@@ -1,0 +1,159 @@
+/*map3.less*/
+/*aaa*/
+/*VARIABLES BEGIN*/
+/* Identity Color Values */
+/* Basic colors */
+/*@byui_med_blue:#007ebd;*/
+/* Identity Range 2011*/
+/* Monochromatic set */
+/* Shade Variations */
+/*VARIABLES END*/
+/*MIXINS BEGIN*/
+/* Some naming discrepancies caused our pages to be made using _ and - in the mixin call for box-shadow, so keep both functions the same */
+/*MIXINS END*/
+html {
+  height: 100%;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+}
+body {
+  height: 100%;
+  /*width:100%;*/
+
+  margin: 0;
+  padding: 0;
+}
+#map_canvas {
+  float: left;
+  display: block;
+  /*min-width:500px;*/
+
+  /*max-width:80%;*/
+
+  height: 100%;
+}
+#menu {
+  /*-ms-linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%)*/
+
+  background: #326BA9;
+  /* Old browsers */
+
+  float: left;
+  min-width: 250px;
+  width: 20%;
+  list-style: none;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  box-shadow: 0px 0px 20px #000;
+  /*right: 0;*/
+
+  /*border-left:1px solid #333;*/
+
+}
+#menu #title {
+  text-align: center;
+  text-shadow: 2px 2px 7px #111;
+  font-size: 25px;
+  color: white;
+  padding: 0 15px;
+}
+#menu h2 {
+  margin-left: 10px;
+}
+#menu .marker_category {
+  margin: 15px;
+  /*padding: 4px 10px;*/
+
+  border: 1px solid #DDD;
+  background: white;
+  box-shadow: 0px 2px 10px #555;
+  border-radius: 5px;
+}
+#menu .marker_category a {
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  margin: 6px 0;
+  padding: 4px 10px;
+}
+#menu .marker_category div.hidden {
+  display: none;
+}
+#menu .marker_category div.cat_description {
+  margin-bottom: 5px;
+  padding: 4px 10px;
+}
+#menu .marker_category img {
+  width: 20px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+#menu .marker_category span {
+  position: relative;
+  margin-left: 10px;
+  display: inline-block;
+  width: 80%;
+  vertical-align: top;
+  min-height: 20px;
+  margin-top: 5px;
+  min-height: 30px;
+  padding-top: 4px;
+}
+#menu .marker_category .polygon_key {
+  width: 20px;
+  height: 19px;
+  float: left;
+  margin-left: 10px;
+  border: 2px solid;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+#menu ul.object_list li {
+  padding-top: 5px;
+  /*.transition(background,0.6s);*/
+
+}
+#menu ul.object_list li:hover {
+  background: #555;
+  color: #fff;
+  cursor: pointer;
+  cursor: hand;
+  /*.transition(background,0.2s);*/
+
+}
+#menu ul.polygon_list li span {
+  padding-top: 0;
+}
+.infopane img {
+  float: right;
+  margin: 0px 10px 10px 10px;
+}
+#menu_old {
+  background: -moz-linear-gradient(left, #2b5a8e 0%, #326ba9 17%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2b5a8e), color-stop(17%, #326ba9));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, #2b5a8e 0%, #326ba9 17%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, #2b5a8e 0%, #326ba9 17%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, #2b5a8e 0%, #326ba9 17%);
+  /* IE10+ */
+
+  background: linear-gradient(left, #2b5a8e 0%, #326ba9 17%);
+  /* W3C */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#2B5A8E', endColorstr='#ffffff', GradientType=1);
+  /* IE6-9 */
+
+}
