@@ -4,72 +4,96 @@
   	<style>
   		body {
   			font-family:Helvetica, arial, sans-serif;
-  			width:950px;
+  			max-width:950px;
+        width:70%;
   			margin:10px auto;
+        display:block;
+        color:#333;
   		}
+      article {
+        background-color:#eee;
+        padding:20px;
+        margin:20px 0;
+      }
       div {
         font-size: 12px;
       }
   	</style>
   </head>
   <body>
-    <h1>Googlemaps Campus Map project index</h1>
+    
+    <h1>Googlemaps Campus Map project index</h1>  
+    
+    <article>
+      <a href="campus-map.html"><h3>(v0.1) Newest Experimental Campus Map Example - Updated 4.13.2012</h3></a>
+      <div>
+      	<strong>Changelog:(status: In Progress)</strong><br/>
+      	<ul>
+          <li>Added fitToBounds(): automatically fits/zooms map to bounds of most distant markers</li>
+        	<li>Added maxZoom: prevents map from zooming in further than there is map imagery, preventing "sorry we have no imagery here" errors.</li>
+        	<li>Replaced fitToBounds with custom function fitToMarkers(), activating it on category open each time, to focus map boundary, zooming and centering to fit the category newly selected.</li>
+          <li>Parking polygon layers (can add & remove now)</li>
+          <li>Parking Layer key loads under the category heading when opened</li>
+          <li>Added Campus Tour Category</li>
+          <li>Added expand/contract indicator arrow to each category</li>
+          <li>On object categories -> required data: name, lattitude, longitude. All other values are programmatically optional to the program, and will be tested before proceeding.</li>
+          <li>Added an animation queue stop() to the category slidetoggle(), to prevent it from building up queued animations.</li>
+          <li>Changed js pattern of array.push(arrayItem) functions to array[array.length] = arrayItem; pattern for a performance improvement of 5-50% (according to: <a href="http://stackoverflow.com/questions/153381/javascript-string-concatenation-faster-than-this-example">this article</a>.)</li>
+          <li>Added Webcams layer that autoupdates webcam images</li>
+          <li>Object images (when available) have percentage-based widths, and scale to fit the proportions of the window (matching the infopane proportions)</li>
+        </ul>
+        <br/>
+      	<strong>To Do:</strong><br/>
+        <ul>
+          <li>Use marker icons to specify campus tour regions (North, Middle and South)</li>
+        	<li>Campus outline polygon layer default on load (not provided yet)</li>
+          <li>IE 7 Legacy issues with drop-down category areas</li>
+          <li>Get more selective/minimal Jquery library</li>
+          <li>Trigger caching preload of background resources just after map + interface have loaded</li>
+          <li>Get more refined drawing of parking map</li>
+        </ul>
+      </div>
+    </article>
 
-
-    <a href="byui_campus_map.html"><h3>(v0.0) Newest Stable Campus Map Example, totally Data-Driven and flexible - Build Frozen 4.04.2012</h3></a>
-    <div>
-    	<strong>Changelog:(status:frozen)</strong><br/>
-    	Features:<br/>
-    	- (Parking category disabled)<br/>
-    	- Reads categories and corresponding info strictly from JSON data file.<br/>
-    	- Defaults for each category are set in data file.<br/>
-    	- Infopanes can display name, code, position, info blurb, a marker icon override, and a web link for starters, easily scaling up to more pieces of data in future iterations<br/>
-    	- Markers from each category may be turned on and off independent of each other category<br/>
-	  </div>
-    <br/>
-
-    <a href="byui_campus_map-0.1.html"><h3>(v0.1) Newest Experimental Campus Map Example - Updated 4.12.2012</h3></a>
-    <div>
-    	<strong>Changelog:(status: In Progress)</strong><br/>
-    	- Added fitToBounds(): automatically fits/zooms map to bounds of most distant markers<br/>
-    	- Added maxZoom: prevents map from zooming in further than there is map imagery, preventing "sorry we have no imagery here" errors.<br/>
-    	- Replaced fitToBounds with custom function fitToMarkers(), activating it on category open each time, to focus map boundary, zooming and centering to fit the category newly selected.<br/>
-      - Parking polygon layers (can add & remove now)<br/>
-      - Parking Layer key loads under the category heading when opened<br/>
-      - Added Campus Tour Category<br/>
-      - Added expand/contract indicator arrow to each category<br/>
-      - On object categories -> required data: name, lattitude, longitude. All other values are programmatically optional to the program, and will be tested before proceeding.<br/>
-      - Added an animation queue stop() to the category slidetoggle(), to prevent it from building up queued animations.<br/>
-      - Changed js pattern of array.push(arrayItem) functions to array[array.length] = arrayItem; pattern for a performance improvement of 5-50% (according to: <a href="http://stackoverflow.com/questions/153381/javascript-string-concatenation-faster-than-this-example">this article</a>.)<br/>
+    <article>
+      <h3>(v0.0) Original Stable Campus Map, totally Data-Driven and flexible - Build Frozen 4.04.2012</h3>
+      <div>
+        <strong>Changelog:(status:frozen)</strong><br/>
+        Features:<br/>
+        <ul>
+          <li>(Parking category disabled)</li>
+          <li>Reads categories and corresponding info strictly from JSON data file.</li>
+          <li>Defaults for each category are set in data file.</li>
+          <li>Infopanes can display name, code, position, info blurb, a marker icon override, and a web link for starters, easily scaling up to more pieces of data in future iterations</li>
+          <li>Markers from each category may be turned on and off independent of each other category</li>
+        </ul>
+      </div>
       <br/>
-    	<strong>To Do:</strong><br/>
-      - Use marker icons to specify campus tour regions (North, Middle and South)<br/>
-    	- Campus outline polygon layer default on load (not provided yet)<br/>
-      - IE 7 Legacy issues with drop-down category areas<br/>
-      - Get more selective/minimal Jquery library<br/>
-      - Trigger caching preload of background resources just after map + interface have loaded<br/>
-      - Get more refined drawing of parking map<br/>
-      - Add Webcams layer that autoupdates webcam images<br/>
-    </div>
+    </article>
 
-    <a href="#"><h3>(v0.2) Future Experimental Campus Map Example</h3></a>
-    <div>
-      <strong>Changelog:(status: Not Started Yet)</strong><br/>
-      <br/>
-      <strong>To Do:</strong><br/>
-      - Get new vector-drawn campus map to further clarify campus boundaries and internals, while using branding color scheme to draw strong brand immersion context from audience<br/>
-      - Get perfected building, campus tour, parking info from Unicomm to polish the map's info and positioning<br/>
-      - Add vending machine, dining, and cafe layer (use marker icons to specify type)<br/>
-      - Pull live data feed from vending machines to display on infopanes<br/>
-      - Add restroom layer (use marker icons to specify type)<br/>
-      - Provide mobile and tablet-specific responsive style for small screens<br/>
-      <br/>
-      <strong>Proposals:</strong><br/>
-      - Virtual campus tours using Google StreetView API and our own images (private to our site)?<br/>
-      - 360 Views from on-campus locations?<br/>
-      - Parking maps populated by user-selected parking pass (Student North, Faculty, Vistor/No Pass, etc), ie: <a href="http://campusmap.ufl.edu/">http://campusmap.ufl.edu/</a><br/>
-    </div>
-
+    <article>
+      <h3>Future Feature Wishlist</h3>
+      <div>
+        <strong>To Do:</strong><br/>
+        <ul>
+          <li>Get new vector-drawn campus map to further clarify campus boundaries and internals, while using branding color scheme to draw strong brand immersion context from audience</li>
+          <li>Get perfected building, campus tour, parking info from Unicomm to polish the map's info and positioning</li>
+          <li>Add vending machine, dining, and cafe layer (use marker icons to specify type)</li>
+          <li>Pull live data feed from vending machines to display on infopanes</li>
+          <li>Add restroom layer (use marker icons to specify type)</li>
+          <li>Provide mobile and tablet-specific responsive style for small screens</li>
+          <li>Use category default icon on category heading, to further clarify what the category is/represents (clarify and solidify user expectations)</li>
+          <li>Get all object images in the same width and height, to speed up renders on marker select, and to prevent some visual inconsistencies when markers are selected.</li>
+        </ul>
+        <br/>
+        <strong>Proposals:</strong><br/>
+        <ul>
+          <li>Virtual campus tours using Google StreetView API and our own images (private to our site)?</li>
+          <li>360 Views from on-campus locations?</li>
+          <li>Parking maps populated by user-selected parking pass (Student North, Faculty, Vistor/No Pass, etc), ie: <a href="http://campusmap.ufl.edu/">http://campusmap.ufl.edu/</a></li>
+        </ul>
+      </div>
+    </article>
 
   </body>
 </html>

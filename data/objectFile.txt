@@ -59,6 +59,7 @@
         "code": "AGM",
         "lat":  43.813304,
         "lon": -111.783140,
+        "img": "engineering.jpg",
         "info": "Lab area for Department of Agribusiness, Plant & Animal Science.",
         "link": "http://www.byui.edu/agriculture/"
       },
@@ -140,7 +141,7 @@
         "lat":  43.815841,
         "lon":  -111.779900,
         "info": "Department of Teacher Education, faculty offices, Institute classes, and a stake center.",
-        "locimg": "buildings/hinckley.jpg",
+        "img": "hinckley.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -173,7 +174,7 @@
         "lat":  43.817071,
         "lon":  -111.781492,
         "info": "Academic Administrative Services, Accounting Office, Admissions Office, Alumni Office, Career & Academic Advising, Cashier and Ticket Services, Dean of Students Office, Executive Offices, Financial Services, Housing Office, Human Resources, International Services, Internship and Career Services, Police, Registrar & Records Office, Scholarships Office, Student Honor Office, and University Relations Office.",
-        "locimg": "buildings/kimball2.jpg",
+        "img": "kimball2.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -310,7 +311,7 @@
         "lat":  43.82040568861844,
         "lon":  -111.7834341454015,
         "info": "Department of Music, Department of Theatre, Barrus Concert Hall, Recital Hall, Snow Drama Theater, Blackbox Theatre, and costume shop.",
-        "locimg": "buildings/music.jpg",
+        "img": "music.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -319,7 +320,7 @@
         "lat": 43.82013049760194,
         "lon": -111.7814491412516,
         "info": "Department of Communication, Department of Art, art galleries, and artifacts from original Spori Building.",
-        "locimg": "buildings/spori.jpg",
+        "img": "spori.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -328,7 +329,7 @@
         "lat": 43.8203142379387,
         "lon": -111.7858582214964,
         "info": "Location of the Outdoor Resource Center. Equipment rentals and retail sales.",
-        "locimg": "buildings/stadium.jpg",
+        "img": "stadium.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -337,7 +338,7 @@
         "lat":  43.81705797643297,
         "lon":  -111.7811963030408,
         "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area.",
-        "locimg": "buildings/taylor.jpg",
+        "img": "taylor.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -386,7 +387,7 @@
         "lat": 43.810832416805,
         "lon": -111.7784921749187,
         "info": "Owned and operated by The Church of Jesus Christ of Latter-day Saints.",
-        "locimg": "buildings/rexburg_temple.jpg",
+        "img": "rexburg_temple.jpg",
         "link": "http://www.byui.edu/agriculture/"
       }
     ],
@@ -491,7 +492,7 @@
         "code": "9",
         "lat": 43.810,
         "lon": -111.778,
-        "locimg": "playfields/playfield.jpg",
+        "img": "playfield.jpg",
         "link": "http://www.byui.edu/agriculture/"
       },
       {
@@ -541,21 +542,21 @@
     ],
     "webcams": [
       {
-        "name": "Introduction",
-        "code": "INTRODUCTION",
+        "name": "BYU-Idaho Center",
+        "code": "BYUIDAHOCENTER",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/01-intro.mov",
-        "info": "Campus tours introduction",
+        "img": "http://www2.byui.edu/images/auditorium.asp",
+        "info": "The BYU-Idaho Center is a new auditorium for the school.",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
       {
-        "name": "Campus History",
-        "code": "CAMPUSHISTORY",
+        "name": "Copy Spot",
+        "code": "COPYSPOT",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/02-campus_history.mov",
-        "info": "Campus History",
+        "img": "http://www2.byui.edu/images/copyspot.asp",
+        "info": "The Copy Spot is a place to print, bind, laminate and make copies.",
         "link": "http://www2.byui.edu/PR/webtour/"
       }
     ]

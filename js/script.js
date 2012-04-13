@@ -16,7 +16,7 @@
 	var mapBounds = new google.maps.LatLngBounds(new google.maps.LatLng( 43.811265, -111.786779), new google.maps.LatLng(43.821521, -111.778185));
 
 	// LOAD JSON AND KML FILES INTO VAR
-	var objectFile = 'objectFile.txt';   /* changed JSON file to txt to get past lehi server filetype filters */
+	var objectFile = 'data/objectFile.txt';   /* changed JSON file to txt to get past lehi server filetype filters */
 	var polygonFile = 'http://www2.byui.edu/Test/parking_data.xml';
 
 	var parkingLayer;
@@ -165,10 +165,17 @@
 				var lat  = s.lat;;
 				var lon  = s.lon;;
 				if (s.info){var info = s.info;;}
-				if (s.locimg){var img  = 'images/' + s.img;;}
-				if (s.extimg){var img  = s.img;;}
+				if (s.img){
+					if(s.img.indexOf(":") == -1){
+						var img  = 'images/objects/' + category + '/' + s.img;;
+					}
+					else {
+						var img = s.img;
+					}
+					
+				}
 				if (s.video){var video = s.video;;}
-				if (s.icon){var icon = 'images/' + s.icon;;} else {var icon = 'images/' + defaultIcon;;}
+				if (s.icon){var icon = 'images/icons/' + s.icon;;} else {var icon = 'images/icons/' + defaultIcon;;}
 				if (s.link){var link = s.link;;}
 				if (s.code){var id   = category + "_" + code;}
 
