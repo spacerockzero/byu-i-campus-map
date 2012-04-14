@@ -320,7 +320,7 @@
 		// COLLAPSE/SHOW CHILD OBJECT LIST
 		obj.stop().slideToggle();
 		obj.toggleClass('hidden');
-		obj.siblings('span.cat_indicator').toggleClass('active');
+		obj.siblings('a.marker_category_a').children('span.cat_indicator').toggleClass('active');
 
 		// IF Polygons
 		if (category == 'parking'){
@@ -424,7 +424,7 @@
 		windowResize();
 
 		//bind category populating and hide/show to the menu item
-		$(".marker_category_a, cat_indicator").live("click",function(){
+		$(".marker_category_a").live("click",function(){
 		    
 			category = $(this).attr('id'),
 			obj = $(this).siblings('div'),

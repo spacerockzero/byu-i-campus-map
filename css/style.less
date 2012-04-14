@@ -8,9 +8,9 @@ html {
 	height: 100%;
 	font-family:helvetica, arial, sans-serif;
 	font-size:10px;
-	//font-smooth:always;
-	//-webkit-font-smooth:antialiased;
-	-webkit-font-smoothing:subpixel-antialiased;
+	/*font-smooth:always;
+	-webkit-font-smooth:antialiased;
+	-webkit-font-smoothing:subpixel-antialiased;*/
 }
 body { 
 	height: 100%; 
@@ -19,6 +19,14 @@ body {
 	padding: 0;
 	overflow:hidden; 
 }
+header,footer {
+	display:block;
+	clear: both;
+	width: 100%;
+	background: #333;
+}
+
+/*@import 'header.less';*/
 
 #map_canvas { 
 	float:left; 
@@ -89,13 +97,13 @@ body {
 		}
 		span.cat_indicator {
 			float: right;
-			top: 11px;
+			top: 14px;
 			position: absolute;
-			right: 7px;
+			right: 17px;
 			width: 10px;
 			height: 6px;
-			cursor:pointer;
-			background:url('../images/interface/toggle_arrow.png') no-repeat;
+			cursor: pointer;
+			background: url('../images/interface/toggle_arrow.png') no-repeat;
 			background-position: 0 0;
 			&.active {
 				background-position: 0 -6px;
@@ -110,7 +118,7 @@ body {
 			padding: 3px 3px 1px;
 			text-decoration: none;
 			position:relative;
-			text-shadow: 1px 1px 3px white;
+			text-shadow: 0px 1px 1px white;
 			outline:none;
 			&:hover, &:active, &:visited{
 				outline:none;

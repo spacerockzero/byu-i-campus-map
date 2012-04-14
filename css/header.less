@@ -1,0 +1,257 @@
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+.global_outside {
+  width: 100%;
+  min-width: 980px;
+}
+.global_outside.top_header {
+  background-color: #252525;
+  overflow: visible;
+  height: 38px;
+}
+.global_outside.main_header {
+  background: linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%);
+  background: -webkit-linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%);
+  background: -moz-linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%);
+  background: -ms-linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%);
+  background: -o-linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2B5A8E), color-stop(25%, #326BA9), color-stop(75%, #326BA9), color-stop(100%, #326BA9));
+  background: linear-gradient(top, #2B5A8E 0%, #326BA9 25%, #326BA9 75%, #326BA9 100%);
+  overflow: visible;
+  height: 70px;
+}
+
+/******** HEADER ********/
+#top_header {
+  /*padding-top: 10px;*/
+
+  background-color: #252525;
+  height: 38px;
+}
+#main_nav ul {
+  padding-left: 0;
+}
+#main_header {
+  padding-top: 15px;
+  height: 55px;
+  background-color: #326ba9;
+  background: -webkit-linear-gradient(top, #2b5a8e 0%, #326ba9 25%, #326ba9 75%, #326ba9 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -moz-linear-gradient(top, #2b5a8e 0%, #326ba9 25%, #326ba9 75%, #326ba9 100%);
+  /* FF3.6+ */
+
+  background: -ms-linear-gradient(top, #2b5a8e 0%, #326ba9 25%, #326ba9 75%, #326ba9 100%);
+  /* IE10+ */
+
+  background: -o-linear-gradient(top, #2b5a8e 0%, #326ba9 25%, #326ba9 75%, #326ba9 100%);
+  /* Opera 11.10+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b5a8e), color-stop(25%, #326ba9), color-stop(75%, #326ba9), color-stop(100%, #326ba9));
+  /* Chrome,Safari4+ */
+
+  background: linear-gradient(top, #2b5a8e 0%, #326ba9 25%, #326ba9 75%, #326ba9 100%);
+  /* W3C */
+
+  overflow: visible;
+}
+#university_name {
+  font-size: 18px;
+  padding: 13px 0 0 5px;
+}
+#university_name a {
+  color: #fff;
+}
+#university_name a:active {
+  color: #bbb;
+}
+#search_mobile {
+  display: none;
+}
+#search_box {
+  position: absolute;
+  top: 0;
+  left: 680px;
+  clear: both;
+  background: url('../images/head/searchboxbkg.jpg') repeat-x #326ba9;
+  -moz-box-shadow: 0 0px 15px #000;
+  -webkit-box-shadow: 0 0px 15px #000;
+  box-shadow: 0 0px 15px #000;
+}
+#search_box ul {
+  font-size: 8px;
+  /*margin: 4px 0 0 12px;*/
+
+  margin: 4px 0 0 8px;
+}
+#search_box ul li {
+  display: inline;
+  border-right: solid 1px #999;
+}
+#search_box li.last {
+  border-right: none;
+}
+#search_box ul li a {
+  color: #fff;
+  padding: 0 5px;
+  font-size: 11px;
+}
+#search_wrapper {
+  height: 24px;
+  background-image: none;
+  background-color: #fff;
+  margin: 5px 6px 5px 6px;
+}
+#search_wrapper form {
+  height: 100%;
+}
+#search_wrapper .search_box {
+  border: 0px;
+  background-color: transparent;
+  position: relative;
+  top: -3px;
+  margin: 0;
+  padding-left: 4px;
+  width: 227px;
+  font-size: 13px;
+}
+#search_wrapper .search_box_submit {
+  position: relative;
+  border: 0px;
+  top: 2px;
+  background-image: url('../images/head/search.png');
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+#search_wrapper:hover .search_box_submit {
+  background-position: 0px -20px;
+}
+.ie7 .main_header #main_header #search_box #search_wrapper .search_box_submit {
+  right: -6px;
+  float: none;
+}
+.ie7 .main_header #main_header #search_box #search_wrapper .search_box {
+  top: -3px;
+}
+#main_header #audience_nav_box {
+  display: block;
+  left: 440px;
+  position: absolute;
+  right: 0;
+  font-size: 11px;
+}
+#main_header #audience_nav_box ul {
+  float: right;
+}
+/******** HEADER AND FOOTER *********/
+#top_header a, #main_header a, #mega_footer a {
+  color: #fff;
+}
+.mega_footer {
+  background: black;
+}
+#top_header a:visited, #main_header a:visited, #mega_footer a:visited {
+  color: #e2e2e2;
+}
+#top_header ul, #main_header ul, #mega_footer ul {
+  list-style: none outside none;
+  padding: 0;
+  margin: 0;
+}
+#search_box ul {
+  font-size: 8px;
+  margin: 4px 0 0 12px;
+}
+#main_nav li, #secondary_nav li {
+  padding-right: 13px;
+  padding-left: 12px;
+  border-right: solid 1px #666;
+  float: left;
+  /*height:20px;*/
+
+  /*margin-bottom:10px;*/
+
+  /*padding: 0px 13px 0px 13px;
+	height: 20px;*/
+
+}
+#main_nav {
+  position: relative;
+  top: 9px;
+}
+#main_nav li {
+  padding: 0;
+}
+#main_nav li a {
+  padding: 0px 13px 0px 13px;
+  height: 20px;
+  display: block;
+}
+#main_nav li.first a {
+  padding-left: 0;
+}
+#mega_footer #secondary_nav li.last {
+  padding: 0 0 0 12px;
+}
+#main_nav li.first, #access_links li.first {
+  padding-left: 0;
+  border-left: none;
+}
+#main_nav li.last,
+#search_nav li.last,
+#secondary_nav li.last,
+#access_links li.last {
+  border-right: none;
+  padding-right: 0;
+  height: 20px;
+}
+#main_nav li a,
+#search_nav li a,
+#secondary_nav li a,
+#access_links li a {
+  color: #e2e2e2;
+  font-size: 12px;
+  /*vertical-align:top;*/
+
+}
+#main_nav li a:hover,
+#search_box li a:hover,
+#secondary_nav li a:hover,
+#access_links li a:hover {
+  color: #f3d375;
+}
+#audience_nav_box ul, #audience_nav_box_bottom ul {
+  padding-top: 13px;
+  margin: 0;
+  font-size: 11px;
+}
+#audience_nav_box ul li, #audience_nav_box_bottom ul li {
+  float: left;
+}
+#audience_nav_box li a, #audience_nav_box_bottom li a {
+  display: block;
+  padding: 3px 9px 3px 9px;
+  margin: 0px 2px 0px 2px;
+  text-shadow: #222 1px 1px .5px;
+  background-image: url('../images/interface/buttonbackground.png');
+  background-repeat: repeat-x;
+  background-color: #326ba9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+#audience_nav_box li a:hover, #audience_nav_box_bottom li a:hover {
+  background-image: url('../images/interface/buttonbackgroundhover.png');
+  color: #ddd;
+}
+#audience_nav_box li.first a, #audience_nav_box_bottom li.first a {
+  margin-left: 0;
+}
+#audience_nav_box li.last a, #audience_nav_box_bottom li.last a {
+  margin-right: 0;
+}

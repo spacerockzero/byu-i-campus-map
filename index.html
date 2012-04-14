@@ -28,7 +28,7 @@
       <a href="campus-map.html"><h3>(v0.1) Newest Experimental Campus Map Example - Updated 4.13.2012</h3></a>
       <div>
       	<strong>Changelog:(status: In Progress)</strong><br/>
-      	<ul>
+      	<ul> 
           <li>Added fitToBounds(): automatically fits/zooms map to bounds of most distant markers</li>
         	<li>Added maxZoom: prevents map from zooming in further than there is map imagery, preventing "sorry we have no imagery here" errors.</li>
         	<li>Replaced fitToBounds with custom function fitToMarkers(), activating it on category open each time, to focus map boundary, zooming and centering to fit the category newly selected.</li>
@@ -43,11 +43,12 @@
           <li>Object images (when available) have percentage-based widths, and scale to fit the proportions of the window (matching the infopane proportions)</li>
           <li>Fixed IE 7 Legacy issues with drop-down category areas</li>
           <li>Added default icons to category headings, to further strengthen and clarify the interface link with users</li>
+          <li>Fixed alignment of category indicator arrows in cross-browser fashion</li>
         </ul>
         <br/>
       	<strong>To Do:</strong><br/>
         <ul>
-          <li>Fix alignment of category indicator arrows in cross-browser fashion</li>
+          <li>Add depth effect to drop arrow (white on up state and dark on down state for contrast against changing background</li>
           <li>Use marker icons to specify campus tour regions (North, Middle and South)</li>
         	<li>Campus outline polygon layer default on load (not provided yet)</li>
           <li>Get more selective/minimal Jquery library</li>
