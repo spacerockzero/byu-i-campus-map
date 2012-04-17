@@ -707,8 +707,8 @@ footer {
 
   position: relative;
 }
-.infopane.campustour_info {
-  min-height: 330px;
+.infopane#campustour_info {
+  min-height: 350px;
 }
 .white {
   color: #606060;

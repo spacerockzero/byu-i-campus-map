@@ -59,7 +59,7 @@
         "code": "INTRODUCTION",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/01-intro.mov",
+        "video": "01-intro",
         "info": "Campus tours introduction",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
@@ -68,7 +68,7 @@
         "code": "CAMPUSHISTORY",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/02-campus_history.mov",
+        "video": "02-campus_history",
         "info": "Campus History",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
@@ -77,7 +77,7 @@
         "code": "SPORI",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/03-jacobspori.mov",
+        "video": "03-jacobspori",
         "info": "Jacob Spori Building",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
@@ -86,7 +86,7 @@
         "code": "SNOW",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/04-snow.mov",
+        "video": "04-snow",
         "info": "Eliza R. Snow Center for the Performing Arts",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
@@ -95,7 +95,7 @@
         "code": "KIRKHAM",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/05-kirkham.mov",
+        "video": "05-kirkham",
         "info": "Oscar A. Kirkham Building",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
@@ -104,7 +104,7 @@
         "code": "ROMNEY",
         "lat": 43.811265,
         "lon": -111.786779,
-        "video": "http://streaming.byui.edu/unicom/campustour/QT/01Ncampus/06-romney.mov",
+        "video": "06-romney",
         "info": "George S. Romney Science Building",
         "link": "http://www2.byui.edu/PR/webtour/"
       }

@@ -58,19 +58,15 @@
 		}
 		/* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
 		else {          
-			content = 		'<video width="100%" autoplay controls preload>' +
+			content = 		'<video autoplay controls preload>' +
 								'<source src="video/objects/campustour/01-intro.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" />' +
 								'<source src="video/objects/campustour/01-intro.webm" type="video/webm;" codecs="vp8, vorbis"/>' +
 							'</video><br/>';
 		}
-		// $('html').click(function(){
-		// 	$('div#content').html(content);
-		// });
-		
-		// $('div#content').load(function(){
-		// 	var video = document.getElementById('video');
-  // 			video.play();
-		// })
+		$(window).load(function(){
+			$('div#content').html(content);
+		});
+
   	</script>
 
 </html>

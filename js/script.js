@@ -24,6 +24,16 @@
 
   var parkingLayer;
 
+  //html5 video detection
+  var noHtmlVideo = false;
+  if (Modernizr.video) {
+    // let's play some video!
+    html5Video = true;
+  } else {
+    // no native video support available :(
+    html5Video = false;
+  }
+
 
 // POPULATE CATEGORY LIST
 
@@ -75,7 +85,7 @@ function listCategories() {
     maxZoom: 18,
     zoom: 17,
     center: myLatlng,
-    mapTypeId: google.maps.MapTypeId.SATELLITE,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.HYBRID, google.maps.MapTypeId.TERRAIN]
     }
@@ -219,7 +229,7 @@ function listCategories() {
           }
 
           // Create the info panes which hold content about each building
-          var content = '<div id="' + id + '" class="infopane">' +
+          var content = '<div id="' + category + '_info" class="infopane">' +
           '<h2>' + name + '</h2>' +
           '<div>';
           if (img)
@@ -227,9 +237,19 @@ function listCategories() {
             content += '<img src="' + img + '" alt="' + name + '" width="40%"/>';
           }
           if (video)
-          {
-            content += '<iframe src="' + video + '"></iframe><br/>';
-          }
+            /* If no html video support detected, play quicktime video using quicktime plugin */
+            if (html5Video !== true)
+            {
+              content += '<iframe src="video/objects/' + '/' + category + '/' + video + '.mov"></iframe><br/>';
+            }
+            /* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
+            else {
+            content += '<video width="100%" id="' + category + '_id "class="html5_video" controls autoplay preload >' +
+                         '<source src="video/objects/' + '/' + category + '/' + video + '.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" width="100%" />' +
+                         '<source src="video/objects/' + '/' + category + '/' + video + '.webm" type="video/webm;" codecs="vp8, vorbis" width="100%" />' +
+                         'Your browser does not support the <code>video</code> element.' +
+                       '</video><br/>';
+            }
           if (info)
           {
             content += info;
@@ -246,7 +266,12 @@ function listCategories() {
 
           // Open the InfoWindow
           infoWindow.open(map, marker);
+          
           fitToMarkers(markerArray[catID]);
+
+          
+          
+          console.log("after v.play()");
 
             }); //end click listener
             //fitToMarkers(markerArray[])
@@ -382,7 +407,12 @@ console.log('end loadPolygonCategory()');
     });
     map.panTo(marker.getPosition());
     google.maps.event.trigger(marker, 'click');
-
+    
+    console.log("inside displayPoint");
+    $('video')[0].load( function(){
+      this.play();
+    });
+    console.log("after play");
   }/* END displayPoint() */
 
 // GENERAL FUNCTIONS
@@ -450,8 +480,15 @@ $(window).load(function() {
   window.onresize = function() {
     windowResize();
   };//end window.onresize()
+  
+  
 
-
+    $('video').load( function() {
+      var obj = $('video'); 
+      obj[0].play();
+      obj.attr('title','autoplay');
+    });
+ 
   // SELECT & PAN TO OBJECT FROM EXTERNAL SOURCE (FUTURE FEATURE)
     // OPEN / SHOW INFO PANE (should already be populated from when category was opened)
     // WRITE OBJECT ID TO URL HISTORY
