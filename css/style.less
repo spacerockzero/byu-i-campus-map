@@ -25,7 +25,7 @@ header,footer {
 	width: 100%;
 	background: #333;
 }
-
+ 
 /*@import 'header.less';*/
 
 #map_canvas { 
@@ -118,7 +118,7 @@ header,footer {
 			padding: 3px 3px 1px;
 			text-decoration: none;
 			position:relative;
-			text-shadow: 0px 1px 1px white;
+			text-shadow: 0px 1px 0px white;
 			outline:none;
 			&:hover, &:active, &:visited{
 				outline:none;
@@ -136,6 +136,14 @@ header,footer {
 				margin-bottom:5px;
 				padding: 10px 10px 0px;
 			}
+			.inner_desc {
+				border:1px solid #dedede;
+				background:white;
+				padding:10px;
+				color: #888;
+				font: 11px/134% Helvetica, Arial, sans-serif;
+				border-radius:5px;
+			}
 		}
 		img {
 			width:20px;
@@ -146,19 +154,20 @@ header,footer {
 			position: relative;
 			margin-left: 10px;
 			display: inline-block;
-			width:80%;
+			width: 80%;
 			vertical-align: top;
-			min-height: 20px;
 			margin-top: 5px;
-			min-height: 30px;
-			padding-top: 4px;
+			min-height: 17px;
+			padding:4px 0 12px;
+			text-shadow: 0px 1px 0px white;
+			&:hover{
+				text-shadow:none;
+			}
 		}
 		.polygon_key {
 			width: 20px;
 			height: 19px;
 			float: left;
-			/*margin-left: 10px;
-			margin-top: 5px;*/
 			margin:5px 0px 5px 10px;
 			border: 2px solid;
 		}
@@ -170,13 +179,14 @@ header,footer {
 		&.object_list{
 			li { 
 				padding-top:5px;
-				/*.transition(background,0.6s);*/
+				text-shadow: white 0 1px 0;
+				.transition(background,0.2s);
 				&:hover{ 
 					background:#999; 
+					text-shadow: none;
 					color:#fff; 
 					cursor:pointer; 
-					cursor:hand; 
-					/*.transition(background,0.2s);*/
+					cursor:hand;
 				}
 			}
 		}
@@ -191,16 +201,20 @@ header,footer {
 }
 .infopane {
 	display:block;
-	height:inherit;
-	width:inherit;
+	/*height:inherit;
+	width:inherit;*/
+	margin: 10px;
 	img {
 		float: right;
 		margin: 0px 10px 10px 10px;
 	}
 	div {
 		display: block;
-		height: inherit;
+		/*height: inherit;*/
     	position: relative;
+	}
+	&.campustour_info {
+		min-height:330px;
 	}
 }
 

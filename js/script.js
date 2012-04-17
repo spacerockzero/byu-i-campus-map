@@ -150,7 +150,7 @@
 			var catTarget = 'div#category_div_' + category;
 	        
 	        $('<div name="' + categories[catID].name + '_cat_description" class="cat_description"/>')
-	        .html(categories[catID].text)
+	        .html('<div class="inner_desc">'+categories[catID].text + '</div>')
 	        .appendTo(catTarget);
 
 	        $('<ul class="object_list"/>').appendTo(catTarget);

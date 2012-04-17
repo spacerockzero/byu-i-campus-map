@@ -609,7 +609,7 @@ footer {
   padding: 3px 3px 1px;
   text-decoration: none;
   position: relative;
-  text-shadow: 0px 1px 1px white;
+  text-shadow: 0px 1px 0px white;
   outline: none;
 }
 #menu .marker_category a:hover,
@@ -630,6 +630,14 @@ footer {
   margin-bottom: 5px;
   padding: 10px 10px 0px;
 }
+#menu .marker_category div .inner_desc {
+  border: 1px solid #dedede;
+  background: white;
+  padding: 10px;
+  color: #888;
+  font: 11px/134% Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+}
 #menu .marker_category img {
   width: 20px;
   padding-left: 10px;
@@ -642,18 +650,19 @@ footer {
   display: inline-block;
   width: 80%;
   vertical-align: top;
-  min-height: 20px;
   margin-top: 5px;
-  min-height: 30px;
-  padding-top: 4px;
+  min-height: 17px;
+  padding: 4px 0 12px;
+  text-shadow: 0px 1px 0px white;
+}
+#menu .marker_category span.object_name:hover,
+#menu .marker_category span.polygon_name:hover {
+  text-shadow: none;
 }
 #menu .marker_category .polygon_key {
   width: 20px;
   height: 19px;
   float: left;
-  /*margin-left: 10px;
-			margin-top: 5px;*/
-
   margin: 5px 0px 5px 10px;
   border: 2px solid;
 }
@@ -664,24 +673,29 @@ footer {
 }
 #menu ul.object_list li {
   padding-top: 5px;
-  /*.transition(background,0.6s);*/
-
+  text-shadow: white 0 1px 0;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  -ms-transition: background 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 #menu ul.object_list li:hover {
   background: #999;
+  text-shadow: none;
   color: #fff;
   cursor: pointer;
   cursor: hand;
-  /*.transition(background,0.2s);*/
-
 }
 #menu ul.polygon_list li span {
   padding-top: 0;
 }
 .infopane {
   display: block;
-  height: inherit;
-  width: inherit;
+  /*height:inherit;
+	width:inherit;*/
+
+  margin: 10px;
 }
 .infopane img {
   float: right;
@@ -689,8 +703,12 @@ footer {
 }
 .infopane div {
   display: block;
-  height: inherit;
+  /*height: inherit;*/
+
   position: relative;
+}
+.infopane.campustour_info {
+  min-height: 330px;
 }
 .white {
   color: #606060;
