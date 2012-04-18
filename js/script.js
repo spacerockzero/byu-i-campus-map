@@ -20,7 +20,7 @@
   // LOAD JSON AND KML FILES INTO VAR
   /* changed JSON file to txt to get past lehi server filetype filters */
   var objectFile = 'data/objectFile.txt';
-  var polygonFile = 'http://www2.byui.edu/Test/parking_data.xml';
+  var polygonFile = 'http://www2.byui.edu/Map/parking_data_new.xml';
 
   var parkingLayer;
 
