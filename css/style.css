@@ -535,18 +535,29 @@ footer {
   /*border-left:1px solid #333;*/
 
 }
+#menu > a {
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+  position: relative;
+}
+#menu > a > img {
+  float: left;
+}
 #menu #title {
-  text-align: center;
   text-shadow: 2px 2px 7px #111;
   font-size: 25px;
   color: white;
-  padding: 0 15px;
+  padding: 0 0 0 15px;
   margin: 0px;
+  font-weight: 300;
+  display: inline;
 }
 #menu h2 {
   margin-left: 10px;
 }
 #menu .marker_category {
+  clear: both;
   display: block;
   margin: 15px 0;
   /*padding: 4px 10px;*/
@@ -741,29 +752,38 @@ footer {
 @media only screen and (max-width: 959px) {
   #menu {
     width: 300px;
+    position: relative;
+    right: 0;
   }
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   #menu {
     width: 240px;
+    position: relative;
   }
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   #menu {
     width: 240px;
+    position: fixed;
+    right: 0;
   }
 }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   #menu {
     width: 100px;
+    position: fixed;
+    right: 0;
   }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
   #menu {
     width: 50px;
+    position: fixed;
+    right: 0;
   }
 }

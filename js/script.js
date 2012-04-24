@@ -422,13 +422,7 @@ console.log('end loadPolygonCategory()');
     return this[array_name];
   }//end perform()
 
-  // Resize map pane to fit with menu width
-  function windowResize() {
-    var menuWidth = $('#menu').width() + 20;
-    var mapWidth = $('#map_canvas').width();
-    var bodyWidth = $('body').width();
-    $('#map_canvas').width(bodyWidth - menuWidth);
-  }//end windowResize()
+  
 
   // Pan & Zoom map to show all markers
   function fitToMarkers(markers) {
@@ -452,6 +446,19 @@ console.log('end loadPolygonCategory()');
       map.fitBounds(bounds);
 
   }//end fitToMarkers()
+
+  // Resize map pane to fit with menu width
+  function windowResize() {
+    if ($('#menu').css('position') == 'fixed') {
+      console.log("mobile view");
+    } else {
+      var menuWidth = $('#menu').width() + 20;
+      var mapWidth = $('#map_canvas').width();
+      var bodyWidth = $('body').width();
+      $('#map_canvas').width(bodyWidth - menuWidth);
+    }
+    
+  }//end windowResize()
 
 // BINDINGS
 $(window).load(function() {
