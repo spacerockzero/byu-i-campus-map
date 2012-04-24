@@ -448,17 +448,28 @@ console.log('end loadPolygonCategory()');
   }//end fitToMarkers()
 
   // Resize map pane to fit with menu width
-  function windowResize() {
-    if ($('#menu').css('position') == 'fixed') {
+  // function windowResize() {
+  $(function() {  
+    if ($('body').width() < 768) {
+      
       console.log("mobile view");
+
+      var bodyWidth = $('body').width();
+      $('#map_canvas').css("width","100%");
+      //$('#menu').css("width":"90%","position":"fixed","right": "-90%");
+
     } else {
+
+      console.log("desktop view");
+
       var menuWidth = $('#menu').width() + 20;
       var mapWidth = $('#map_canvas').width();
       var bodyWidth = $('body').width();
       $('#map_canvas').width(bodyWidth - menuWidth);
+      //$('#menu').css("width":"300px","position":"relative","right": "0");
     }
     
-  }//end windowResize()
+  });//end windowResize()
 
 // BINDINGS
 $(window).load(function() {
@@ -484,9 +495,9 @@ $(window).load(function() {
   });//end (window).load()
 
   // resize map pane when window is resized to fit menu
-  window.onresize = function() {
-    windowResize();
-  };//end window.onresize()
+  // window.onresize = function() {
+  //   //windowResize();
+  // };//end window.onresize()
   
   
 
