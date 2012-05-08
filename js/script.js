@@ -21,6 +21,7 @@
   /* changed JSON file to txt to get past lehi server filetype filters */
   var objectFile = 'data/objectFile.txt';
   var polygonFile = 'http://www2.byui.edu/Map/parking_data_new.xml';
+  var campusFile = 'http://lehi3.byui.edu/Map/BYU-IdahoCampus.xml';
 
   var parkingLayer;
 
@@ -95,8 +96,13 @@ function listCategories() {
   function initialize() {
 
     map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+
     infoWindow = new google.maps.InfoWindow();
     listCategories();
+
+    //load campus boundary map layer
+    campusLayer = new google.maps.KmlLayer(campusFile);
+    campusLayer.setMap(map);
 
   }//end initialize()
 
@@ -409,9 +415,9 @@ console.log('end loadPolygonCategory()');
     google.maps.event.trigger(marker, 'click');
     
     console.log("inside displayPoint");
-    $('video')[0].load( function(){
-      this.play();
-    });
+    // $('video')[0].load( function(){
+    //   this.play();
+    // });
     console.log("after play");
   }/* END displayPoint() */
 

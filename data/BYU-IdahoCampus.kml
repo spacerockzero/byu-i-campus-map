@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BYU-Idaho Campus.kml</name>
+	<StyleMap id="msn_ylw-pushpin17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff2a1d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff4332</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff2a1d</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff4332</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>BYU-Idaho Campus</name>
+		<styleUrl>#msn_ylw-pushpin17</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-111.781113798468,43.8197045067133,0 -111.7811128436797,43.82180835359306,0 -111.7866925935854,43.82177801920249,0 -111.7866091637621,43.81556205587764,0 -111.7880555949661,43.815523901212,0 -111.7879662698483,43.81140054087793,0 -111.7863624411911,43.81138289610106,0 -111.7866244675775,43.81107718001862,0 -111.7869998166441,43.81064293435012,0 -111.7868429364774,43.80984452751061,0 -111.7850404558815,43.80870508352765,0 -111.7844630276713,43.80880401907118,0 -111.7835981908783,43.8089764286937,0 -111.7832185961379,43.80928582231054,0 -111.7824349298242,43.80944309393428,0 -111.7782052884162,43.80945134133573,0 -111.7781451715214,43.81966956279604,0 -111.781113798468,43.8197045067133,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
