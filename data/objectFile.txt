@@ -28,6 +28,14 @@
       },
       {
         "ID": 4,
+        "name": "foodanddining",
+        "title": "Food & Dining",
+        "text": "Food & Dining descriptive text goes here.",
+        "icon": "dining.png",
+        "type": "object"
+      },
+      {
+        "ID": 5,
         "name": "vending",
         "title": "Vending Machines",
         "text": "Vending machines descriptive text goes here.",
@@ -35,19 +43,11 @@
         "type": "object"
       },
       {
-        "ID": 5,
+        "ID": 6,
         "name": "playfields",
         "title": "Playfields",
         "text": "Recreational areas often scheduled for Student Activities.",
         "icon": "sports_default.png",
-        "type": "object"
-      },
-      {
-        "ID":6,
-        "name": "construction",
-        "title": "Construction Sites",
-        "text": "Campus is continually improving. Take a look!",
-        "icon": "construction.png",
         "type": "object"
       },
       {
@@ -515,6 +515,15 @@
         "fillColor":    "#94d0f7"
       }
     ],
+    "foodanddining": [
+      {
+        "name": "Crossroads",
+        "code": "1",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "A lot of food here."
+      }
+    ],
     "vending": [
       {
         "name": "Combo - BRN",
@@ -738,26 +747,7 @@
         "link": "http://www.byui.edu/agriculture/"
       }
     ],
-    "construction": [
-      {
-        "name": "Taylor Quad",
-        "code": "TYLRQUADCONST",
-        "lat": 43.816,
-        "lon": -111.774,
-        "info": "A beautiful water feature and walking path with foliage are currently being added to the center of the Taylor Quad.",
-        "link": "http://www.byui.edu/agriculture/"
-      }
-    ],
     "webcams": [
-      {
-        "name": "BYU-Idaho Center",
-        "code": "BYUIDAHOCENTER",
-        "lat": 43.811265,
-        "lon": -111.786779,
-        "img": "http://www2.byui.edu/images/auditorium.asp",
-        "info": "The BYU-Idaho Center is a new auditorium for the school.",
-        "link": "http://www2.byui.edu/PR/webtour/"
-      },
       {
         "name": "Copy Spot",
         "code": "COPYSPOT",
