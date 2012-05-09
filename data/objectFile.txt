@@ -28,6 +28,14 @@
       },
       {
         "ID": 4,
+        "name": "vending",
+        "title": "Vending Machines",
+        "text": "Vending machines descriptive text goes here.",
+        "icon": "restaurant.png",
+        "type": "object"
+      },
+      {
+        "ID": 5,
         "name": "playfields",
         "title": "Playfields",
         "text": "Recreational areas often scheduled for Student Activities.",
@@ -35,7 +43,7 @@
         "type": "object"
       },
       {
-        "ID":5,
+        "ID":6,
         "name": "construction",
         "title": "Construction Sites",
         "text": "Campus is continually improving. Take a look!",
@@ -43,7 +51,7 @@
         "type": "object"
       },
       {
-        "ID":6,
+        "ID":7,
         "name": "webcams",
         "title": "Webcams",
         "text": "Campus webcams",
@@ -505,6 +513,148 @@
         "contains":     "Parking on West Campus Drive",
         "borderColor":  "#2aa1ef",
         "fillColor":    "#94d0f7"
+      }
+    ],
+    "vending": [
+      {
+        "name": "Combo - BRN",
+        "code": "1",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "2nd floor lounge, above laundry room.<br/>Combo Machine."
+      },
+      {
+        "name": "Combo - KER",
+        "code": "2",
+        "lat":  43.81907857414526,
+        "lon": -111.77954226089,
+        "info": "1st floor laundry room.<br/>Combo."
+      },
+      {
+        "name": "Drinks - BID",
+        "code": "3",
+        "lat":  43.81708528609551,
+        "lon": -111.7851676792425,
+        "info": "1st floor lounge.<br/>Drinks. Other machines nearby with food and snacks."
+      },
+      {
+        "name": "Drinks - CHP",
+        "code": "4",
+        "lat":  43.81800009170572,
+        "lon": -111.7803323290123,
+        "info": "1st floor laundry room.<br/>Drinks. Nearby machines provide food and snacks."
+      },
+      {
+        "name": "Drinks - CLK",
+        "code": "5",
+        "lat":  43.820303,
+        "lon": -111.781949,
+        "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
+      },
+      {
+        "name": "Drinks - KIM",
+        "code": "6",
+        "lat":  43.81693401824815,
+        "lon": -111.7813540546474,
+        "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
+      },
+      {
+        "name": "Food - BID",
+        "code": "7",
+        "lat":  43.81709848501499,
+        "lon": -111.7851941283088,
+        "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
+      },
+      {
+        "name": "Food - BCTR",
+        "code": "8",
+        "lat":  43.81801134364651,
+        "lon": -111.7848386836669,
+        "info": "1st floor (court level), side room.<br/>Food. Other machines nearby include Snacks."
+      },
+      {
+        "name": "Food - CHP",
+        "code": "9",
+        "lat":  43.81797618830873,
+        "lon": -111.780358984969,
+        "info": "1st floor laundry room.<br/>Food. Nearby machines include snacks and drinks."
+      },
+      {
+        "name": "Food - CLK",
+        "code": "10",
+        "lat":  43.82031095304359,
+        "lon": -111.7819731471874,
+        "info": "1st floor entryway.<br/>Food. Nearby machines include snacks and drinks."
+      },
+      {
+        "name": "Food - HIN",
+        "code": "11",
+        "lat":  43.81611,
+        "lon": -111.779708,
+        "info": "2nd floor, gym level, adjoining North-East entryway.<br/>Food. Nearby machine serves snacks."
+      },
+      {
+        "name": "Food - KIM",
+        "code": "12",
+        "lat":  43.81693290566433,
+        "lon": -111.781373104311,
+        "info": "1st floor entryway.<br/>Food. Nearby machines provide snacks and drinks."
+      },
+      {
+        "name": "Snacks - AGB",
+        "code": "13",
+        "lat":  43.81306032643038,
+        "lon": -111.7833001800025,
+        "info": "Main floor lobby area.<br/>Two snack machines."
+      },
+      {
+        "name": "Snacks - BCTR",
+        "code": "14",
+        "lat":  43.818022,
+        "lon": -111.784842,
+        "info": "1st floor (court level), side room.<br/>Snacks. Other machine nearby includes Food."
+      },
+      {
+        "name": "Snacks - BID",
+        "code": "15",
+        "lat":  43.8170414380551,
+        "lon": -111.7852682365325,
+        "info": "1st floor lounge.<br/>Snacks. Other machines nearby with food, drinks, and snacks."
+      },
+      {
+        "name": "Snacks - BEN",
+        "code": "16",
+        "lat":  43.815478,
+        "lon": -111.783254,
+        "info": "First floor hallway, near the central stairs.<br/>Snacks."
+      },
+      {
+        "name": "Snacks - CHP",
+        "code": "17",
+        "lat":  43.81799551693868,
+        "lon": -111.7803133722136,
+        "info": "1st floor laundry room.<br/>Snacks. Nearby machines include food and drinks."
+      },
+      {
+        "name": "Snacks - CLK",
+        "code": "18",
+        "lat":  43.820355,
+        "lon": -111.782017,
+        "info": "1st floor entryway.<br/>Snacks. Nearby machines provide food and drinks."
+      },
+      {
+        "name": "Snacks - HIN",
+        "code": "19",
+        "lat":  43.816101,
+        "lon": -111.779706,
+        "info": "2nd floor, gym level, adjoining North-East entryway.<br/>Snacks. Nearby machine serves food."
+      },
+      {
+        "name": "Snacks - KIM",
+        "code": "20",
+        "lat":  43.81693284853189,
+        "lon": -111.7813921714127,
+        "info": "1st floor entryway.<br/>Snacks. Nearby machines provide food and drinks."
       }
     ],
     "playfields": [
