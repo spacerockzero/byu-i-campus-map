@@ -127,11 +127,56 @@
       },
       {
         "name": "David O. McKay Library",
-        "code": "McKay",
+        "code": "MCKAY",
         "lat": 43.81943529937006,
         "lon": -111.7832273352486,
         "video": "08-library",
         "info": "David O. McKay Library",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Joseph Fielding Smith Building",
+        "code": "SMITH",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "09-smith",
+        "info": "Joseph Fielding Smith Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Hyrum Manwaring Student Center",
+        "code": "MC",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "10-MC",
+        "info": "Hyrum Manwaring Student Center",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "John W. Hart Physical Education Building",
+        "code": "HART",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "11-Hart",
+        "info": "John W. Hart Physical Education Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "John Taylor Building",
+        "code": "TAYLOR",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "12-Taylor",
+        "info": "John Taylor Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Spencer W. Kimball Administration Building",
+        "code": "TAYLOR",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "13-Kimball",
+        "info": "Spencer W. Kimball Administration Building",
         "link": "http://www2.byui.edu/PR/webtour/"
       }
     ],
