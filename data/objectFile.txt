@@ -765,6 +765,42 @@
         "img": "http://www2.byui.edu/images/gardens.asp",
         "info": "The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.",
         "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Rexburg Temple",
+        "code": "REXBURGTEMPLE",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "img": "http://www2.byui.edu/images/temple.asp",
+        "info": "The LDS Temple in Rexburg.",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Smith Quad",
+        "code": "SMITHQUAD",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "img": "http://www2.byui.edu/images/smithQuad.asp",
+        "info": "The Smith Quad.",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Testing Center",
+        "code": "TESTINGCENTER",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "img": "http://www2.byui.edu/images/testingCenter.asp",
+        "info": "The Testing Center",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Rexburg Weather",
+        "code": "REXBURGWEATHER",
+        "lat": 43.811265,
+        "lon": -111.786779,
+        "img": "http://www2.byui.edu/images/weather.asp",
+        "info": "Rexburg Weather",
+        "link": "http://www2.byui.edu/PR/webtour/"
       }
     ]
   }
