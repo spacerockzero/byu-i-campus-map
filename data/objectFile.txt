@@ -83,8 +83,8 @@
       {
         "name": "Jacob Spori Building",
         "code": "SPORI",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat": 43.82013049760194,
+        "lon": -111.7814491412516,
         "video": "03-jacobspori",
         "info": "Jacob Spori Building",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -92,8 +92,8 @@
       {
         "name": "Eliza R. Snow Center for the Performing Arts",
         "code": "SNOW",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat": 43.82040568861844,
+        "lon": -111.7834341454015,
         "video": "04-snow",
         "info": "Eliza R. Snow Center for the Performing Arts",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -101,8 +101,8 @@
       {
         "name": "Oscar A. Kirkham Building",
         "code": "KIRKHAM",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat": 43.821114,
+        "lon": -111.781479,
         "video": "05-kirkham",
         "info": "Oscar A. Kirkham Building",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -110,10 +110,28 @@
       {
         "name": "George S. Romney Science Building",
         "code": "ROMNEY",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
         "video": "06-romney",
         "info": "George S. Romney Science Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "John L. Clarke Building",
+        "code": "CLARKE",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "07-clarke",
+        "info": "John L. Clarke Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "David O. McKay Library",
+        "code": "McKay",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "08-library",
+        "info": "David O. McKay Library",
         "link": "http://www2.byui.edu/PR/webtour/"
       }
     ],
