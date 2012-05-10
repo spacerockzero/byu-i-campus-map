@@ -580,11 +580,52 @@
     ],
     "foodanddining": [
       {
-        "name": "Crossroads",
-        "code": "1",
+        "name": "Caliente",
+        "code": "CALIENTE",
+        "img": "caliente.jpg",
         "lat":  43.81903274177699,
         "lon": -111.778850821976,
-        "info": "A lot of food here."
+        "info": "Caliente food"
+      },
+      {
+        "name": "McMarket",
+        "code": "MCMARKET",
+        "img": "McMarket.jpg",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "McMarket food"
+      },
+      {
+        "name": "Pizza",
+        "code": "PIZZA",
+        "img": "Pizza.jpg",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "Pizza food"
+      },
+      {
+        "name": "Salad",
+        "code": "SALAD",
+        "img": "Salad.jpg",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "Salad food"
+      },
+      {
+        "name": "Stacks and wraps",
+        "code": "Stacksandwraps",
+        "img": "Stacks-and-wraps.jpg",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "Stacks and wraps food"
+      },
+      {
+        "name": "Teton Grill",
+        "code": "TetonGrill",
+        "img": "Teton-Grill.jpg",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "Teton Grill food"
       }
     ],
     "vending": [
