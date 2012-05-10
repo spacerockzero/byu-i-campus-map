@@ -53,6 +53,7 @@ function listCategories() {
         var title = s.title;
         var text = s.text;
         var icon = s.icon;
+        var type = s.type;
 
         $('<div class="marker_category" class="white"/>')
         .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '">' +

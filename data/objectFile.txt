@@ -7,7 +7,7 @@
         "title": "Campus Tour",
         "text": "A campus tour is now available online!",
         "icon": "tour.png",
-        "type": "object"
+        "type": 0
       },
       {
         "ID": 2,
@@ -15,7 +15,7 @@
         "title": "Buildings",
         "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.",
         "icon": "building.png",
-        "type": "object"
+        "type": 0
       },
       {
         "ID": 3,
@@ -23,7 +23,7 @@
         "title": "Parking",
         "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.",
         "icon": "parking.png",
-        "type": "polygon",
+        "type": 1,
         "url": "parking.kml"
       },
       {
@@ -32,7 +32,7 @@
         "title": "Food & Dining",
         "text": "Food & Dining descriptive text goes here.",
         "icon": "dining.png",
-        "type": "object"
+        "type": 0
       },
       {
         "ID": 5,
@@ -40,7 +40,7 @@
         "title": "Vending Machines",
         "text": "Vending machines descriptive text goes here.",
         "icon": "restaurant.png",
-        "type": "object"
+        "type": 0
       },
       {
         "ID": 6,
@@ -48,7 +48,7 @@
         "title": "Playfields",
         "text": "Recreational areas often scheduled for Student Activities.",
         "icon": "sports_default.png",
-        "type": "object"
+        "type": 0
       },
       {
         "ID":7,
@@ -56,7 +56,7 @@
         "title": "Webcams",
         "text": "Campus webcams",
         "icon": "camera.png",
-        "type": "object"
+        "type": 0
       }
     ]
   },
