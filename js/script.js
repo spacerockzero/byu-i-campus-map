@@ -308,7 +308,7 @@ function listCategories() {
 
         defaultIcon = s.icon;
         catID = s.ID - 1;
-      }
+      } 
     });
 
     markerCatArray[markerCatArray.length] = category;
