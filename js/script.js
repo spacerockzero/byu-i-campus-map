@@ -56,7 +56,7 @@ function listCategories() {
         var type = s.type;
 
         $('<div class="marker_category" class="white"/>')
-        .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '">' +
+        .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '" alt="type_' + type + '">' +
           '<img class="cat_icon" src="images/icons/' + icon + '" alt="' + id + '"/>' +
            title + '<span class="cat_indicator">&nbsp;</span></a><div id="category_div_' +
            name + '" class="hidden"/>')
@@ -69,9 +69,9 @@ function listCategories() {
 
     })
     // JSON XHR error handlers
-    .success(function() {console.log('json success')})
-    .error(function() {console.log('json failed')})
-    .complete(function() {console.log('json completed')});//end getJSON main
+    .success(function() {/*console.log('json success')*/})
+    .error(function() {/*console.log('json failed')*/})
+    .complete(function() {/*console.log('json completed')*/});//end getJSON main
 
   }/* end listCategories() */
 
@@ -111,7 +111,7 @@ function listCategories() {
 // MAP FUNCTIONS
 
   // BEGIN CATEGORY POPULATION ROUTING
-  function populateCategories(category, obj, catIndex) {
+  function populateCategories(category, obj, catIndex, type) {
 
     //close any open info windows
     infoWindow.close();
@@ -121,28 +121,28 @@ function listCategories() {
 
     // Detect Existing Markers
     if ($.inArray(category, markerCatArray) != -1) {
-      showHideCategory(category, obj, catIndex);
+      showHideCategory(category, obj, catIndex, type);
       windowResize();
     }
     else {
-      if (category != 'parking') {
+      if (type == 0) {
         //console.log("inside populate else (markers do not exist yet, launching loadPins() and showHideCategory())");
         loadPins(category, obj, false);
-        showHideCategory(category, obj, catIndex);
+        showHideCategory(category, obj, catIndex, type);
         windowResize();
       } else {
         if (parkingLayer != '') {
-          console.log("parkingLayer != ''");
+          //console.log("parkingLayer != ''");
 
           loadPolygonCategory(category, obj, true);
-          showHideCategory(category, obj, catIndex);
+          showHideCategory(category, obj, catIndex, type);
 
           windowResize();
         }
         else {
-          console.log("parkingLayer == ''");
+          //console.log("parkingLayer == ''");
 
-          showHideCategory(category, obj, catIndex);
+          showHideCategory(category, obj, catIndex, type);
 
           windowResize();
         }
@@ -278,7 +278,7 @@ function listCategories() {
 
           
           
-          console.log("after v.play()");
+          //console.log("after v.play()");
 
             }); //end click listener
             //fitToMarkers(markerArray[])
@@ -350,12 +350,12 @@ function listCategories() {
     //     console.log("metadata_changed");
     // });
 
-console.log('end loadPolygonCategory()');
+    //console.log('end loadPolygonCategory()');
 
   }// end loadPolygonCategory()
 
   // CATEGORY OPEN AND CLOSE
-  function showHideCategory(category, obj, catIndex, bounds) {
+  function showHideCategory(category, obj, catIndex, type) {
 
     // COLLAPSE/SHOW CHILD OBJECT LIST
     obj.stop().slideToggle();
@@ -363,18 +363,18 @@ console.log('end loadPolygonCategory()');
     obj.siblings('a.marker_category_a').children('span.cat_indicator').toggleClass('active');
 
     // IF Polygons
-    if (category == 'parking') {
+    if (type == 1) {
 
       //Hide this layer's polygons
-      console.log('category == parking');
+      //console.log('type == 1');
 
       if (obj.attr('class') == 'hidden') {
-        console.log('obj == hidden, set map to null');
+        //console.log('obj == hidden, set map to null');
         parkingLayer.setMap(null);
       }
       //Show this layer's polygons
       else {
-        console.log('obj != hidden, set map to show');
+        //console.log('obj != hidden, set map to show');
         parkingLayer.setMap(map);
       }
 
@@ -415,11 +415,11 @@ console.log('end loadPolygonCategory()');
     map.panTo(marker.getPosition());
     google.maps.event.trigger(marker, 'click');
     
-    console.log("inside displayPoint");
+    //console.log("inside displayPoint");
     // $('video')[0].load( function(){
     //   this.play();
     // });
-    console.log("after play");
+    //console.log("after play");
   }/* END displayPoint() */
 
 // GENERAL FUNCTIONS
@@ -467,7 +467,7 @@ console.log('end loadPolygonCategory()');
 
     // } else {
 
-      console.log("desktop view");
+      //console.log("desktop view");
 
       var menuWidth = $('#menu').width() + 20;
       //var mapWidth = $('#map_canvas').width();
@@ -491,9 +491,12 @@ $(window).load(function() {
 
       category = $(this).attr('id'),
       obj = $(this).siblings('div'),
-      catIndex = $(this).attr('name');
+      catIndex = $(this).attr('name'),
+      type = $(this).attr('alt').substring(5);
 
-      populateCategories(category, obj, catIndex);
+      //console.log('type = ' + type);
+
+      populateCategories(category, obj, catIndex, type);
 
     });
 
