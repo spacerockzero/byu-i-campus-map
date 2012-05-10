@@ -223,6 +223,10 @@ function listCategories() {
             $("<li name='" + id + "'/>")
             .html('<img src="' + icon + '" alt="' + id + '"/><span class="object_name">' + name + '</span>')
             .click(function() {
+              //console.log("this = " + $(this).parent().toggleClass('active_item'));
+              $(this).siblings('li').removeClass('active_item');
+              $(this).toggleClass('active_item');
+              //console.log("obj = " + obj);
               displayPoint(marker, i);
             })
             .appendTo(target);
@@ -312,7 +316,7 @@ function listCategories() {
     var catTarget = 'div#category_div_' + category;
 
     $('<div name="' + categories[catID].name + '_cat_description" class="cat_description"/>')
-    .html(categories[catID].text)
+    .html('<div class="inner_desc">' + categories[catID].text + '</div>')
     .appendTo(catTarget);
 
     $('<ul class="polygon_list"/>').appendTo(catTarget);
@@ -385,6 +389,7 @@ function listCategories() {
       if (obj.attr('class') == 'hidden') {
         for (var i in markerArray[catIndex]) {
           markerArray[catIndex][i].setVisible(false);
+          obj.find('li').removeClass('active_item');
         }
       }
       else {
@@ -415,7 +420,7 @@ function listCategories() {
     map.panTo(marker.getPosition());
     google.maps.event.trigger(marker, 'click');
     
-    //console.log("inside displayPoint");
+    console.log("inside displayPoint");
     // $('video')[0].load( function(){
     //   this.play();
     // });

@@ -512,22 +512,12 @@ footer {
   display: block;
   height: 100%;
   width: 100%;
-  -webkit-transition: width 500ms ease-in-out;
-  -moz-transition: width 500ms ease-in-out;
-  -ms-transition: width 500ms ease-in-out;
-  -o-transition: width 500ms ease-in-out;
-  transition: width 500ms ease-in-out;
 }
 #menu {
   display: block;
   background: #326BA9;
   float: right;
   width: 240px;
-  -webkit-transition: width 500ms ease-in-out;
-  -moz-transition: width 500ms ease-in-out;
-  -ms-transition: width 500ms ease-in-out;
-  -o-transition: width 500ms ease-in-out;
-  transition: width 500ms ease-in-out;
   list-style: none;
   padding: 10px;
   height: 100%;
@@ -547,7 +537,7 @@ footer {
 }
 #menu #title {
   text-shadow: 2px 2px 7px #111;
-  font-size: 25px;
+  font-size: 23px;
   color: white;
   padding: 0 0 0 8px;
   margin: 0px;
@@ -683,19 +673,23 @@ footer {
 }
 #menu ul.object_list li {
   padding-top: 5px;
-  text-shadow: white 0 1px 0;
   -webkit-transition: background 0.2s ease-in-out;
   -moz-transition: background 0.2s ease-in-out;
   -ms-transition: background 0.2s ease-in-out;
   -o-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
-#menu ul.object_list li:hover {
+#menu ul.object_list li:hover,
+#menu ul.object_list li.active_item {
   background: #999;
   text-shadow: none;
   color: #fff;
   cursor: pointer;
   cursor: hand;
+}
+#menu ul.object_list li:hover span,
+#menu ul.object_list li.active_item span {
+  text-shadow: none;
 }
 #menu ul.polygon_list li span {
   padding-top: 0;

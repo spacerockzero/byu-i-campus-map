@@ -33,14 +33,14 @@ header,footer {
 	display:block;
 	height:100%;
 	width:100%;
-	.transition(width, 500ms);
+	//.transition(width, 500ms);
 }
 #menu { 
 	display:block;
 	background: #326BA9; 
 	float:right; 
 	width:240px;
-	.transition(width, 500ms); 
+	//.transition(width, 500ms); 
 	list-style:none; 
 	padding:10px; 
 	height: 100%;
@@ -61,7 +61,7 @@ header,footer {
 	#title {
 		// text-align: center;
 		text-shadow: 2px 2px 7px #111;
-		font-size: 25px;
+		font-size: 23px;
 		color: white;
 		padding: 0 0 0 8px;
 		margin: 0px;
@@ -196,14 +196,17 @@ header,footer {
 		&.object_list{
 			li { 
 				padding-top:5px;
-				text-shadow: white 0 1px 0;
+				//text-shadow: white 0 1px 0;
 				.transition(background,0.2s);
-				&:hover{ 
+				&:hover, &.active_item{ 
 					background:#999; 
 					text-shadow: none;
 					color:#fff; 
 					cursor:pointer; 
 					cursor:hand;
+					span {
+						text-shadow: none;
+					}
 				}
 			}
 		}
