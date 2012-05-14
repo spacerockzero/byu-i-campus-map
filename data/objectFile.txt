@@ -768,6 +768,69 @@
         "lat":  43.81693284853189,
         "lon": -111.7813921714127,
         "info": "1st floor entryway.<br/>Snacks. Nearby machines provide food and drinks."
+      },
+      {
+        "name": "Snacks - KRK",
+        "code": "21",
+        "lat":  43.820973,
+        "lon": -111.781728,
+        "info": "2nd floor, ticketing lobby.<br/>Snacks."
+      },
+      {
+        "name": "Snacks - MC",
+        "code": "22",
+        "lat":  43.818223,
+        "lon": -111.78282,
+        "info": "1st floor lounge.<br/>Snacks. Nearby machines provide food and drinks."
+      },
+      {
+        "name": "Snacks - RIC",
+        "code": "23",
+        "lat":  43.81794996200994,
+        "lon": -111.7788183873172,
+        "info": "1st floor laundry room.<br/>Snacks. Nearby machines provide food, frozen goods, and drinks."
+      },
+      {
+        "name": "Snacks - RIG",
+        "code": "24",
+        "lat":  43.81695754638777,
+        "lon": -111.7844135810928,
+        "info": "1st floor lounge<br/>Snacks. Other machine nearby with Food."
+      },
+      {
+        "name": "Snacks - ROM",
+        "code": "25",
+        "lat":  43.82001386792193,
+        "lon": -111.7832144343634,
+        "info": "Stairway landing between 1st and 2nd floors.<br/>Snacks. Other machine nearby with Food."
+      },
+      {
+        "name": "Snacks - SPO",
+        "code": "26",
+        "lat":  43.82084258876398,
+        "lon": -111.7823436128672,
+        "info": "2nd floor hallway.<br/>Snacks. Other machine nearby with Food."
+      },
+      {
+        "name": "Snacks - TAY",
+        "code": "27",
+        "lat":  43.8167338906422,
+        "lon": -111.7823379398784,
+        "info": "1st floor, off of hallway and commons.<br/>Snacks. Other machine nearby with food."
+      },
+      {
+        "name": "Snacks - HRT",
+        "code": "28",
+        "lat":  43.81976078691972,
+        "lon": -111.785793676725,
+        "info": "1st floor, in entryway stairwell.<br/>Snacks. Two machines."
+      },
+      {
+        "name": "Frozen - RIC",
+        "code": "29",
+        "lat":  43.81795481405909,
+        "lon": -111.778829976755,
+        "info": "1st floor laundry room.<br/>Frozen. Nearby machines provide food, snacks, and drinks."
       }
     ],
     "playfields": [

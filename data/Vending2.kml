@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Vending.kml</name>
+	<Style id="sh_dining">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_dining0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_homegardenbusiness">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_dining1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Vending</name>
+		<open>1</open>
+		<Placemark>
+			<name>Livestock Center</name>
+			<LookAt>
+				<longitude>-111.8849732647674</longitude>
+				<latitude>43.82709218075541</latitude>
+				<altitude>0</altitude>
+				<heading>0.00512060527852405</heading>
+				<tilt>0</tilt>
+				<range>469.6375930056365</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness</styleUrl>
+			<Point>
+				<coordinates>-111.8855756205866,43.82707423669924,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>Combo</name>
+			<Placemark>
+				<name>Combo - BRN</name>
+				<description>2nd floor lounge, above laundry room.
+
+Combo machine.</description>
+				<LookAt>
+					<longitude>-111.7787876908593</longitude>
+					<latitude>43.81889830079802</latitude>
+					<altitude>0</altitude>
+					<heading>0.001231883526342837</heading>
+					<tilt>1.346437041787811</tilt>
+					<range>186.9495533296024</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<coordinates>-111.778850821976,43.81903274177699,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Combo - KER</name>
+				<description>1st floor laundry room.
+
+Combo.</description>
+				<LookAt>
+					<longitude>-111.779459900138</longitude>
+					<latitude>43.8191348020784</latitude>
+					<altitude>0</altitude>
+					<heading>0.07636349659769305</heading>
+					<tilt>0</tilt>
+					<range>238.50033898533</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.77954226089,43.81907857414526,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Combo - LAM</name>
+				<description>1st floor laundry room.
+
+Combo.</description>
+				<LookAt>
+					<longitude>-111.7795080725005</longitude>
+					<latitude>43.81812066491796</latitude>
+					<altitude>0</altitude>
+					<heading>0.004676737027275476</heading>
+					<tilt>0</tilt>
+					<range>81.11173482079394</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7795172461913,43.81803886557335,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Combo - LC</name>
+				<description>Livestock center office area hallway.
+
+Combo.</description>
+				<LookAt>
+					<longitude>-111.8849732647674</longitude>
+					<latitude>43.82709218075541</latitude>
+					<altitude>0</altitude>
+					<heading>0.00512060527852405</heading>
+					<tilt>0</tilt>
+					<range>469.6375930056365</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.8856962808702,43.82679546293484,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Combo - PER</name>
+				<description>1st floor laundry room.
+
+Combo.</description>
+				<LookAt>
+					<longitude>-111.780246021214</longitude>
+					<latitude>43.81917142902092</latitude>
+					<altitude>0</altitude>
+					<heading>0.07787845748520783</heading>
+					<tilt>0</tilt>
+					<range>149.2713829641468</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7803649885445,43.81906110267827,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Combo - RIC</name>
+				<open>1</open>
+				<description>1st floor laundry room.
+
+Combo. Nearby machines provide food, snacks, drinks and frozen goods.</description>
+				<LookAt>
+					<longitude>-111.778225758864</longitude>
+					<latitude>43.81824407765326</latitude>
+					<altitude>0</altitude>
+					<heading>0.0815276315382186</heading>
+					<tilt>0.01543248395129955</tilt>
+					<range>343.3658094430834</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7788253793899,43.81794189084471,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Drinks</name>
+			<Placemark>
+				<name>Drinks - BID</name>
+				<description>1st floor lounge.
+
+Drinks. Other machines nearby with food and snacks.</description>
+				<LookAt>
+					<longitude>-111.7850081227804</longitude>
+					<latitude>43.81689420198212</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0006781892769443767</heading>
+					<tilt>0</tilt>
+					<range>185.038191262456</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7851676792425,43.81708528609551,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Drinks - CHP</name>
+				<description>1st floor laundry room.
+
+Drinks. Nearby machines provide food and snacks.</description>
+				<LookAt>
+					<longitude>-111.7800097135174</longitude>
+					<latitude>43.8182343368501</latitude>
+					<altitude>0</altitude>
+					<heading>3.839648507023273</heading>
+					<tilt>0.01056958523492337</tilt>
+					<range>197.4646247434782</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7803323290123,43.81800009170572,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Drinks - CLK</name>
+				<description>1st floor entryway.
+
+Drinks. Nearby machines provide snacks and food.</description>
+				<LookAt>
+					<longitude>-111.7817815010871</longitude>
+					<latitude>43.82006817718928</latitude>
+					<altitude>0</altitude>
+					<heading>3.839226400471764</heading>
+					<tilt>0</tilt>
+					<range>255.5792352396113</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.781949,43.820303,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Drinks - KIM</name>
+				<description>1st floor entryway.
+
+Drinks. Nearby machines provide food and snacks.</description>
+				<LookAt>
+					<longitude>-111.7813011438238</longitude>
+					<latitude>43.81707958105606</latitude>
+					<altitude>0</altitude>
+					<heading>0.07573131332096794</heading>
+					<tilt>0</tilt>
+					<range>165.6288672618077</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7813540546474,43.81693401824815,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Drinks - MC</name>
+				<description>1st floor lounge.
+
+Drinks. Nearby machines provide food and snacks.</description>
+				<LookAt>
+					<longitude>-111.781987548206</longitude>
+					<latitude>43.81837895245413</latitude>
+					<altitude>0</altitude>
+					<heading>0.07643467092491368</heading>
+					<tilt>0</tilt>
+					<range>253.1559776268994</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7828223737763,43.81821004565384,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Drinks - RIC</name>
+				<open>1</open>
+				<description>1st floor laundry room.
+
+Drinks. Nearby machines provide food, snacks, and frozen goods.</description>
+				<LookAt>
+					<longitude>-111.7787207569548</longitude>
+					<latitude>43.81797370217233</latitude>
+					<altitude>0</altitude>
+					<heading>0.07894348129984</heading>
+					<tilt>19.29818083127869</tilt>
+					<range>123.6706360933981</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.778812820225,43.81793549175497,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Food</name>
+			<Placemark>
+				<name>Food - BID</name>
+				<description>1st floor lounge
+
+Food. Other machines nearby with snacks and drinks.</description>
+				<LookAt>
+					<longitude>-111.7850081227804</longitude>
+					<latitude>43.81689420198212</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0006781892769443767</heading>
+					<tilt>0</tilt>
+					<range>185.038191262456</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining0</styleUrl>
+				<Point>
+					<coordinates>-111.7851941283088,43.81709848501499,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - BCTR</name>
+				<description>1st floor (court level), side room.
+
+Food. Other machines nearby include Snacks.</description>
+				<LookAt>
+					<longitude>-111.7846137291329</longitude>
+					<latitude>43.81835493526832</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004051023596578869</heading>
+					<tilt>0</tilt>
+					<range>186.9964044848376</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining0</styleUrl>
+				<Point>
+					<coordinates>-111.7848386836669,43.81801134364651,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - CHP</name>
+				<description>1st floor laundry room.
+
+Food. Nearby machines include snacks and drinks.</description>
+				<LookAt>
+					<longitude>-111.7800097135174</longitude>
+					<latitude>43.8182343368501</latitude>
+					<altitude>0</altitude>
+					<heading>3.839648507023273</heading>
+					<tilt>0.01056958523492337</tilt>
+					<range>197.4646247434782</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining0</styleUrl>
+				<Point>
+					<coordinates>-111.780358984969,43.81797618830873,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - CLK</name>
+				<description>1st floor entryway.
+
+Food. Nearby machines provide snacks and drinks.</description>
+				<LookAt>
+					<longitude>-111.7817815010871</longitude>
+					<latitude>43.82006817718928</latitude>
+					<altitude>0</altitude>
+					<heading>3.839226400471764</heading>
+					<tilt>0</tilt>
+					<range>255.5792352396113</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining0</styleUrl>
+				<Point>
+					<coordinates>-111.7819731471874,43.82031095304359,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - HIN</name>
+				<description>2nd floor, gym level, adjoining North-East entryway.
+
+Food. Nearby machine serves snacks.</description>
+				<LookAt>
+					<longitude>-111.7798909397416</longitude>
+					<latitude>43.81592629519896</latitude>
+					<altitude>0</altitude>
+					<heading>0.07606700802316295</heading>
+					<tilt>0</tilt>
+					<range>131.7470017269873</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining0</styleUrl>
+				<Point>
+					<coordinates>-111.779708,43.81611,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - KIM</name>
+				<description>1st floor entryway.
+
+Food. Nearby machines provide snacks and drinks.</description>
+				<LookAt>
+					<longitude>-111.7813011438238</longitude>
+					<latitude>43.81707958105606</latitude>
+					<altitude>0</altitude>
+					<heading>0.07573131332096794</heading>
+					<tilt>0</tilt>
+					<range>165.6288672618077</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.781373104311,43.81693290566433,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - MC</name>
+				<description>1st floor lounge.
+
+Food. Nearby machines provide snacks and drinks.</description>
+				<LookAt>
+					<longitude>-111.781987548206</longitude>
+					<latitude>43.81837895245413</latitude>
+					<altitude>0</altitude>
+					<heading>0.07643467092491368</heading>
+					<tilt>0</tilt>
+					<range>253.1559776268994</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.782822,43.818233,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - MCK</name>
+				<description>1st floor lobby.
+
+Food. Nearby machines provide snacks.</description>
+				<LookAt>
+					<longitude>-111.7823936297343</longitude>
+					<latitude>43.81922063046777</latitude>
+					<altitude>0</altitude>
+					<heading>0.07615351852046169</heading>
+					<tilt>0</tilt>
+					<range>257.9880467834902</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.783145,43.819066,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - RIC</name>
+				<description>1st floor laundry room.
+
+Food. Nearby machines provide frozen goods, snacks, and drinks.</description>
+				<LookAt>
+					<longitude>-111.7787207569548</longitude>
+					<latitude>43.81797370217233</latitude>
+					<altitude>0</altitude>
+					<heading>0.07894348129984</heading>
+					<tilt>19.29818083127869</tilt>
+					<range>123.6706360933981</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7788435864017,43.81794421185616,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - RIG</name>
+				<open>1</open>
+				<description>1st floor lounge
+
+Food. Other machine nearby with snacks.</description>
+				<LookAt>
+					<longitude>-111.784395925122</longitude>
+					<latitude>43.8169128085214</latitude>
+					<altitude>0</altitude>
+					<heading>0.07623799503984217</heading>
+					<tilt>16.61691941307099</tilt>
+					<range>200.8502998625424</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7844262965071,43.81696482697952,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - ROM</name>
+				<open>1</open>
+				<description>Stairway landing between 1st and 2nd floors.
+
+Food. Other machine nearby with Snacks.</description>
+				<LookAt>
+					<longitude>-111.7827887511182</longitude>
+					<latitude>43.82026126260048</latitude>
+					<altitude>0</altitude>
+					<heading>-2.883097842983574</heading>
+					<tilt>0.5353850514382101</tilt>
+					<range>213.8639362649814</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7832005928064,43.82000767445552,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - SMI</name>
+				<open>1</open>
+				<description>Entryway landing between 1st and 2nd floors.
+
+Food. Other machine nearby with Snacks.</description>
+				<LookAt>
+					<longitude>-111.781158814999</longitude>
+					<latitude>43.81922228584</latitude>
+					<altitude>0</altitude>
+					<heading>-2.881969292325482</heading>
+					<tilt>0.5355058824436225</tilt>
+					<range>204.6874459336131</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7816695208319,43.8192314306082,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - SPO</name>
+				<open>1</open>
+				<description>2nd floor hallway.
+
+Food. Other machine nearby with Snacks.</description>
+				<LookAt>
+					<longitude>-111.7822093949671</longitude>
+					<latitude>43.82073996569533</latitude>
+					<altitude>0</altitude>
+					<heading>-2.882676308968818</heading>
+					<tilt>11.00207376112141</tilt>
+					<range>120.7799475938204</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7823424255988,43.82083022215371,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - TAY</name>
+				<open>1</open>
+				<description>1st floor, off of hallway and commons.
+
+Food. Other machine nearby with Snacks.</description>
+				<LookAt>
+					<longitude>-111.78212880803</longitude>
+					<latitude>43.81713098807534</latitude>
+					<altitude>0</altitude>
+					<heading>-2.882614030728288</heading>
+					<tilt>10.82060926007778</tilt>
+					<range>247.832698098687</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7823378735806,43.81672922830764,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Food - HRT</name>
+				<open>1</open>
+				<description>2nd floor, at crossing of two highways.
+
+Food.</description>
+				<LookAt>
+					<longitude>-111.7849714550342</longitude>
+					<latitude>43.81944274685034</latitude>
+					<altitude>0</altitude>
+					<heading>-2.884582770797803</heading>
+					<tilt>14.08445863919607</tilt>
+					<range>258.0461269274701</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7850283205154,43.81946877697342,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Snacks</name>
+			<Placemark>
+				<name>Snacks - AGB</name>
+				<description>Main floor lobby area.
+
+Two snack machines.</description>
+				<LookAt>
+					<longitude>-111.7830500456362</longitude>
+					<latitude>43.8132014519744</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001717834465255621</heading>
+					<tilt>0</tilt>
+					<range>257.1417958743841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<coordinates>-111.7833001800025,43.81306032643038,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - BCTR</name>
+				<description>1st floor (court level), side room.
+
+Snacks. Other machine nearby includes Food.</description>
+				<LookAt>
+					<longitude>-111.7848058297534</longitude>
+					<latitude>43.81821507406084</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0005374714555591921</heading>
+					<tilt>10.97257202409408</tilt>
+					<range>198.105806958151</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.784842,43.818022,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - BID</name>
+				<description>1st floor lounge.
+
+Snacks. Other machines nearby with food, drinks, and snacks.
+</description>
+				<LookAt>
+					<longitude>-111.7825689989314</longitude>
+					<latitude>43.81849781043236</latitude>
+					<altitude>0</altitude>
+					<heading>0.001648260346465402</heading>
+					<tilt>8.451395179989769</tilt>
+					<range>969.737277563107</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7852682365325,43.8170414380551,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - BEN</name>
+				<description>First floor hallway, near the central stairs.
+
+Snacks.</description>
+				<LookAt>
+					<longitude>-111.7830012938848</longitude>
+					<latitude>43.815360195257</latitude>
+					<altitude>0</altitude>
+					<heading>2.868980938219286e-05</heading>
+					<tilt>1.3170544190912</tilt>
+					<range>305.5485406904107</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<coordinates>-111.783254,43.815478,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - CHP</name>
+				<description>1st floor laundry room.
+
+Snacks. Nearby machines include food and drinks.</description>
+				<LookAt>
+					<longitude>-111.7800097135174</longitude>
+					<latitude>43.8182343368501</latitude>
+					<altitude>0</altitude>
+					<heading>3.839648507023273</heading>
+					<tilt>0.01056958523492337</tilt>
+					<range>197.4646247434782</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7803133722136,43.81799551693868,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snack - CLK</name>
+				<description>1st floor entryway.
+
+Snacks. Nearby machines provide food and drinks.</description>
+				<LookAt>
+					<longitude>-111.7817815010871</longitude>
+					<latitude>43.82006817718928</latitude>
+					<altitude>0</altitude>
+					<heading>3.839226400471764</heading>
+					<tilt>0</tilt>
+					<range>255.5792352396113</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.782017,43.820355,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - HIN</name>
+				<description>2nd floor, gym level, adjoining North-East entryway.
+
+Snacks. Nearby machine serves food.</description>
+				<LookAt>
+					<longitude>-111.7798909397416</longitude>
+					<latitude>43.81592629519896</latitude>
+					<altitude>0</altitude>
+					<heading>0.07606700802316295</heading>
+					<tilt>0</tilt>
+					<range>131.7470017269873</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.779706,43.816101,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - KIM</name>
+				<description>1st floor entryway.
+
+Snacks. Nearby machines provide food and drinks.</description>
+				<LookAt>
+					<longitude>-111.7813011438238</longitude>
+					<latitude>43.81707958105606</latitude>
+					<altitude>0</altitude>
+					<heading>0.07573131332096794</heading>
+					<tilt>0</tilt>
+					<range>165.6288672618077</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.7813921714127,43.81693284853189,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Snacks - KRK</name>
+				<description>2nd floor, ticketing lobby.
+
+Snacks.</description>
+				<LookAt>
+					<longitude>-111.7812524890448</longitude>
+					<latitude>43.82105167021424</latitude>
+					<altitude>0</altitude>
+					<heading>0.003781828422794565</heading>
+					<tilt>0</tilt>
+					<range>201.6147174288349</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining1</styleUrl>
+				<Point>
+					<coordinates>-111.781728,43.820973,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Snacks - MC</name>
+				<description>1st floor lounge.
+
+Snacks. Nearby machines provide food and drinks.</description>
+				<LookAt>
+					<longitude>-111.781987548206</longitude>
+					<latitude>43.81837895245413</latitude>
+					<altitude>0</altitude>
+					<heading>0.07643467092491368</heading>
+					<tilt>0</tilt>
+					<range>253.1559776268994</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.78282,43.818223,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - MCK</name>
+				<open>1</open>
+				<description>1st floor lobby.
+
+Snacks. Nearby machines provide food.</description>
+				<LookAt>
+					<longitude>-111.7823132287109</longitude>
+					<latitude>43.81922221438653</latitude>
+					<altitude>0</altitude>
+					<heading>0.07620918689388144</heading>
+					<tilt>0</tilt>
+					<range>257.7468824955685</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7831444841312,43.81906731952363,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - RIC</name>
+				<open>1</open>
+				<description>1st floor laundry room.
+
+Snacks. Nearby machines provide food, frozen goods, and drinks.</description>
+				<LookAt>
+					<longitude>-111.7787207584232</longitude>
+					<latitude>43.81797294670996</latitude>
+					<altitude>0</altitude>
+					<heading>0.07894347819943076</heading>
+					<tilt>19.28374281739502</tilt>
+					<range>99.15163273813408</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7788183873172,43.81794996200994,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - RIG</name>
+				<description>1st floor lounge
+
+Snacks. Other machine nearby with Food.</description>
+				<LookAt>
+					<longitude>-111.784455780222</longitude>
+					<latitude>43.81696730659868</latitude>
+					<altitude>0</altitude>
+					<heading>0.0761946964090804</heading>
+					<tilt>51.58124493586853</tilt>
+					<range>87.83008944003296</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7844135810928,43.81695754638777,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - ROM</name>
+				<open>1</open>
+				<description>Stairway landing between 1st and 2nd floors.
+
+Snacks. Other machine nearby with Food.</description>
+				<LookAt>
+					<longitude>-111.7827887511182</longitude>
+					<latitude>43.82026126260048</latitude>
+					<altitude>0</altitude>
+					<heading>-2.883097842983574</heading>
+					<tilt>0.5353850514382101</tilt>
+					<range>213.8639362649814</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7832144343634,43.82001386792193,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - SMI</name>
+				<description>Entryway landing between 1st and 2nd floors.
+
+Snacks. Other machine nearby with Food.</description>
+				<LookAt>
+					<longitude>-111.781158814999</longitude>
+					<latitude>43.81922228584</latitude>
+					<altitude>0</altitude>
+					<heading>-2.881969292325482</heading>
+					<tilt>0.5355058824436225</tilt>
+					<range>204.6874459336131</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7816667901026,43.81924206309931,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - SPO</name>
+				<open>1</open>
+				<description>2nd floor hallway.
+
+Snacks. Other machine nearby with Food.</description>
+				<LookAt>
+					<longitude>-111.7822093949671</longitude>
+					<latitude>43.82073996569533</latitude>
+					<altitude>0</altitude>
+					<heading>-2.882676308968818</heading>
+					<tilt>11.00207376112141</tilt>
+					<range>120.7799475938204</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7823436128672,43.82084258876398,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - TAY</name>
+				<open>1</open>
+				<description>1st floor, off of hallway and commons.
+
+Snacks. Other machine nearby with food.</description>
+				<LookAt>
+					<longitude>-111.7821291768348</longitude>
+					<latitude>43.81713627081264</latitude>
+					<altitude>0</altitude>
+					<heading>-2.882611237846176</heading>
+					<tilt>14.09081367281159</tilt>
+					<range>177.2571618580516</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.7823379398784,43.8167338906422,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Snacks - HRT</name>
+				<open>1</open>
+				<description>1st floor, in entryway stairwell.
+
+Snacks. Two machines.</description>
+				<LookAt>
+					<longitude>-111.7811666787774</longitude>
+					<latitude>43.81790700065567</latitude>
+					<altitude>0</altitude>
+					<heading>-2.881948454811443</heading>
+					<tilt>14.08350764330621</tilt>
+					<range>691.0115599900339</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.785793676725,43.81976078691972,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Frozen</name>
+			<Placemark>
+				<name>Frozen - RIC</name>
+				<open>1</open>
+				<description>1st floor laundry room.
+
+Frozen. Nearby machines provide food, snacks, and drinks.</description>
+				<LookAt>
+					<longitude>-111.7787207584232</longitude>
+					<latitude>43.81797294670996</latitude>
+					<altitude>0</altitude>
+					<heading>0.07894347819943076</heading>
+					<tilt>19.28374281739502</tilt>
+					<range>99.15163273813408</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_dining</styleUrl>
+				<Point>
+					<coordinates>-111.778829976755,43.81795481405909,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
