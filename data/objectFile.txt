@@ -644,6 +644,34 @@
         "info": "1st floor laundry room.<br/>Combo."
       },
       {
+        "name": "Combo - LAM",
+        "code": "2",
+        "lat":  43.81803886557335,
+        "lon": -111.7795172461913,
+        "info": "1st floor laundry room.<br/>Combo."
+      },
+      {
+        "name": "Combo - LC",
+        "code": "2",
+        "lat":  43.82679546293484,
+        "lon": -111.8856962808702,
+        "info": "Livestock center office area hallway.<br/>Combo."
+      },
+      {
+        "name": "Combo - PER",
+        "code": "2",
+        "lat":  43.81906110267827,
+        "lon": -111.7803649885445,
+        "info": "1st floor laundry room.<br/>Combo."
+      },
+      {
+        "name": "Combo - RIC",
+        "code": "2",
+        "lat":  43.81794189084471,
+        "lon": -111.7788253793899,
+        "info": "1st floor laundry room.<br/>Combo. Nearby machines provide food, snacks, drinks and frozen goods."
+      },
+      {
         "name": "Drinks - BID",
         "code": "3",
         "lat":  43.81708528609551,
@@ -670,6 +698,20 @@
         "lat":  43.81693401824815,
         "lon": -111.7813540546474,
         "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
+      },
+      {
+        "name": "Drinks - MC",
+        "code": "6",
+        "lat":  43.81821004565384,
+        "lon": -111.7828223737763,
+        "info": "1st floor lounge.<br/>Drinks. Nearby machines provide food and snacks."
+      },
+      {
+        "name": "Drinks - RIC",
+        "code": "6",
+        "lat":  43.81793549175497,
+        "lon": -111.778812820225,
+        "info": "1st floor laundry room.<br/>Drinks. Nearby machines provide food, snacks, and frozen goods."
       },
       {
         "name": "Food - BID",
@@ -712,6 +754,27 @@
         "lat":  43.81693290566433,
         "lon": -111.781373104311,
         "info": "1st floor entryway.<br/>Food. Nearby machines provide snacks and drinks."
+      },
+      {
+        "name": "Food - MC",
+        "code": "12",
+        "lat":  43.818233,
+        "lon": -111.782822,
+        "info": "1st floor lounge.<br/>Food. Nearby machines provide snacks and drinks."
+      },
+      {
+        "name": "Food - MCK",
+        "code": "12",
+        "lat":  43.819066,
+        "lon": -111.783145,
+        "info": "1st floor lobby.<br/>Food. Nearby machines provide snacks."
+      },
+      {
+        "name": "Food - RIC",
+        "code": "12",
+        "lat":  43.819066,
+        "lon": -111.783145,
+        "info": "1st floor laundry room.<br/>Food. Nearby machines provide frozen goods, snacks, and drinks."
       },
       {
         "name": "Snacks - AGB",

@@ -211,6 +211,9 @@
 		</Placemark>
 		<Folder>
 			<name>Combo</name>
+
+
+
 			<Placemark>
 				<name>Combo - BRN</name>
 				<description>2nd floor lounge, above laundry room.
@@ -230,6 +233,8 @@ Combo machine.</description>
 					<coordinates>-111.778850821976,43.81903274177699,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Combo - KER</name>
 				<description>1st floor laundry room.
@@ -249,6 +254,8 @@ Combo.</description>
 					<coordinates>-111.77954226089,43.81907857414526,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Combo - LAM</name>
 				<description>1st floor laundry room.
@@ -268,6 +275,8 @@ Combo.</description>
 					<coordinates>-111.7795172461913,43.81803886557335,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Combo - LC</name>
 				<description>Livestock center office area hallway.
@@ -287,6 +296,8 @@ Combo.</description>
 					<coordinates>-111.8856962808702,43.82679546293484,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Combo - PER</name>
 				<description>1st floor laundry room.
@@ -306,6 +317,8 @@ Combo.</description>
 					<coordinates>-111.7803649885445,43.81906110267827,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Combo - RIC</name>
 				<open>1</open>
@@ -326,9 +339,13 @@ Combo. Nearby machines provide food, snacks, drinks and frozen goods.</descripti
 					<coordinates>-111.7788253793899,43.81794189084471,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 		</Folder>
 		<Folder>
 			<name>Drinks</name>
+
+			
 			<Placemark>
 				<name>Drinks - BID</name>
 				<description>1st floor lounge.
@@ -914,7 +931,7 @@ Snacks.</description>
 					<coordinates>-111.781728,43.820973,0</coordinates>
 				</Point>
 			</Placemark>
-			
+
 			<Placemark>
 				<name>Snacks - MC</name>
 				<description>1st floor lounge.
@@ -1072,6 +1089,10 @@ Snacks. Other machine nearby with food.</description>
 					<coordinates>-111.7823379398784,43.8167338906422,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
+
 			<Placemark>
 				<name>Snacks - HRT</name>
 				<open>1</open>
