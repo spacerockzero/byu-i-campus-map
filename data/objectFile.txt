@@ -1002,33 +1002,36 @@
     ],
     "playfields": [
       {
-        "name": "BBD - Baseball Diamond",
+        "name": "4 Plex- Field 1",
         "code": "1",
-        "lat": 43.810832436805,
-        "lon": -111.7784921739187,
-        "info": "Recreational area often scheduled for Student Activities.",
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81054127708088,
+        "lon": -111.7846084967424,
+        "img": "4plex1-2Fields.jpg",
+        "info": "7th South Activity Fields<br/>Artificial field turf. Muti-use full soccer and softball field. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "ESF - East Soccer Field",
+        "name": "4 Plex- Field 2",
         "code": "2",
-        "lat": 43.810832416805,
-        "lon": -111.7784931749187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.80933478831204,
+        "lon": -111.7846834569128,
+        "img": "4plex1-2Fields.jpg",
+        "info": "7th South Activity Fields<br/>Artificial field turf. Muti-use full soccer and softball field. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "LEP - Lower East Playfield",
+        "name": "4 Plex- Field 3",
         "code": "3",
-        "lat": 43.810832416805,
-        "lon": -111.7784921749137,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81071798665069,
+        "lon": -111.7858519476696,
+        "img": "4Plex3-4Fields.jpg",
+        "info": "7th South Activity Fields <br/>Grass muti-use fields. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "LWP - Lower West Playfield",
+        "name": "4 Plex- Field 4",
         "code": "4",
-        "lat": 43.810832416305,
-        "lon": -111.7784921749187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81003608579535,
+        "lon": -111.7862319352064,
+        "img": "4Plex3-4Fields.jpg",
+        "info": "7th South Activity Fields<br/>Grass muti-use fields. Recreational area often scheduled for Student Activities."
       },
       {
         "name": "STF - Stadium Track and Field",

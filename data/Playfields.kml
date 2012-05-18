@@ -314,6 +314,10 @@
 	<Folder>
 		<name>Playfields</name>
 		<open>1</open>
+
+		
+		
+		
 		<Placemark>
 			<name>4 Plex- Field 1</name>
 			<description>7th South Activity Fields 
@@ -333,6 +337,8 @@ Artificial field turf. Muti-use full soccer and softball field. Recreational are
 				<coordinates>-111.7846084967424,43.81054127708088,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>4 Plex- Field 2</name>
 			<description>7th South Activity Fields 
@@ -352,6 +358,8 @@ Artificial field turf. Muti-use full soccer and softball field. Recreational are
 				<coordinates>-111.7846834569128,43.80933478831204,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>4 Plex- Field 3</name>
 			<description>7th South Activity Fields 
@@ -371,6 +379,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7858519476696,43.81071798665069,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>4 Plex- Field 4</name>
 			<description>7th South Activity Fields 
@@ -390,6 +400,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7862319352064,43.81003608579535,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Upper Playfields-North</name>
 			<description>Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities.</description>
@@ -408,6 +420,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7854493760957,43.81281083420959,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Upper Playfields-Middle</name>
 			<description>Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities.</description>
@@ -426,6 +440,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7854668088413,43.81245500730314,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Upper Playfields-South</name>
 			<description>Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities.</description>
@@ -444,6 +460,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.785439936203,43.81204689742254,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Baseball Diamond</name>
 			<description>Recreational area often scheduled for Student Activities.</description>
@@ -462,6 +480,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7844636070457,43.81399306804928,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Stadium Track and Field</name>
 			<description>Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities.</description>
@@ -480,6 +500,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7852831224419,43.82096963524247,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Tennis Courts- West</name>
 			<description>Recreational area often scheduled for Student Activities.</description>
@@ -498,6 +520,8 @@ Grass muti-use fields. Recreational area often scheduled for Student Activities.
 				<coordinates>-111.7871018896488,43.81936445832934,0</coordinates>
 			</Point>
 		</Placemark>
+		
+		
 		<Placemark>
 			<name>Tennis Courts- East</name>
 			<description>Recreational area often scheduled for Student Activities.</description>
