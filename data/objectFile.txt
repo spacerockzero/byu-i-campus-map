@@ -582,7 +582,6 @@
       {
         "name": "Café McKay",
         "code": "CAFEMCKAY",
-        "img": "caliente.jpg",
         "lat":  43.81909299926238,
         "lon": -111.7830128352975,
         "info": "1st Floor of the McKay Library.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/cafe-mckay'>http://www.byui.edu/food-services/locations-and-hours/cafe-mckay</a>"
@@ -590,7 +589,6 @@
       {
         "name": "Café Kimball",
         "code": "CAFEKIMBALL",
-        "img": "McMarket.jpg",
         "lat":  43.81663558951467,
         "lon": -111.7814087838211,
         "info": "McMarket food"
@@ -606,7 +604,6 @@
       {
         "name": "Far East Fusion",
         "code": "FAREASTFUSION",
-        "img": "Salad.jpg",
         "lat":  43.81854131350695,
         "lon": -111.7824559091124,
         "info": "Located on the 2nd floor of the MC.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/far-east-fusion'>http://www.byui.edu/food-services/locations-and-hours/far-east-fusion</a>"
@@ -614,7 +611,6 @@
       {
         "name": "Henry's Fork BBQ",
         "code": "HENRYSFORKBBQ",
-        "img": "Stacks-and-wraps.jpg",
         "lat":  43.81853149418591,
         "lon": -111.7825524476314,
         "info": "Stacks and wraps food"
@@ -622,7 +618,6 @@
       {
         "name": "Chef's Point",
         "code": "CHEFSPOINT",
-        "img": "Teton-Grill.jpg",
         "lat":  43.81857137498275,
         "lon": -111.7824269019565,
         "info": "Located on the 2nd floor of the MC.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/chefs-point'>http://www.byui.edu/food-services/locations-and-hours/chefs-point</a>"
@@ -638,7 +633,6 @@
       {
         "name": "Freshens",
         "code": "FRESHENS",
-        "img": "Teton-Grill.jpg",
         "lat":  43.81857636264045,
         "lon": -111.7826563925517,
         "info": "Located on the 1st floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/freshens'>http://www.byui.edu/food-services/locations-and-hours/freshens</a>"
@@ -646,7 +640,6 @@
       {
         "name": "Harvest Hills Bakery",
         "code": "HARVESTHILLSBAKERY",
-        "img": "Teton-Grill.jpg",
         "lat":  43.81851277918786,
         "lon": -111.7826159175001,
         "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery'>http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery</a>"
@@ -654,7 +647,7 @@
       {
         "name": "Stacks and Wraps",
         "code": "STACKSANDWRAPS",
-        "img": "Teton-Grill.jpg",
+        "img": "Stacks-and-Wraps.jpg",
         "lat":  43.81865148142322,
         "lon": -111.7824055117548,
         "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps'>http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps</a>"
@@ -662,7 +655,7 @@
       {
         "name": "Salad Bar",
         "code": "SALADBAR",
-        "img": "Teton-Grill.jpg",
+        "img": "Salad.jpg",
         "lat":  43.81863461978169,
         "lon": -111.7824785411088,
         "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/salad-bar'>http://www.byui.edu/food-services/locations-and-hours/salad-bar</a>"
@@ -670,7 +663,6 @@
       {
         "name": "Tuscan Valley",
         "code": "TUSCANVALLEY",
-        "img": "Teton-Grill.jpg",
         "lat":  43.81868128717473,
         "lon": -111.7823956951955,
         "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/tuscan-valley'>http://www.byui.edu/food-services/locations-and-hours/tuscan-valley</a>"
@@ -678,7 +670,7 @@
       {
         "name": "MC Market",
         "code": "MCMARKET",
-        "img": "Teton-Grill.jpg",
+        "img": "McMarket.jpg",
         "lat":  43.81861464827622,
         "lon": -111.7826526017039,
         "info": "Located on the 1st floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/mc-market'>http://www.byui.edu/food-services/locations-and-hours/mc-market</a>"
@@ -686,8 +678,7 @@
       {
         "name": "Garden View Café",
         "code": "GARDENVIEWCAFE",
-        "img": "Teton-Grill.jpg",
-        "lat":  43.81861464827622,
+        "lat":  43.81479073032416,
         "lon": -111.7826526017039,
         "info": "Located on the 1st floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/mc-market'>http://www.byui.edu/food-services/locations-and-hours/mc-market</a>"
       }

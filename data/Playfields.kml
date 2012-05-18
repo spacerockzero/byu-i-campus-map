@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Playfields.kmz</name>
+	<open>1</open>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Playfields</name>
+		<open>1</open>
+		<Placemark>
+			<name>4 Plex- Field 1</name>
+			<description>7th South Activity Fields 
+Artificial field turf. Muti-use full soccer and softball field. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7850974706725</longitude>
+				<latitude>43.810198255063</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045845858677078</heading>
+				<tilt>0</tilt>
+				<range>545.8788074847123</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7846084967424,43.81054127708088,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4 Plex- Field 2</name>
+			<description>7th South Activity Fields 
+Artificial field turf. Muti-use full soccer and softball field. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7851010473876</longitude>
+				<latitude>43.81020565883379</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045998912757494</heading>
+				<tilt>0</tilt>
+				<range>476.3092853393067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7846834569128,43.80933478831204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4 Plex- Field 3</name>
+			<description>7th South Activity Fields 
+Grass muti-use fields. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7850580900294</longitude>
+				<latitude>43.81004701642621</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045673563835935</heading>
+				<tilt>0</tilt>
+				<range>424.9512181178137</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin7</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7858519476696,43.81071798665069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>4 Plex- Field 4</name>
+			<description>7th South Activity Fields 
+Grass muti-use fields. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7850580900294</longitude>
+				<latitude>43.81004701642621</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02045673563835935</heading>
+				<tilt>0</tilt>
+				<range>424.9512181178137</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7862319352064,43.81003608579535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Playfields-North</name>
+			<description>Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7853527225586</longitude>
+				<latitude>43.81309023618917</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02030811254932545</heading>
+				<tilt>0</tilt>
+				<range>539.2773552297049</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7854493760957,43.81281083420959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Playfields-Middle</name>
+			<description>Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7855816191347</longitude>
+				<latitude>43.81248810616646</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02046657582866117</heading>
+				<tilt>0</tilt>
+				<range>537.2059326653573</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7854668088413,43.81245500730314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Upper Playfields-South</name>
+			<description>Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7855816191347</longitude>
+				<latitude>43.81248810616646</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02046657582866117</heading>
+				<tilt>0</tilt>
+				<range>537.2059326653573</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin9</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.785439936203,43.81204689742254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Baseball Diamond</name>
+			<description>Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7842037532584</longitude>
+				<latitude>43.81528191834881</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01951259447063186</heading>
+				<tilt>0</tilt>
+				<range>624.7553955797623</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7844636070457,43.81399306804928,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stadium Track and Field</name>
+			<description>Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7847641832052</longitude>
+				<latitude>43.82128892880236</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01977085756538257</heading>
+				<tilt>0</tilt>
+				<range>526.5877124012966</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7852831224419,43.82096963524247,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tennis Courts- West</name>
+			<description>Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.7869178356503</longitude>
+				<latitude>43.81959635090555</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02126204276142501</heading>
+				<tilt>0</tilt>
+				<range>457.5151262315626</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7871018896488,43.81936445832934,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tennis Courts- East</name>
+			<description>Recreational area often scheduled for Student Activities.</description>
+			<LookAt>
+				<longitude>-111.77892051916</longitude>
+				<latitude>43.81750510383333</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01568449983246908</heading>
+				<tilt>0</tilt>
+				<range>357.7050107221444</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.7786622733956,43.81712830137598,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
