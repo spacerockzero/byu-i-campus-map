@@ -345,7 +345,7 @@ Combo. Nearby machines provide food, snacks, drinks and frozen goods.</descripti
 		<Folder>
 			<name>Drinks</name>
 
-			
+
 			<Placemark>
 				<name>Drinks - BID</name>
 				<description>1st floor lounge.
@@ -365,6 +365,8 @@ Drinks. Other machines nearby with food and snacks.</description>
 					<coordinates>-111.7851676792425,43.81708528609551,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Drinks - CHP</name>
 				<description>1st floor laundry room.
@@ -384,6 +386,8 @@ Drinks. Nearby machines provide food and snacks.</description>
 					<coordinates>-111.7803323290123,43.81800009170572,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Drinks - CLK</name>
 				<description>1st floor entryway.
@@ -403,6 +407,8 @@ Drinks. Nearby machines provide snacks and food.</description>
 					<coordinates>-111.781949,43.820303,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Drinks - KIM</name>
 				<description>1st floor entryway.
@@ -422,6 +428,8 @@ Drinks. Nearby machines provide food and snacks.</description>
 					<coordinates>-111.7813540546474,43.81693401824815,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Drinks - MC</name>
 				<description>1st floor lounge.
@@ -441,6 +449,9 @@ Drinks. Nearby machines provide food and snacks.</description>
 					<coordinates>-111.7828223737763,43.81821004565384,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Drinks - RIC</name>
 				<open>1</open>
@@ -461,9 +472,14 @@ Drinks. Nearby machines provide food, snacks, and frozen goods.</description>
 					<coordinates>-111.778812820225,43.81793549175497,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 		</Folder>
 		<Folder>
 			<name>Food</name>
+
+
+
 			<Placemark>
 				<name>Food - BID</name>
 				<description>1st floor lounge
@@ -483,6 +499,8 @@ Food. Other machines nearby with snacks and drinks.</description>
 					<coordinates>-111.7851941283088,43.81709848501499,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Food - BCTR</name>
 				<description>1st floor (court level), side room.
@@ -502,6 +520,9 @@ Food. Other machines nearby include Snacks.</description>
 					<coordinates>-111.7848386836669,43.81801134364651,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - CHP</name>
 				<description>1st floor laundry room.
@@ -521,6 +542,9 @@ Food. Nearby machines include snacks and drinks.</description>
 					<coordinates>-111.780358984969,43.81797618830873,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - CLK</name>
 				<description>1st floor entryway.
@@ -540,6 +564,9 @@ Food. Nearby machines provide snacks and drinks.</description>
 					<coordinates>-111.7819731471874,43.82031095304359,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - HIN</name>
 				<description>2nd floor, gym level, adjoining North-East entryway.
@@ -559,6 +586,9 @@ Food. Nearby machine serves snacks.</description>
 					<coordinates>-111.779708,43.81611,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - KIM</name>
 				<description>1st floor entryway.
@@ -578,6 +608,9 @@ Food. Nearby machines provide snacks and drinks.</description>
 					<coordinates>-111.781373104311,43.81693290566433,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - MC</name>
 				<description>1st floor lounge.
@@ -597,6 +630,8 @@ Food. Nearby machines provide snacks and drinks.</description>
 					<coordinates>-111.782822,43.818233,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Food - MCK</name>
 				<description>1st floor lobby.
@@ -616,6 +651,8 @@ Food. Nearby machines provide snacks.</description>
 					<coordinates>-111.783145,43.819066,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Food - RIC</name>
 				<description>1st floor laundry room.
@@ -635,6 +672,9 @@ Food. Nearby machines provide frozen goods, snacks, and drinks.</description>
 					<coordinates>-111.7788435864017,43.81794421185616,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - RIG</name>
 				<open>1</open>
@@ -655,6 +695,8 @@ Food. Other machine nearby with snacks.</description>
 					<coordinates>-111.7844262965071,43.81696482697952,0</coordinates>
 				</Point>
 			</Placemark>
+
+
 			<Placemark>
 				<name>Food - ROM</name>
 				<open>1</open>
@@ -675,6 +717,9 @@ Food. Other machine nearby with Snacks.</description>
 					<coordinates>-111.7832005928064,43.82000767445552,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - SMI</name>
 				<open>1</open>
@@ -695,6 +740,9 @@ Food. Other machine nearby with Snacks.</description>
 					<coordinates>-111.7816695208319,43.8192314306082,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - SPO</name>
 				<open>1</open>
@@ -715,6 +763,9 @@ Food. Other machine nearby with Snacks.</description>
 					<coordinates>-111.7823424255988,43.82083022215371,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - TAY</name>
 				<open>1</open>
@@ -735,6 +786,9 @@ Food. Other machine nearby with Snacks.</description>
 					<coordinates>-111.7823378735806,43.81672922830764,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Food - HRT</name>
 				<open>1</open>
@@ -755,9 +809,15 @@ Food.</description>
 					<coordinates>-111.7850283205154,43.81946877697342,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 		</Folder>
 		<Folder>
 			<name>Snacks</name>
+
+
+
 			<Placemark>
 				<name>Snacks - AGB</name>
 				<description>Main floor lobby area.
@@ -777,6 +837,9 @@ Two snack machines.</description>
 					<coordinates>-111.7833001800025,43.81306032643038,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - BCTR</name>
 				<description>1st floor (court level), side room.
@@ -796,6 +859,9 @@ Snacks. Other machine nearby includes Food.</description>
 					<coordinates>-111.784842,43.818022,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - BID</name>
 				<description>1st floor lounge.
@@ -816,6 +882,9 @@ Snacks. Other machines nearby with food, drinks, and snacks.
 					<coordinates>-111.7852682365325,43.8170414380551,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - BEN</name>
 				<description>First floor hallway, near the central stairs.
@@ -835,6 +904,9 @@ Snacks.</description>
 					<coordinates>-111.783254,43.815478,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - CHP</name>
 				<description>1st floor laundry room.
@@ -854,6 +926,9 @@ Snacks. Nearby machines include food and drinks.</description>
 					<coordinates>-111.7803133722136,43.81799551693868,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snack - CLK</name>
 				<description>1st floor entryway.
@@ -873,6 +948,9 @@ Snacks. Nearby machines provide food and drinks.</description>
 					<coordinates>-111.782017,43.820355,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - HIN</name>
 				<description>2nd floor, gym level, adjoining North-East entryway.
@@ -892,6 +970,9 @@ Snacks. Nearby machine serves food.</description>
 					<coordinates>-111.779706,43.816101,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - KIM</name>
 				<description>1st floor entryway.
@@ -912,6 +993,8 @@ Snacks. Nearby machines provide food and drinks.</description>
 				</Point>
 			</Placemark>
 			
+
+
 			<Placemark>
 				<name>Snacks - KRK</name>
 				<description>2nd floor, ticketing lobby.
@@ -932,6 +1015,7 @@ Snacks.</description>
 				</Point>
 			</Placemark>
 
+
 			<Placemark>
 				<name>Snacks - MC</name>
 				<description>1st floor lounge.
@@ -951,6 +1035,9 @@ Snacks. Nearby machines provide food and drinks.</description>
 					<coordinates>-111.78282,43.818223,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - MCK</name>
 				<open>1</open>
@@ -971,6 +1058,9 @@ Snacks. Nearby machines provide food.</description>
 					<coordinates>-111.7831444841312,43.81906731952363,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - RIC</name>
 				<open>1</open>
@@ -991,6 +1081,9 @@ Snacks. Nearby machines provide food, frozen goods, and drinks.</description>
 					<coordinates>-111.7788183873172,43.81794996200994,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - RIG</name>
 				<description>1st floor lounge
@@ -1010,6 +1103,9 @@ Snacks. Other machine nearby with Food.</description>
 					<coordinates>-111.7844135810928,43.81695754638777,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - ROM</name>
 				<open>1</open>
@@ -1030,6 +1126,9 @@ Snacks. Other machine nearby with Food.</description>
 					<coordinates>-111.7832144343634,43.82001386792193,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - SMI</name>
 				<description>Entryway landing between 1st and 2nd floors.
@@ -1049,6 +1148,9 @@ Snacks. Other machine nearby with Food.</description>
 					<coordinates>-111.7816667901026,43.81924206309931,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+
 			<Placemark>
 				<name>Snacks - SPO</name>
 				<open>1</open>
@@ -1069,6 +1171,9 @@ Snacks. Other machine nearby with Food.</description>
 					<coordinates>-111.7823436128672,43.82084258876398,0</coordinates>
 				</Point>
 			</Placemark>
+
+
+			
 			<Placemark>
 				<name>Snacks - TAY</name>
 				<open>1</open>
