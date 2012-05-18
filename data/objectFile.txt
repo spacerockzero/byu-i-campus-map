@@ -1034,54 +1034,53 @@
         "info": "7th South Activity Fields<br/>Grass muti-use fields. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "STF - Stadium Track and Field",
+        "name": "Upper Playfields-North",
         "code": "5",
-        "lat": 43.810832416605,
-        "lon": -111.7784921749186,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81281083420959,
+        "lon": -111.7854493760957,
+        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "SVC - Sand Volleyball Courts",
+        "name": "Upper Playfields-Middle",
         "code": "6",
-        "lat": 43.810832416835,
-        "lon": -111.7784921739187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81245500730314,
+        "lon": -111.7854668088413,
+        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "TCL - Tennis Courts, Lower",
+        "name": "Upper Playfields-South",
         "code": "7",
-        "lat": 43.810832416808,
-        "lon": -111.7784921748187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81204689742254,
+        "lon": -111.785439936203,
+        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "TCU - Tennis Courts, Upper",
+        "name": "Baseball Diamond",
         "code": "8",
-        "lat": 43.810832416895,
-        "lon": -111.7784921749187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81399306804928,
+        "lon": -111.7844636070457,
+        "info": "Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "UP  - Upper Playfield",
+        "name": "Stadium Track and Field",
         "code": "9",
-        "lat": 43.810,
-        "lon": -111.778,
-        "img": "playfield.jpg",
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.82096963524247,
+        "lon": -111.7852831224419,
+        "info": "Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "WSF - West Soccer Field",
+        "name": "Tennis Courts- West",
         "code": "10",
-        "lat": 43.810832416805,
-        "lon": -111.7784921949187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81936445832934,
+        "lon": -111.7871018896488,
+        "info": "Recreational area often scheduled for Student Activities.<"
       },
       {
-        "name": "7th South Activity Fields",
+        "name": "Tennis Courts- East",
         "code": "11",
-        "lat": 43.810832416809,
-        "lon": -111.7784921749187,
-        "link": "http://www.byui.edu/agriculture/"
+        "lat":  43.81712830137598,
+        "lon": -111.7786622733956,
+        "info": "Recreational area often scheduled for Student Activities."
       }
     ],
     "webcams": [
