@@ -566,14 +566,20 @@
         "fillColor":    "#8aa8ee"
       },
       {
-        "name":         "Visitor & Handicap",
-        "contains":     "Parking for visitors & handicap parking permits",
+        "name":         "Student South Pass",
+        "contains":     "Parking for students with a South Parking Pass",
         "borderColor":  "#f5ff02",
         "fillColor":    "#faff80"
       },
       {
         "name":         "West Campus Drive",
         "contains":     "Parking on West Campus Drive",
+        "borderColor":  "#2aa1ef",
+        "fillColor":    "#94d0f7"
+      },
+      {
+        "name":         "Free Parking Lot",
+        "contains":     "Free parking for all campus passes and F pass holders",
         "borderColor":  "#2aa1ef",
         "fillColor":    "#94d0f7"
       }
