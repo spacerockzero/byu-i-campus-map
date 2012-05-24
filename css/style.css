@@ -600,7 +600,7 @@ footer {
 #menu .marker_category span.cat_indicator.active {
   background-position: 0 -6px;
 }
-#menu .marker_category a {
+#menu .marker_category > a {
   color: #333;
   display: block;
   font-size: 17px;
@@ -612,9 +612,9 @@ footer {
   text-shadow: 0px 1px 0px white;
   outline: none;
 }
-#menu .marker_category a:hover,
-#menu .marker_category a:active,
-#menu .marker_category a:visited {
+#menu .marker_category > a:hover,
+#menu .marker_category > a:active,
+#menu .marker_category > a:visited {
   outline: none;
   border: 0px;
 }
@@ -699,7 +699,7 @@ footer {
   /*height:inherit;
 	width:inherit;*/
 
-  margin: 10px;
+  padding: 10px;
 }
 .infopane img {
   float: right;

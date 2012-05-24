@@ -5,7 +5,7 @@
         "ID":1,
         "name": "campustour",
         "title": "Campus Tour",
-        "text": "A campus tour is now available online!",
+        "text": "A campus tour is now available online!<br/><br/><a href='http://www2.byui.edu/PR/webtour/'>http://www2.byui.edu/PR/webtour/</a>",
         "icon": "tour.png",
         "type": 0
       },
@@ -13,7 +13,7 @@
         "ID": 2,
         "name": "buildings",
         "title": "Buildings",
-        "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.",
+        "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.<br/><br/><a href='http://www2.byui.edu/BldgsGrnds/'>http://www2.byui.edu/BldgsGrnds/</a>",
         "icon": "building.png",
         "type": 0
       },
@@ -21,7 +21,7 @@
         "ID": 3,
         "name": "parking",
         "title": "Parking",
-        "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.",
+        "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<br/><br/><a href='http://www2.byui.edu/ParkingServices/'>http://www2.byui.edu/ParkingServices/</a>",
         "icon": "parking.png",
         "type": 1,
         "url": "parking.kml"
@@ -30,7 +30,7 @@
         "ID": 4,
         "name": "foodanddining",
         "title": "Food & Dining",
-        "text": "Food & Dining descriptive text goes here.",
+        "text": "Food & Dining locations are operated by Food Services for your eating pleasure and convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
         "icon": "dining.png",
         "type": 0
       },
@@ -38,7 +38,7 @@
         "ID": 5,
         "name": "vending",
         "title": "Vending Machines",
-        "text": "Vending machines descriptive text goes here.",
+        "text": "Campus vending machines are operated by food services for your convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
         "icon": "restaurant.png",
         "type": 0
       },
@@ -46,7 +46,7 @@
         "ID": 6,
         "name": "playfields",
         "title": "Playfields",
-        "text": "Recreational areas often scheduled for Student Activities.",
+        "text": "Recreational areas often scheduled for Student Activities.<br/><br/><a href='http://www.byui.edu/activities'>http://www.byui.edu/activities</a>",
         "icon": "sports_default.png",
         "type": 0
       },
@@ -54,7 +54,7 @@
         "ID":7,
         "name": "webcams",
         "title": "Webcams",
-        "text": "Campus webcams",
+        "text": "Campus webcams<br/><br/><a href='http://www2.byui.edu/WebCameras/'>http://www2.byui.edu/WebCameras/</a>",
         "icon": "camera.png",
         "type": 0
       }
@@ -65,8 +65,8 @@
       {
         "name": "Introduction",
         "code": "INTRODUCTION",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat": 43.8152568593878,
+        "lon": -111.78310049999999,
         "video": "01-intro",
         "info": "Campus tours introduction",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -74,8 +74,8 @@
       {
         "name": "Campus History",
         "code": "CAMPUSHISTORY",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat": 43.8152568593878,
+        "lon": -111.78310049999999,
         "video": "02-campus_history",
         "info": "Campus History",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -119,8 +119,8 @@
       {
         "name": "John L. Clarke Building",
         "code": "CLARKE",
-        "lat": 43.81943529937006,
-        "lon": -111.7832273352486,
+        "lat":  43.820179,
+        "lon":  -111.781751,
         "video": "07-clarke",
         "info": "John L. Clarke Building",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -128,8 +128,8 @@
       {
         "name": "David O. McKay Library",
         "code": "MCKAY",
-        "lat": 43.81943529937006,
-        "lon": -111.7832273352486,
+        "lat":  43.819310,
+        "lon":  -111.783182,
         "video": "08-library",
         "info": "David O. McKay Library",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -137,8 +137,8 @@
       {
         "name": "Joseph Fielding Smith Building",
         "code": "SMITH",
-        "lat": 43.81943529937006,
-        "lon": -111.7832273352486,
+        "lat": 43.81920193746524,
+        "lon": -111.7815120835109,
         "video": "09-smith",
         "info": "Joseph Fielding Smith Building",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -146,8 +146,8 @@
       {
         "name": "Hyrum Manwaring Student Center",
         "code": "MC",
-        "lat": 43.81943529937006,
-        "lon": -111.7832273352486,
+        "lat":  43.818356,
+        "lon":  -111.782436,
         "video": "10-MC",
         "info": "Hyrum Manwaring Student Center",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -155,8 +155,8 @@
       {
         "name": "John W. Hart Physical Education Building",
         "code": "HART",
-        "lat": 43.81943529937006,
-        "lon": -111.7832273352486,
+        "lat":  43.819535,
+        "lon": -111.785311,
         "video": "11-Hart",
         "info": "John W. Hart Physical Education Building",
         "link": "http://www2.byui.edu/PR/webtour/"
@@ -164,15 +164,15 @@
       {
         "name": "John Taylor Building",
         "code": "TAYLOR",
-        "lat": 43.81943529937006,
-        "lon": -111.7832273352486,
+        "lat":  43.81705797643297,
+        "lon":  -111.7811963030408,
         "video": "12-Taylor",
         "info": "John Taylor Building",
         "link": "http://www2.byui.edu/PR/webtour/"
       },
       {
         "name": "Spencer W. Kimball Administration Building",
-        "code": "TAYLOR",
+        "code": "KIMBALL",
         "lat": 43.81943529937006,
         "lon": -111.7832273352486,
         "video": "13-Kimball",
@@ -580,24 +580,24 @@
       {
         "name":         "Free Parking Lot",
         "contains":     "Free parking for all campus passes and F pass holders",
-        "borderColor":  "#2aa1ef",
-        "fillColor":    "#94d0f7"
+        "borderColor":  "#bb7700",
+        "fillColor":    "#a97d77"
       }
     ],
     "foodanddining": [
-      {
-        "name": "Café McKay",
-        "code": "CAFEMCKAY",
-        "lat":  43.81909299926238,
-        "lon": -111.7830128352975,
-        "info": "1st Floor of the McKay Library.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/cafe-mckay'>http://www.byui.edu/food-services/locations-and-hours/cafe-mckay</a>"
-      },
       {
         "name": "Café Kimball",
         "code": "CAFEKIMBALL",
         "lat":  43.81663558951467,
         "lon": -111.7814087838211,
-        "info": "McMarket food"
+        "info": "1st Floor of the Kimball building on the South end of the commons. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 10:00 a.m. - 1:30 p.m. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/cafe-kimball'>http://www.byui.edu/food-services/locations-and-hours/cafe-kimball</a>"
+      },
+      {
+        "name": "Café McKay",
+        "code": "CAFEMCKAY",
+        "lat":  43.81909299926238,
+        "lon": -111.7830128352975,
+        "info": "1st Floor of the McKay Library.<br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 8:30 a.m. - 3:15 p.m.<br/>*Closed Tuesdays for devotional at 1:45 p.m. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/cafe-mckay'>http://www.byui.edu/food-services/locations-and-hours/cafe-mckay</a>"
       },
       {
         "name": "Caliente",
@@ -605,28 +605,35 @@
         "img": "caliente.jpg",
         "lat":  43.81852167946543,
         "lon": -111.7824973903352,
-        "info": "Located on the 2nd floor of the MC.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/caliente'>http://www.byui.edu/food-services/locations-and-hours/caliente</a>"
-      },
-      {
-        "name": "Far East Fusion",
-        "code": "FAREASTFUSION",
-        "lat":  43.81854131350695,
-        "lon": -111.7824559091124,
-        "info": "Located on the 2nd floor of the MC.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/far-east-fusion'>http://www.byui.edu/food-services/locations-and-hours/far-east-fusion</a>"
-      },
-      {
-        "name": "Henry's Fork BBQ",
-        "code": "HENRYSFORKBBQ",
-        "lat":  43.81853149418591,
-        "lon": -111.7825524476314,
-        "info": "Stacks and wraps food"
+        "info": "Located on the 2nd floor of the MC.<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/caliente'>http://www.byui.edu/food-services/locations-and-hours/caliente</a>"
       },
       {
         "name": "Chef's Point",
         "code": "CHEFSPOINT",
         "lat":  43.81857137498275,
         "lon": -111.7824269019565,
-        "info": "Located on the 2nd floor of the MC.<br/><a href='http://www.byui.edu/food-services/locations-and-hours/chefs-point'>http://www.byui.edu/food-services/locations-and-hours/chefs-point</a>"
+        "info": "Located on the 2nd floor of the MC.<br/><strong>Hours of Operation:</strong><br/>Monday through Saturday: 11:00 a.m. - 2:00 p.m. and 4:00 p.m. - 6:00 p.m <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/chefs-point'>http://www.byui.edu/food-services/locations-and-hours/chefs-point</a>"
+      },
+      {
+        "name": "Far East Fusion",
+        "code": "FAREASTFUSION",
+        "lat":  43.81854131350695,
+        "lon": -111.7824559091124,
+        "info": "Located on the 2nd floor of the MC. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 11:00 a.m. - 6:00 p.m. <br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/far-east-fusion'>http://www.byui.edu/food-services/locations-and-hours/far-east-fusion</a>"
+      },
+      {
+        "name": "Freshëns",
+        "code": "FRESHENS",
+        "lat":  43.81857636264045,
+        "lon": -111.7826563925517,
+        "info": "<strong>About Freshëns:</strong> <br/>Freshëns sells smoothies, frozen treats, doughnuts, bagels, muffins, cookies and more! <br/>Located on the 1st floor of the MC <br/><br/><strong>Hours of Operation</strong> <br/>7:00 a.m.-6:00 p.m., Monday-Friday <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/freshens'>http://www.byui.edu/food-services/locations-and-hours/freshens</a>"
+      },
+      {
+        "name": "Garden View Café",
+        "code": "GARDENVIEWCAFE",
+        "lat":   43.815024,
+        "lon":  -111.780930,
+        "info": "Located on the 1st floor of the Ricks Building <br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 8:30 a.m. - 2:30 p.m.<br/>*Closes for Devotional at 2:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe'>http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe</a>"
       },
       {
         "name": "Grand Teton Grill",
@@ -634,44 +641,21 @@
         "img": "Teton-Grill.jpg",
         "lat":  43.81862574632019,
         "lon": -111.7824118292022,
-        "info": "Located on the 2nd floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill'>http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill</a>"
-      },
-      {
-        "name": "Freshens",
-        "code": "FRESHENS",
-        "lat":  43.81857636264045,
-        "lon": -111.7826563925517,
-        "info": "Located on the 1st floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/freshens'>http://www.byui.edu/food-services/locations-and-hours/freshens</a>"
+        "info": "Located on the 2nd floor of the MC<br/><br/><strong>Hours of Operation: </strong><br/>Monday through Friday: 8:30 a.m. - 6:00 p.m., Saturday:  11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill'>http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill</a>"
       },
       {
         "name": "Harvest Hills Bakery",
         "code": "HARVESTHILLSBAKERY",
         "lat":  43.81851277918786,
         "lon": -111.7826159175001,
-        "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery'>http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery</a>"
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Friday: 8:30 a.m. - 2:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery'>http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery</a>"
       },
       {
-        "name": "Stacks and Wraps",
-        "code": "STACKSANDWRAPS",
-        "img": "Stacks-and-Wraps.jpg",
-        "lat":  43.81865148142322,
-        "lon": -111.7824055117548,
-        "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps'>http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps</a>"
-      },
-      {
-        "name": "Salad Bar",
-        "code": "SALADBAR",
-        "img": "Salad.jpg",
-        "lat":  43.81863461978169,
-        "lon": -111.7824785411088,
-        "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/salad-bar'>http://www.byui.edu/food-services/locations-and-hours/salad-bar</a>"
-      },
-      {
-        "name": "Tuscan Valley",
-        "code": "TUSCANVALLEY",
-        "lat":  43.81868128717473,
-        "lon": -111.7823956951955,
-        "info": "Located on the 2nd  floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/tuscan-valley'>http://www.byui.edu/food-services/locations-and-hours/tuscan-valley</a>"
+        "name": "Henry's Fork BBQ",
+        "code": "HENRYSFORKBBQ",
+        "lat":  43.81853149418591,
+        "lon": -111.7825524476314,
+        "info": "Stacks and wraps food, located on the 2nd floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 2:00 p.m.<br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq'>http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq</a>"
       },
       {
         "name": "MC Market",
@@ -679,14 +663,30 @@
         "img": "McMarket.jpg",
         "lat":  43.81861464827622,
         "lon": -111.7826526017039,
-        "info": "Located on the 1st floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/mc-market'>http://www.byui.edu/food-services/locations-and-hours/mc-market</a>"
+        "info": "Located on the 1st floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday-Friday: 9:00 am - 7:00 pm<br/>Saturdays: 10:00 am - 7:00pm<br/>(Closed for Devotional on Tuesdays)<br/>Sunday: Closed<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/mc-market'>http://www.byui.edu/food-services/locations-and-hours/mc-market</a>"
       },
       {
-        "name": "Garden View Café",
-        "code": "GARDENVIEWCAFE",
-        "lat":  43.81479073032416,
-        "lon": -111.7826526017039,
-        "info": "Located on the 1st floor of the MC<br/><a href='http://www.byui.edu/food-services/locations-and-hours/mc-market'>http://www.byui.edu/food-services/locations-and-hours/mc-market</a>"
+        "name": "Salad Bar",
+        "code": "SALADBAR",
+        "img": "Salad.jpg",
+        "lat":  43.81863461978169,
+        "lon": -111.7824785411088,
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/salad-bar'>http://www.byui.edu/food-services/locations-and-hours/salad-bar</a>"
+      },
+      {
+        "name": "Stacks and Wraps",
+        "code": "STACKSANDWRAPS",
+        "img": "Stacks-and-Wraps.jpg",
+        "lat":  43.81865148142322,
+        "lon": -111.7824055117548,
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Saturday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps'>http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps</a>"
+      },
+      {
+        "name": "Tuscan Valley",
+        "code": "TUSCANVALLEY",
+        "lat":  43.81868128717473,
+        "lon": -111.7823956951955,
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong>Monday through Friday: 10:30 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/tuscan-valley'>http://www.byui.edu/food-services/locations-and-hours/tuscan-valley</a>"
       }
     ],
     "vending": [
@@ -1008,7 +1008,7 @@
     ],
     "playfields": [
       {
-        "name": "4 Plex- Field 1",
+        "name": "4 Plex - Field 1",
         "code": "1",
         "lat":  43.81054127708088,
         "lon": -111.7846084967424,
@@ -1016,7 +1016,7 @@
         "info": "7th South Activity Fields<br/>Artificial field turf. Muti-use full soccer and softball field. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "4 Plex- Field 2",
+        "name": "4 Plex - Field 2",
         "code": "2",
         "lat":  43.80933478831204,
         "lon": -111.7846834569128,
@@ -1024,7 +1024,7 @@
         "info": "7th South Activity Fields<br/>Artificial field turf. Muti-use full soccer and softball field. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "4 Plex- Field 3",
+        "name": "4 Plex - Field 3",
         "code": "3",
         "lat":  43.81071798665069,
         "lon": -111.7858519476696,
@@ -1032,33 +1032,12 @@
         "info": "7th South Activity Fields <br/>Grass muti-use fields. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "4 Plex- Field 4",
+        "name": "4 Plex - Field 4",
         "code": "4",
         "lat":  43.81003608579535,
         "lon": -111.7862319352064,
         "img": "4Plex3-4Fields.jpg",
         "info": "7th South Activity Fields<br/>Grass muti-use fields. Recreational area often scheduled for Student Activities."
-      },
-      {
-        "name": "Upper Playfields-North",
-        "code": "5",
-        "lat":  43.81281083420959,
-        "lon": -111.7854493760957,
-        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
-      },
-      {
-        "name": "Upper Playfields-Middle",
-        "code": "6",
-        "lat":  43.81245500730314,
-        "lon": -111.7854668088413,
-        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
-      },
-      {
-        "name": "Upper Playfields-South",
-        "code": "7",
-        "lat":  43.81204689742254,
-        "lon": -111.785439936203,
-        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       },
       {
         "name": "Baseball Diamond",
@@ -1075,74 +1054,89 @@
         "info": "Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities."
       },
       {
-        "name": "Tennis Courts- West",
+        "name": "Tennis Courts - West",
         "code": "10",
         "lat":  43.81936445832934,
         "lon": -111.7871018896488,
         "info": "Recreational area often scheduled for Student Activities.<"
       },
       {
-        "name": "Tennis Courts- East",
+        "name": "Tennis Courts - East",
         "code": "11",
         "lat":  43.81712830137598,
         "lon": -111.7786622733956,
         "info": "Recreational area often scheduled for Student Activities."
+      },
+      {
+        "name": "Upper Playfields - North",
+        "code": "5",
+        "lat":  43.81281083420959,
+        "lon": -111.7854493760957,
+        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
+      },
+      {
+        "name": "Upper Playfields - Middle",
+        "code": "6",
+        "lat":  43.81245500730314,
+        "lon": -111.7854668088413,
+        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
+      },
+      {
+        "name": "Upper Playfields - South",
+        "code": "7",
+        "lat":  43.81204689742254,
+        "lon": -111.785439936203,
+        "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       }
     ],
     "webcams": [
       {
         "name": "Copy Spot",
         "code": "COPYSPOT",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat":  43.819730,
+        "lon": -111.782326,
         "img": "http://www2.byui.edu/images/copyspot.asp",
-        "info": "The Copy Spot is a place to print, bind, laminate and make copies.",
-        "link": "http://www2.byui.edu/PR/webtour/"
+        "info": "The Copy Spot is a place to print, bind, laminate and make copies.<br/><br/><a href='http://www2.byui.edu/CopySpot/'>http://www2.byui.edu/CopySpot/</a>"
       },
       {
         "name": "Thomas E. Ricks Gardens",
         "code": "RICKSGARDENS",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat":  43.815641,
+        "lon": -111.780212,
         "img": "http://www2.byui.edu/images/gardens.asp",
-        "info": "The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.",
-        "link": "http://www2.byui.edu/PR/webtour/"
+        "info": "The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.<br/><br/><a href='http://www2.byui.edu/Horticulture/norman%20work/gardens.htm'>http://www2.byui.edu/Horticulture/norman%20work/gardens.htm</a>"
       },
       {
         "name": "Rexburg Temple",
         "code": "REXBURGTEMPLE",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat":  43.814627,
+        "lon": -111.781345,
         "img": "http://www2.byui.edu/images/temple.asp",
-        "info": "The LDS Temple in Rexburg.",
-        "link": "http://www2.byui.edu/PR/webtour/"
+        "info": "The LDS Temple in Rexburg.<br/><br/><a href='http://www.byui.edu/galleries/rexburg-temple'>http://www.byui.edu/galleries/rexburg-temple</a>"
       },
       {
         "name": "Smith Quad",
         "code": "SMITHQUAD",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat":   43.819253,
+        "lon": -111.781667,
         "img": "http://www2.byui.edu/images/smithQuad.asp",
-        "info": "The Smith Quad.",
-        "link": "http://www2.byui.edu/PR/webtour/"
+        "info": "The Smith Quad."
       },
       {
         "name": "Testing Center",
         "code": "TESTINGCENTER",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat":  43.818364,
+        "lon": -111.783068,
         "img": "http://www2.byui.edu/images/testingCenter.asp",
-        "info": "The Testing Center",
-        "link": "http://www2.byui.edu/PR/webtour/"
+        "info": "The Testing Center<br/><br/><a href='http://testing.byui.edu/'>http://testing.byui.edu/</a>"
       },
       {
         "name": "Rexburg Weather",
         "code": "REXBURGWEATHER",
-        "lat": 43.811265,
-        "lon": -111.786779,
+        "lat":  43.814822,
+        "lon": -111.781840,
         "img": "http://www2.byui.edu/images/weather.asp",
-        "info": "Rexburg Weather",
-        "link": "http://www2.byui.edu/PR/webtour/"
+        "info": "A webcam that shows the current Rexburg Weather"
       }
     ]
   }

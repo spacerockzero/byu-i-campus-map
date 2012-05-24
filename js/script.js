@@ -35,7 +35,6 @@
     html5Video = false;
   }
 
-
 // POPULATE CATEGORY LIST
 
 function listCategories() {
@@ -78,7 +77,6 @@ function listCategories() {
 
 // CACHE SECONDARY RESOURCES?
 
-
 // LOAD MAP (INIT)
 
   // INIT SETTINGS
@@ -106,7 +104,6 @@ function listCategories() {
     campusLayer.setMap(map);
 
   }//end initialize()
-
 
 // MAP FUNCTIONS
 
@@ -148,7 +145,6 @@ function listCategories() {
         }
       }
     }
-
   } // end populateCategories()
 
   // POPULATE OBJECT CATEGORY AND MAP MARKERS
@@ -201,7 +197,7 @@ function listCategories() {
             }
             if (s.video) {var video = s.video;}
             if (s.icon) {var icon = 'images/icons/' + s.icon;} else {var icon = 'images/icons/' + defaultIcon;}
-            if (s.link) {var link = s.link;}
+            //if (s.link) {var link = s.link;}
             if (s.code) {var id = category + '_' + code;}
 
             var marker = new google.maps.Marker({
@@ -224,6 +220,7 @@ function listCategories() {
             .html('<img src="' + icon + '" alt="' + id + '"/><span class="object_name">' + name + '</span>')
             .click(function() {
               //console.log("this = " + $(this).parent().toggleClass('active_item'));
+              //$('li').siblings('li').removeClass('active_item');
               $(this).siblings('li').removeClass('active_item');
               $(this).toggleClass('active_item');
               //console.log("obj = " + obj);
@@ -265,10 +262,10 @@ function listCategories() {
           {
             content += info;
           }
-          if (link)
-          {
-            content += '<br/><a href="' + link + '">More information about ' + name + ' on the web</a>';
-          }
+          // if (link)
+          // {
+          //   content += '<br/><a href="' + link + '">More information about ' + name + ' on the web</a>';
+          // }
           content += '</div>' +
           '</div>';
 
@@ -278,17 +275,11 @@ function listCategories() {
           // Open the InfoWindow
           infoWindow.open(map, marker);
           
-          fitToMarkers(markerArray[catID]);
+          //fitToMarkers(markerArray[catID]);
 
-          
-          
-          //console.log("after v.play()");
+        }); //end click listener
 
-            }); //end click listener
-            //fitToMarkers(markerArray[])
       });//end markers each loop
-
-      //fitToMarkers(markerArray[catID]);
 
     }//end if markersExist
 
@@ -420,11 +411,8 @@ function listCategories() {
     map.panTo(marker.getPosition());
     google.maps.event.trigger(marker, 'click');
     
-    console.log("inside displayPoint");
-    // $('video')[0].load( function(){
-    //   this.play();
-    // });
-    //console.log("after play");
+    //console.log("inside displayPoint");
+
   }/* END displayPoint() */
 
 // GENERAL FUNCTIONS
@@ -432,9 +420,7 @@ function listCategories() {
   //function for passing array values through other object/function args cleanly
   function perform(array_name) {
     return this[array_name];
-  }//end perform()
-
-  
+  }//end perform()  
 
   // Pan & Zoom map to show all markers
   function fitToMarkers(markers) {
@@ -505,22 +491,12 @@ $(window).load(function() {
 
     });
 
-
-
   });//end (window).load()
 
   // resize map pane when window is resized to fit menu
   window.onresize = function() {
     windowResize();
   };//end window.onresize()
-  
-  
-
-    // $('video').load( function() {
-    //   var obj = $('video'); 
-    //   obj[0].play();
-    //   obj.attr('title','autoplay');
-    // });
  
   // SELECT & PAN TO OBJECT FROM EXTERNAL SOURCE (FUTURE FEATURE)
     // OPEN / SHOW INFO PANE (should already be populated from when category was opened)
