@@ -220,7 +220,7 @@ function listCategories() {
             .html('<img src="' + icon + '" alt="' + id + '"/><span class="object_name">' + name + '</span>')
             .click(function() {
               //console.log("this = " + $(this).parent().toggleClass('active_item'));
-              //$('li').siblings('li').removeClass('active_item');
+              
               $(this).siblings('li').removeClass('active_item');
               $(this).toggleClass('active_item');
               //console.log("obj = " + obj);
@@ -490,7 +490,10 @@ $(window).load(function() {
       populateCategories(category, obj, catIndex, type);
 
     });
-
+    $("body:not(li < .object_list)").live('click', function() {
+      $('li').removeClass('active_item');
+    });
+    
   });//end (window).load()
 
   // resize map pane when window is resized to fit menu
