@@ -507,6 +507,10 @@ footer {
   width: 100%;
   background: #333;
 }
+::selection,
+::-moz-selection {
+  background: #0689E8;
+}
 /*@import 'header.less';*/
 #map_canvas {
   float: left;

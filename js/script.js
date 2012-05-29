@@ -1,5 +1,5 @@
 /* BYU-I Campus Map */
-/* 4.10.2012 */
+/* 5.29.2012 */
 
 // LOADING SECTION
   // GLOBAL VARS
@@ -109,10 +109,9 @@ function listCategories() {
 
   // BEGIN CATEGORY POPULATION ROUTING
   function populateCategories(category, obj, catIndex, type) {
-
+    
     //close any open info windows
     infoWindow.close();
-
     category = category.substring(9);
     catIndex = catIndex.substring(9);
 
@@ -123,24 +122,17 @@ function listCategories() {
     }
     else {
       if (type == 0) {
-        //console.log("inside populate else (markers do not exist yet, launching loadPins() and showHideCategory())");
         loadPins(category, obj, false);
         showHideCategory(category, obj, catIndex, type);
         windowResize();
       } else {
         if (parkingLayer != '') {
-          //console.log("parkingLayer != ''");
-
           loadPolygonCategory(category, obj, true);
           showHideCategory(category, obj, catIndex, type);
-
           windowResize();
         }
         else {
-          //console.log("parkingLayer == ''");
-
           showHideCategory(category, obj, catIndex, type);
-
           windowResize();
         }
       }
@@ -262,6 +254,7 @@ function listCategories() {
           {
             content += info;
           }
+          // Link area taken out until more link data has been added to the datafile
           // if (link)
           // {
           //   content += '<br/><a href="' + link + '">More information about ' + name + ' on the web</a>';
@@ -341,12 +334,6 @@ function listCategories() {
     //load map layer
     parkingLayer = new google.maps.KmlLayer(polygonFile);
 
-    // google.maps.event.addListener(parkingLayer, "metadata_changed", function() {
-    //     console.log("metadata_changed");
-    // });
-
-    //console.log('end loadPolygonCategory()');
-
   }// end loadPolygonCategory()
 
   // CATEGORY OPEN AND CLOSE
@@ -361,8 +348,6 @@ function listCategories() {
     if (type == 1) {
 
       //Hide this layer's polygons
-      //console.log('type == 1');
-
       if (obj.attr('class') == 'hidden') {
         //console.log('obj == hidden, set map to null');
         parkingLayer.setMap(null);
@@ -391,9 +376,6 @@ function listCategories() {
       }
     }
 
-    // ELSE (POLYGON AREAS)
-      // ERASE / HIDE THIS CATEGORY'S POLYGONS
-
   }//end showHideCategory()
 
   // OBJECT SELECT AND DISPLAY
@@ -410,8 +392,6 @@ function listCategories() {
     });
     map.panTo(marker.getPosition());
     google.maps.event.trigger(marker, 'click');
-    
-    //console.log("inside displayPoint");
 
   }/* END displayPoint() */
 
@@ -433,20 +413,13 @@ function listCategories() {
         bounds.extend(latlng);
       }
 
-      // Don't zoom in too far on only one marker (zoomed out too far for the relative size of our campus...)
-      // if (bounds.getNorthEast().equals(bounds.getSouthWest())) {
-      //    var extendPoint1 = new google.maps.LatLng(bounds.getNorthEast().lat() + 0.01, bounds.getNorthEast().lng() + 0.01);
-      //    var extendPoint2 = new google.maps.LatLng(bounds.getNorthEast().lat() - 0.01, bounds.getNorthEast().lng() - 0.01);
-      //    bounds.extend(extendPoint1);
-      //    bounds.extend(extendPoint2);
-      // }
-
       map.fitBounds(bounds);
 
   }//end fitToMarkers()
 
   // Resize map pane to fit with menu width
   function windowResize() {
+  //commented out parts of mobile/tablet strategy until it's ready
   //$(function() {  
     // if ($('body').width() < 768) {
       
@@ -479,23 +452,21 @@ $(window).load(function() {
 
     //bind category populating and hide/show to the menu item
     $('.marker_category_a').live('click', function() {
-
       category = $(this).attr('id'),
       obj = $(this).siblings('div'),
       catIndex = $(this).attr('name'),
       type = $(this).attr('alt').substring(5);
-
-      //console.log('type = ' + type);
-
       populateCategories(category, obj, catIndex, type);
-
-    });
-    $("body:not(li < .object_list)").live('click', function() {
-      $('li').removeClass('active_item');
     });
     
   });//end (window).load()
 
+$(document).click(function(e){
+    //deactivate menu item highlighting when clicking anywhere but the menu items
+    if ($(e.target).closest("li").length == 0) {
+        $('li').removeClass('active_item');
+    }
+});
   // resize map pane when window is resized to fit menu
   window.onresize = function() {
     windowResize();
