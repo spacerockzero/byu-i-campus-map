@@ -2,7 +2,15 @@
   "info": {
     "categories": [
       {
-        "ID": 1,
+        "ID":1,
+        "name": "campustour",
+        "title": "Campus Tour",
+        "text": "A campus tour is now available online!<br/><br/><a href='http://www2.byui.edu/PR/webtour/'>http://www2.byui.edu/PR/webtour/</a>",
+        "icon": "tour.png",
+        "type": 0
+      },
+      {
+        "ID": 2,
         "name": "buildings",
         "title": "Buildings",
         "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.<br/><br/><a href='http://www2.byui.edu/BldgsGrnds/'>http://www2.byui.edu/BldgsGrnds/</a>",
@@ -10,7 +18,7 @@
         "type": 0
       },
       {
-        "ID": 2,
+        "ID": 3,
         "name": "parking",
         "title": "Parking",
         "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<br/><br/><a href='http://www2.byui.edu/ParkingServices/'>http://www2.byui.edu/ParkingServices/</a>",
@@ -19,7 +27,7 @@
         "url": "parking.kml"
       },
       {
-        "ID": 3,
+        "ID": 4,
         "name": "foodanddining",
         "title": "Food & Dining",
         "text": "Food & Dining locations are operated by Food Services for your eating pleasure and convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
@@ -27,7 +35,7 @@
         "type": 0
       },
       {
-        "ID": 4,
+        "ID": 5,
         "name": "vending",
         "title": "Vending Machines",
         "text": "Campus vending machines are operated by food services for your convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
@@ -35,7 +43,7 @@
         "type": 0
       },
       {
-        "ID": 5,
+        "ID": 6,
         "name": "playfields",
         "title": "Playfields",
         "text": "Recreational areas often scheduled for Student Activities.<br/><br/><a href='http://www.byui.edu/activities'>http://www.byui.edu/activities</a>",
@@ -43,7 +51,7 @@
         "type": 0
       },
       {
-        "ID":6,
+        "ID":7,
         "name": "webcams",
         "title": "Webcams",
         "text": "Campus webcams<br/><br/><a href='http://www2.byui.edu/WebCameras/'>http://www2.byui.edu/WebCameras/</a>",
@@ -53,6 +61,125 @@
     ]
   },
   "dataObjects": {
+    "campustour": [
+      {
+        "name": "Introduction",
+        "code": "INTRODUCTION",
+        "lat": 43.8152568593878,
+        "lon": -111.78310049999999,
+        "video": "01-intro",
+        "info": "Campus tours introduction",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Campus History",
+        "code": "CAMPUSHISTORY",
+        "lat": 43.8152568593878,
+        "lon": -111.78310049999999,
+        "video": "02-campus_history",
+        "info": "Campus History",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Jacob Spori Building",
+        "code": "SPORI",
+        "lat": 43.82013049760194,
+        "lon": -111.7814491412516,
+        "video": "03-jacobspori",
+        "info": "Jacob Spori Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Eliza R. Snow Center for the Performing Arts",
+        "code": "SNOW",
+        "lat": 43.82040568861844,
+        "lon": -111.7834341454015,
+        "video": "04-snow",
+        "info": "Eliza R. Snow Center for the Performing Arts",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Oscar A. Kirkham Building",
+        "code": "KIRKHAM",
+        "lat": 43.821114,
+        "lon": -111.781479,
+        "video": "05-kirkham",
+        "info": "Oscar A. Kirkham Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "George S. Romney Science Building",
+        "code": "ROMNEY",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "06-romney",
+        "info": "George S. Romney Science Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "John L. Clarke Building",
+        "code": "CLARKE",
+        "lat":  43.820179,
+        "lon":  -111.781751,
+        "video": "07-clarke",
+        "info": "John L. Clarke Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "David O. McKay Library",
+        "code": "MCKAY",
+        "lat":  43.819310,
+        "lon":  -111.783182,
+        "video": "08-library",
+        "info": "David O. McKay Library",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Joseph Fielding Smith Building",
+        "code": "SMITH",
+        "lat": 43.81920193746524,
+        "lon": -111.7815120835109,
+        "video": "09-smith",
+        "info": "Joseph Fielding Smith Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Hyrum Manwaring Student Center",
+        "code": "MC",
+        "lat":  43.818356,
+        "lon":  -111.782436,
+        "video": "10-MC",
+        "info": "Hyrum Manwaring Student Center",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "John W. Hart Physical Education Building",
+        "code": "HART",
+        "lat":  43.819535,
+        "lon": -111.785311,
+        "video": "11-Hart",
+        "info": "John W. Hart Physical Education Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "John Taylor Building",
+        "code": "TAYLOR",
+        "lat":  43.81705797643297,
+        "lon":  -111.7811963030408,
+        "video": "12-Taylor",
+        "info": "John Taylor Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      },
+      {
+        "name": "Spencer W. Kimball Administration Building",
+        "code": "KIMBALL",
+        "lat": 43.81943529937006,
+        "lon": -111.7832273352486,
+        "video": "13-Kimball",
+        "info": "Spencer W. Kimball Administration Building",
+        "link": "http://www2.byui.edu/PR/webtour/"
+      }
+    ],
     "buildings": [
       {
         "name": "AGM - Ag. Engineering Bldg.",
