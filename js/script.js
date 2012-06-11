@@ -56,7 +56,7 @@ function listCategories() {
 
         $('<div class="marker_category" class="white"/>')
         .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '" alt="type_' + type + '">' +
-          '<img class="cat_icon" src="images/icons/' + icon + '" alt="' + id + '"/>' +
+          '<img class="cat_icon" src="images/icons/numeral-icons/' + icon + '/0.png" alt="' + id + '"/>' +
            title + '<span class="cat_indicator">&nbsp;</span></a><div id="category_div_' +
            name + '" class="hidden"/>')
         .appendTo('#categories');
@@ -83,7 +83,7 @@ function listCategories() {
   var myLatlng = new google.maps.LatLng(43.814188, -111.783515);
   var myOptions = {
     maxZoom: 18,
-    zoom: 17,
+    zoom: 16,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.HYBRID,
     mapTypeControlOptions: {
@@ -100,8 +100,16 @@ function listCategories() {
     listCategories();
 
     //load campus boundary map layer
-    campusLayer = new google.maps.KmlLayer(campusFile);
+    campusLayer = new google.maps.KmlLayer(campusFile,
+                  {
+                      suppressInfoWindows: true,
+                      map: map,
+                      preserveViewport: true
+                  });
     campusLayer.setMap(map);
+
+    //zoom in a bit more than usual
+    //map.setZoom(map.getZoom() + 1);
 
   }//end initialize()
 
@@ -188,7 +196,7 @@ function listCategories() {
               }
             }
             if (s.video) {var video = s.video;}
-            if (s.icon) {var icon = 'images/icons/' + s.icon;} else {var icon = 'images/icons/' + defaultIcon;}
+            if (s.icon) {var iconpath = 'images/icons/numeral-icons/' + s.icon;} else {var iconpath = 'images/icons/numeral-icons/' + defaultIcon;}
             //if (s.link) {var link = s.link;}
             if (s.code) {var id = category + '_' + code;}
 
@@ -196,7 +204,7 @@ function listCategories() {
               position: new google.maps.LatLng(lat, lon),
               map: map,
               title: name,
-              icon: icon
+              icon: iconpath + '/' + (i+1) + ".png"
             });
 
             markerArray[category + '_bounds'][markerArray[category + '_bounds'].length] = bounds;
@@ -207,9 +215,9 @@ function listCategories() {
 
             var target = 'div#category_div_' + category + ' ul';
 
-            // create building navigation list
+            // create object navigation list
             $("<li name='" + id + "'/>")
-            .html('<img src="' + icon + '" alt="' + id + '"/><span class="object_name">' + name + '</span>')
+            .html('<img src="' + iconpath + '/' + (i+1) + '.png" alt="' + id + '"/><span class="object_name">' + name + '</span>')
             .click(function() {
               //console.log("this = " + $(this).parent().toggleClass('active_item'));
               
@@ -447,6 +455,7 @@ $(window).load(function() {
 
     //initialize map when page loads
     initialize();
+    
     //resize window when page loads
     windowResize();
 
