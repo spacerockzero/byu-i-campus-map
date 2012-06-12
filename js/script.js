@@ -21,7 +21,7 @@
   /* changed JSON file to txt to get past lehi server filetype filters */
   var objectFile = 'data/objectFile.txt';
   var polygonFile = 'http://www2.byui.edu/Map/parking_data.xml';
-  var campusFile = 'http://www2.byui.edu/Map/BYU-IdahoCampus.xml';
+  var campusFile = 'http://lehi3.byui.edu/Map/campus-outline.xml';
 
   var parkingLayer;
 
@@ -80,9 +80,9 @@ function listCategories() {
 // LOAD MAP (INIT)
 
   // INIT SETTINGS
-  var myLatlng = new google.maps.LatLng(43.814188, -111.783515);
+  var myLatlng = new google.maps.LatLng( 43.815045, -111.783515);
   var myOptions = {
-    maxZoom: 18,
+    //maxZoom: 18,
     zoom: 16,
     center: myLatlng,
     mapTypeId: google.maps.MapTypeId.HYBRID,
@@ -104,7 +104,8 @@ function listCategories() {
                   {
                       suppressInfoWindows: true,
                       map: map,
-                      preserveViewport: true
+                      preserveViewport: true,
+                      zoom: 18
                   });
     campusLayer.setMap(map);
 
@@ -467,6 +468,24 @@ $(window).load(function() {
       type = $(this).attr('alt').substring(5);
       populateCategories(category, obj, catIndex, type);
     });
+
+    google.maps.event.addListener(map, 'zoom_changed', function () {
+    // google.maps.event.addListenerOnce(map, 'bounds_changed', function (e) {
+    //         my_zoom_handler(); // do your job here
+    // });
+    var z = map.getZoom();
+    console.log("zoom changed to " + z);
+    if (z >= 17){
+      //closer, do vector texture map
+      console.log("zoom >= 17");
+      map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+    }
+    else {
+      //farther, do satellite texture map
+      console.log("zoom < 17");
+      map.setMapTypeId(google.maps.MapTypeId.HYBRID);
+    }
+});
     
   });//end (window).load()
 

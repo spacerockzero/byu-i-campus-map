@@ -14,7 +14,7 @@
         "name": "parking",
         "title": "Parking",
         "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<br/><br/><a href='http://www2.byui.edu/ParkingServices/'>http://www2.byui.edu/ParkingServices/</a>",
-        "icon": "tan",
+        "icon": "dark-tan",
         "type": 1,
         "url": "parking.kml"
       },
@@ -31,7 +31,7 @@
         "name": "vending",
         "title": "Vending Machines",
         "text": "Campus vending machines are operated by food services for your convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
-        "icon": "yellow",
+        "icon": "orange",
         "type": 0
       },
       {
