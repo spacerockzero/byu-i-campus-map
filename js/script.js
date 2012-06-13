@@ -341,7 +341,13 @@ function listCategories() {
         });
 
     //load map layer
-    parkingLayer = new google.maps.KmlLayer(polygonFile);
+    parkingLayer = new google.maps.KmlLayer(polygonFile,
+                  {
+                      suppressInfoWindows: true,
+                      map: map,
+                      preserveViewport: true,
+                      zoom: 18
+                  });
 
   }// end loadPolygonCategory()
 
@@ -379,7 +385,7 @@ function listCategories() {
       }
       else {
         for (var i in markerArray[catIndex]) {
-          fitToMarkers(markerArray[catIndex]);
+          //fitToMarkers(markerArray[catIndex]);
           markerArray[catIndex][i].setVisible(true);
         }
       }
@@ -412,19 +418,19 @@ function listCategories() {
   }//end perform()  
 
   // Pan & Zoom map to show all markers
-  function fitToMarkers(markers) {
+  // function fitToMarkers(markers) {
 
-    var bounds = new google.maps.LatLngBounds();
+  //   var bounds = new google.maps.LatLngBounds();
 
-      // Create bounds from markers
-      for (var index in markers) {
-        var latlng = markers[index].getPosition();
-        bounds.extend(latlng);
-      }
+  //     // Create bounds from markers
+  //     for (var index in markers) {
+  //       var latlng = markers[index].getPosition();
+  //       bounds.extend(latlng);
+  //     }
 
-      map.fitBounds(bounds);
+  //     map.fitBounds(bounds);
 
-  }//end fitToMarkers()
+  // }//end fitToMarkers()
 
   // Resize map pane to fit with menu width
   function windowResize() {
@@ -454,22 +460,22 @@ function listCategories() {
 // BINDINGS
 $(window).load(function() {
 
-    //initialize map when page loads
-    initialize();
-    
-    //resize window when page loads
-    windowResize();
+  //initialize map when page loads
+  initialize();
+  
+  //resize window when page loads
+  windowResize();
 
-    //bind category populating and hide/show to the menu item
-    $('.marker_category_a').live('click', function() {
-      category = $(this).attr('id'),
-      obj = $(this).siblings('div'),
-      catIndex = $(this).attr('name'),
-      type = $(this).attr('alt').substring(5);
-      populateCategories(category, obj, catIndex, type);
-    });
+  //bind category populating and hide/show to the menu item
+  $('.marker_category_a').live('click', function() {
+    category = $(this).attr('id'),
+    obj = $(this).siblings('div'),
+    catIndex = $(this).attr('name'),
+    type = $(this).attr('alt').substring(5);
+    populateCategories(category, obj, catIndex, type);
+  });
 
-    google.maps.event.addListener(map, 'zoom_changed', function () {
+  google.maps.event.addListener(map, 'zoom_changed', function () {
     // google.maps.event.addListenerOnce(map, 'bounds_changed', function (e) {
     //         my_zoom_handler(); // do your job here
     // });
@@ -485,20 +491,22 @@ $(window).load(function() {
       console.log("zoom < 17");
       map.setMapTypeId(google.maps.MapTypeId.HYBRID);
     }
-});
+  });
     
-  });//end (window).load()
+});//end (window).load()
 
 $(document).click(function(e){
-    //deactivate menu item highlighting when clicking anywhere but the menu items
-    if ($(e.target).closest("li").length == 0) {
-        $('li').removeClass('active_item');
-    }
+  //deactivate menu item highlighting when clicking anywhere but the menu items
+  if ($(e.target).closest("li").length == 0) {
+    $('li').removeClass('active_item');
+  }
 });
+
+//window resize event trigger
+window.onresize = function() {
   // resize map pane when window is resized to fit menu
-  window.onresize = function() {
-    windowResize();
-  };//end window.onresize()
+  windowResize();
+};//end window.onresize()
  
   // SELECT & PAN TO OBJECT FROM EXTERNAL SOURCE (FUTURE FEATURE)
     // OPEN / SHOW INFO PANE (should already be populated from when category was opened)
