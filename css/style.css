@@ -643,6 +643,10 @@ footer {
   font: 11px/134% Helvetica, Arial, sans-serif;
   border-radius: 5px;
 }
+#menu .marker_category div .inner_desc a.cat_link {
+  display: block;
+  margin-top: 5px;
+}
 #menu .marker_category img {
   width: 20px;
   padding-left: 10px;
@@ -698,6 +702,11 @@ footer {
 }
 #menu ul.polygon_list li span {
   padding-top: 0;
+}
+#menu #feedback {
+  color: white;
+  text-align: center;
+  font-size: 12px;
 }
 .infopane {
   display: block;

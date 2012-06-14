@@ -53,6 +53,7 @@ function listCategories() {
         var text = s.text;
         var icon = s.icon;
         var type = s.type;
+        var link = s.link;
 
         $('<div class="marker_category" class="white"/>')
         .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '" alt="type_' + type + '">' +
@@ -172,7 +173,7 @@ function listCategories() {
       var catTarget = 'div#category_div_' + category;
 
       $('<div name="' + categories[catID].name + '_cat_description" class="cat_description"/>')
-      .html('<div class="inner_desc">' + categories[catID].text + '</div>')
+      .html('<div class="inner_desc">' + categories[catID].text + '<br/><a class="cat_link" href="'+ categories[catID].link +'" target="_blank" >' + categories[catID].link + '</a></div>')
       .appendTo(catTarget);
 
       $('<ul class="object_list"/>').appendTo(catTarget);
@@ -276,8 +277,6 @@ function listCategories() {
 
           // Open the InfoWindow
           infoWindow.open(map, marker);
-          
-          //fitToMarkers(markerArray[catID]);
 
         }); //end click listener
 
@@ -309,7 +308,7 @@ function listCategories() {
     var catTarget = 'div#category_div_' + category;
 
     $('<div name="' + categories[catID].name + '_cat_description" class="cat_description"/>')
-    .html('<div class="inner_desc">' + categories[catID].text + '</div>')
+    .html('<div class="inner_desc">' + categories[catID].text + '<br/><a class="cat_link" href="'+ categories[catID].link +'" target="_blank" >' + categories[catID].link + '</a></div>')
     .appendTo(catTarget);
 
     $('<ul class="polygon_list"/>').appendTo(catTarget);

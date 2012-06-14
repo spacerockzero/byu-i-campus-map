@@ -5,7 +5,7 @@
         "ID": 1,
         "name": "buildings",
         "title": "Buildings",
-        "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.<br/><br/><a href='http://www2.byui.edu/BldgsGrnds/'>http://www2.byui.edu/BldgsGrnds/</a>",
+        "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.",
         "icon": "blue",
         "type": 0,
         "link": "http://www2.byui.edu/BldgsGrnds/"
@@ -14,7 +14,7 @@
         "ID": 2,
         "name": "parking",
         "title": "Parking",
-        "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<br/><br/><a href='http://www2.byui.edu/ParkingServices/'>http://www2.byui.edu/ParkingServices/</a>",
+        "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.",
         "icon": "dark-tan",
         "type": 1,
         "url": "parking.kml",
@@ -24,7 +24,7 @@
         "ID": 3,
         "name": "foodanddining",
         "title": "Food & Dining",
-        "text": "Food & Dining locations are operated by Food Services for your eating pleasure and convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
+        "text": "Food & Dining locations are operated by Food Services for your eating pleasure and convenience.",
         "icon": "rust",
         "type": 0,
         "link": "http://www.byui.edu/food-services"
@@ -33,7 +33,7 @@
         "ID": 4,
         "name": "vending",
         "title": "Vending Machines",
-        "text": "Campus vending machines are operated by food services for your convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
+        "text": "Campus vending machines are operated by food services for your convenience.",
         "icon": "orange",
         "type": 0,
         "link": "http://www.byui.edu/food-services"
@@ -42,7 +42,7 @@
         "ID": 5,
         "name": "playfields",
         "title": "Playfields",
-        "text": "Recreational areas often scheduled for Student Activities.<br/><br/><a href='http://www.byui.edu/activities'>http://www.byui.edu/activities</a>",
+        "text": "Recreational areas often scheduled for Student Activities.",
         "icon": "green",
         "type": 0,
         "link": "http://www.byui.edu/activities"
@@ -51,7 +51,7 @@
         "ID":6,
         "name": "webcams",
         "title": "Webcams",
-        "text": "Campus webcams<br/><br/><a href='http://www2.byui.edu/WebCameras/'>http://www2.byui.edu/WebCameras/</a>",
+        "text": "Campus webcams",
         "icon": "purple",
         "type": 0,
         "link": "http://www2.byui.edu/WebCameras/"
@@ -202,6 +202,7 @@
         "code": "MC",
         "lat":  43.818356,
         "lon":  -111.782436,
+        "img": "MC.jpg",
         "info": "Bookstore, Food Services and catering office, bowling alley, ballrooms, the ID Center, Lost and Found, and Scheduling Office."
       },
       {
@@ -232,6 +233,7 @@
       {
         "name": "PPO - Physical Plant Office Bldg.",
         "code": "PPO",
+        "img": "PPO.jpg",
         "lat": 43.81605433714605,
         "lon": -111.7853369234744,
         "info": "Physical Facilities Office and administrative offices for buildings and grounds, custodial, media services, telecommunications, safety, and support services."
@@ -241,6 +243,7 @@
         "code": "PPS",
         "lat": 43.81594597634651,
         "lon": -111.7859443479993,
+        "img": "PPS.jpg",
         "info": "Central shops for carpentry; electrical; fleet services; heating, ventilation, and air conditioning; locks and keys; and plumbing and mechanical operations."
       },
       {
@@ -335,6 +338,7 @@
       {
         "name": "TAY - John Taylor Bldg.",
         "code": "TAY",
+        "img": "TAY.jpg",
         "lat":  43.81705797643297,
         "lon":  -111.7811963030408,
         "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area."
@@ -358,6 +362,7 @@
       {
         "name": "UV  - University Village (families)",
         "code": "UV",
+        "img": "University-Village.jpg",
         "lat": 43.81043018645631,
         "lon": -111.7880177484073,
         "info": "Family housing."
@@ -381,6 +386,7 @@
         "code": "RexburgTemple",
         "lat": 43.810832416805,
         "lon": -111.7784921749187,
+        "img": "Rexburg-Temple.jpg",
         "info": "Owned and operated by The Church of Jesus Christ of Latter-day Saints.",
         "link": "http://www.lds.org/church/temples/rexburg-idaho?lang=eng"
       }
@@ -444,6 +450,7 @@
         "code": "CAFEMCKAY",
         "lat":  43.81909299926238,
         "lon": -111.7830128352975,
+        "img": "CafeMcKay.jpg",
         "info": "1st Floor of the McKay Library.<br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 8:30 a.m. - 3:15 p.m.<br/>*Closed Tuesdays for devotional at 1:45 p.m.",
         "link": "http://www.byui.edu/food-services/locations-and-hours/cafe-mckay"
       },
@@ -461,6 +468,7 @@
         "code": "CHEFSPOINT",
         "lat":  43.81857137498275,
         "lon": -111.7824269019565,
+        "img": "Chefs-Point.jpg",
         "info": "Located on the 2nd floor of the MC.<br/><strong>Hours of Operation:</strong><br/>Monday through Saturday: 11:00 a.m. - 2:00 p.m. and 4:00 p.m. - 6:00 p.m",
         "link": "http://www.byui.edu/food-services/locations-and-hours/chefs-point"
       },
@@ -469,6 +477,7 @@
         "code": "FAREASTFUSION",
         "lat":  43.81854131350695,
         "lon": -111.7824559091124,
+        "img": "Far-east-fusion.jpg",
         "info": "Located on the 2nd floor of the MC. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 11:00 a.m. - 6:00 p.m. <br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
         "link": "http://www.byui.edu/food-services/locations-and-hours/far-east-fusion"
       },
@@ -477,6 +486,7 @@
         "code": "FRESHENS",
         "lat":  43.81857636264045,
         "lon": -111.7826563925517,
+        "img": "Freshens.jpg",
         "info": "<strong>About Freshëns:</strong> <br/>Freshëns sells smoothies, frozen treats, doughnuts, bagels, muffins, cookies and more! <br/>Located on the 1st floor of the MC <br/><br/><strong>Hours of Operation</strong> <br/>7:00 a.m.-6:00 p.m., Monday-Friday",
         "link": "http://www.byui.edu/food-services/locations-and-hours/freshens"
       },
@@ -502,6 +512,7 @@
         "code": "HARVESTHILLSBAKERY",
         "lat":  43.81851277918786,
         "lon": -111.7826159175001,
+        "img": "Harvest-Hill-Bakery.jpg",
         "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Friday: 8:30 a.m. - 2:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
         "link": "http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery"
       },
@@ -545,6 +556,7 @@
         "code": "TUSCANVALLEY",
         "lat":  43.81868128717473,
         "lon": -111.7823956951955,
+        "img": "Tuscan-Valley.jpg",
         "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong>Monday through Friday: 10:30 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
         "link": "http://www.byui.edu/food-services/locations-and-hours/tuscan-valley"
       }
