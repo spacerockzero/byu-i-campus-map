@@ -708,6 +708,12 @@ footer {
   text-align: center;
   font-size: 12px;
 }
+#menu #updated {
+  text-align: center;
+  bottom: 20px;
+  position: absolute;
+  right: 70px;
+}
 .infopane {
   display: block;
   /*height:inherit;
