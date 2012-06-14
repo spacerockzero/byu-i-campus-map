@@ -7,7 +7,8 @@
         "title": "Buildings",
         "text": "Located on the 430-acre campus are numerous buildings designed to meet the diverse needs of the students and employees. While building names often remind of historic legacy, the structures are modern facilities that reflect the wholesome academic, cultural, social and spiritual environment of BYU-Idaho.<br/><br/><a href='http://www2.byui.edu/BldgsGrnds/'>http://www2.byui.edu/BldgsGrnds/</a>",
         "icon": "blue",
-        "type": 0
+        "type": 0,
+        "link": "http://www2.byui.edu/BldgsGrnds/"
       },
       {
         "ID": 2,
@@ -16,7 +17,8 @@
         "text": "Parking Areas are plotted according to the following key. Parking passes will be required as indicated.<br/><br/><a href='http://www2.byui.edu/ParkingServices/'>http://www2.byui.edu/ParkingServices/</a>",
         "icon": "dark-tan",
         "type": 1,
-        "url": "parking.kml"
+        "url": "parking.kml",
+        "link": "http://www2.byui.edu/ParkingServices/"
       },
       {
         "ID": 3,
@@ -24,7 +26,8 @@
         "title": "Food & Dining",
         "text": "Food & Dining locations are operated by Food Services for your eating pleasure and convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
         "icon": "rust",
-        "type": 0
+        "type": 0,
+        "link": "http://www.byui.edu/food-services"
       },
       {
         "ID": 4,
@@ -32,7 +35,8 @@
         "title": "Vending Machines",
         "text": "Campus vending machines are operated by food services for your convenience.<br/><br/><a href='http://www.byui.edu/food-services'>http://www.byui.edu/food-services</a>",
         "icon": "orange",
-        "type": 0
+        "type": 0,
+        "link": "http://www.byui.edu/food-services"
       },
       {
         "ID": 5,
@@ -40,7 +44,8 @@
         "title": "Playfields",
         "text": "Recreational areas often scheduled for Student Activities.<br/><br/><a href='http://www.byui.edu/activities'>http://www.byui.edu/activities</a>",
         "icon": "green",
-        "type": 0
+        "type": 0,
+        "link": "http://www.byui.edu/activities"
       },
       {
         "ID":6,
@@ -48,7 +53,8 @@
         "title": "Webcams",
         "text": "Campus webcams<br/><br/><a href='http://www2.byui.edu/WebCameras/'>http://www2.byui.edu/WebCameras/</a>",
         "icon": "purple",
-        "type": 0
+        "type": 0,
+        "link": "http://www2.byui.edu/WebCameras/"
       }
     ]
   },
@@ -60,8 +66,7 @@
         "lat":  43.813304,
         "lon": -111.783140,
         "img": "AGM-AgEngineeringBldg.jpg",
-        "info": "Lab area for Department of Agribusiness, Plant & Animal Science.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Lab area for Department of Agribusiness, Plant & Animal Science."
       },
       {
         "name": "ASB - Auxiliary Services Bldg.",
@@ -69,8 +74,7 @@
         "lat":  43.814100,
         "lon": -111.783147,
         "img": "ASB-AuxiliaryServicesBldg.jpg",
-        "info": "Division of Continuing Education, University Press, a Copy Spot, the university's central warehouse, purchasing and travel offices.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Division of Continuing Education, University Press, a Copy Spot, the university's central warehouse, purchasing and travel offices."
       },
       {
         "name": "AUS - Mark Austin Technical & Engineering Bldg.",
@@ -78,16 +82,16 @@
         "lat":  43.815756,
         "lon": -111.784646,
         "img": "AUS-MarkAustinTechnicalEngineeringBldg.jpg",
-        "info": "Department of Architecture & Construction, Department of Automotive Technology, Department of Computer Science and Engineering, and Department of Mechanical Engineering.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Architecture & Construction, Department of Automotive Technology, Department of Computer Science and Engineering, and Department of Mechanical Engineering."
       },
       {
         "name": "BCTR - BYU-Idaho Center",
         "code": "BCTR",
         "lat":  43.818514,
         "lon": -111.785046,
+        "img": "BCTR.jpg",
         "info": "The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full basketball courts, opened following a dedication on Dec. 17, 2010.",
-        "link": "http://www.byui.edu/agriculture/"
+        "link": "http://www2.byui.edu/BYUIdahoCenter/"
       },
       {
         "name": "BEN - Ezra Taft Benson Agricultural & Biological Sciences Bldg.",
@@ -95,8 +99,7 @@
         "lat":  43.815441,
         "lon": -111.783076,
         "img": "BEN-EzraTaftBensonAgriculturalBiologicalSciencesBldg.jpg",
-        "info": "Department of Biology, Department of Horticulture, laboratories, greenhouses, horticulture outlet for studio flowers and plant sales, and the Wildlife Museum.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Biology, Department of Horticulture, laboratories, greenhouses, horticulture outlet for studio flowers and plant sales, and the Wildlife Museum."
       },
       {
         "name": "BID - Biddulph Hall (men)",
@@ -104,8 +107,7 @@
         "lat":  43.817054,
         "lon": -111.785123,
         "img": "BID-BiddulphHallmen.jpg",
-        "info": "Men's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Men's housing."
       },
       {
         "name": "BRN - Barnes Hall (women)",
@@ -113,8 +115,7 @@
         "lat":  43.819171,
         "lon": -111.778768,
         "img": "BRN-BarnesHallwomen.jpg",
-        "info": "Women's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Women's housing."
       },
       {
         "name": "CHP - Chapman Hall (men)",
@@ -122,8 +123,7 @@
         "lat":  43.818202,
         "lon":  -111.780259,
         "img": "CHP-ChapmanHallmen.jpg",
-        "info": "Men's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Men's housing."
       },
       {
         "name": "CLK - John L. Clarke Bldg.",
@@ -131,16 +131,14 @@
         "lat":  43.820179,
         "lon":  -111.781751,
         "img": "CLK-JohnLClarkeBldg.jpg",
-        "info": "Department of Health Science, Department of Interior Design, Department of Nursing, Department of Home and Family, preschool for the child development program, Testing Services.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Health Science, Department of Interior Design, Department of Nursing, Department of Home and Family, preschool for the child development program, Testing Services."
       },
       {
         "name": "CML - Construction Management Lab",
         "code": "CML",
         "lat":  43.815239,
         "lon":  -111.787772,
-        "info": "Lab area for Department of Department of Architecture and Construction.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Lab area for Department of Department of Architecture and Construction."
       },
       {
         "name": "HIN - Gordon B. Hinckley Bldg.",
@@ -148,8 +146,7 @@
         "lat":  43.815841,
         "lon":  -111.779900,
         "img": "HIN-GordonBHinckleyBldg.jpg",
-        "info": "Department of Teacher Education, faculty offices, Institute classes, and a stake center.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Teacher Education, faculty offices, Institute classes, and a stake center."
       },
       {
         "name": "HRT - John W. Hart Physical Education Bldg.",
@@ -158,7 +155,7 @@
         "lon": -111.785311,
         "img": "HRT-JohnWHartPhysicalEducationBldg.jpg",
         "info": "Department of Exercise & Sports Science, Main Gymnasium/Hart Auditorium, Auxiliary Gym, field house, swimming pool, racquetball courts, dressing rooms, physical fitness and wellness centers.",
-        "link": "http://www.byui.edu/agriculture/"
+        "link": "http://www2.byui.edu/HartBuilding/"
       },
       {
         "name": "HTG - Heating Plant",
@@ -166,8 +163,7 @@
         "lat":  43.817298,
         "lon":  -111.786003,
         "img": "HTG-HeatingPlant.jpg",
-        "info": "BYU-Idaho support facility for heating and hot water.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "BYU-Idaho support facility for heating and hot water."
       },
       {
         "name": "KER - Kerr Hall (women)",
@@ -175,8 +171,7 @@
         "lat":  43.819258,
         "lon":  -111.779575,
         "img": "KER-KerrHallwomen.jpg",
-        "info": "Women's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Women's housing."
       },
       {
         "name": "KIM - Spencer W. Kimball Student & Admin. Services Bldg.",
@@ -184,8 +179,7 @@
         "lat":  43.817071,
         "lon":  -111.781492,
         "img": "KIM-SpencerWKimballStudentAdminServicesBldg.jpg",
-        "info": "Academic Administrative Services, Accounting Office, Admissions Office, Alumni Office, Career & Academic Advising, Cashier and Ticket Services, Dean of Students Office, Executive Offices, Financial Services, Housing Office, Human Resources, International Services, Internship and Career Services, Police, Registrar & Records Office, Scholarships Office, Student Honor Office, and University Relations Office.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Academic Administrative Services, Accounting Office, Admissions Office, Alumni Office, Career & Academic Advising, Cashier and Ticket Services, Dean of Students Office, Executive Offices, Financial Services, Housing Office, Human Resources, International Services, Internship and Career Services, Police, Registrar & Records Office, Scholarships Office, Student Honor Office, and University Relations Office."
       },
       {
         "name": "KRK - Oscar A. Kirkham Bldg.",
@@ -193,8 +187,7 @@
         "lat":  43.821114,
         "lon":  -111.781479,
         "img": "KRK-OscarAKirkhamBldg.jpg",
-        "info": "Department of Dance, Kirkham Auditorium, Arena Theater, and ceramics and sculpture studios.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Dance, Kirkham Auditorium, Arena Theater, and ceramics and sculpture studios."
       },
       {
         "name": "LAM - Lamprecht Hall",
@@ -202,16 +195,14 @@
         "lat":  43.818234,
         "lon":  -111.779517,
         "img": "LAM-LamprechtHallwomen.jpg",
-        "info": "Women's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Women's housing."
       },
       {
         "name": "MC  - Hyrum Manwaring Student Center",
         "code": "MC",
         "lat":  43.818356,
         "lon":  -111.782436,
-        "info": "Bookstore, Food Services and catering office, bowling alley, ballrooms, the ID Center, Lost and Found, and Scheduling Office.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Bookstore, Food Services and catering office, bowling alley, ballrooms, the ID Center, Lost and Found, and Scheduling Office."
       },
       {
         "name": "MCK - David O. McKay Library",
@@ -220,7 +211,7 @@
         "lon":  -111.783182,
         "img": "MCK-DavidOMcKayLibrary.jpg",
         "info": "Department of Academic Learning, book collection, e-book collection, periodicals, computers labs, Family History Center,  archives, a Copy Spot, a special exhibition area, instructional technology labs, equipment checkout and rental, and a self-serve recording room.",
-        "link": "http://www.byui.edu/agriculture/"
+        "link": "http://www.lib.byui.edu/"
       },
       {
         "name": "PER - Perkins Hall (women)",
@@ -228,8 +219,7 @@
         "lat":  43.819253,
         "lon":  -111.780264,
         "img": "PER-PerkinsHallwomen.jpg",
-        "info": "Women's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Women's housing."
       },
       {
         "name": "PPG - Physical Plant Grounds Construction & Sign Shop",
@@ -237,32 +227,28 @@
         "lat":  43.815277,
         "lon":  -111.786379,
         "img": "PPG-PhysicalPlantGroundsConstructionSignShop.jpg",
-        "info": "BYU-Idaho support facility for landscaping, ground maintenance and signage.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "BYU-Idaho support facility for landscaping, ground maintenance and signage."
       },
       {
         "name": "PPO - Physical Plant Office Bldg.",
         "code": "PPO",
         "lat": 43.81605433714605,
         "lon": -111.7853369234744,
-        "info": "Physical Facilities Office and administrative offices for buildings and grounds, custodial, media services, telecommunications, safety, and support services.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Physical Facilities Office and administrative offices for buildings and grounds, custodial, media services, telecommunications, safety, and support services."
       },
       {
         "name": "PPS - Physical Plant Shop Bldg.",
         "code": "PPS",
         "lat": 43.81594597634651,
         "lon": -111.7859443479993,
-        "info": "Central shops for carpentry; electrical; fleet services; heating, ventilation, and air conditioning; locks and keys; and plumbing and mechanical operations.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Central shops for carpentry; electrical; fleet services; heating, ventilation, and air conditioning; locks and keys; and plumbing and mechanical operations."
       },
       {
         "name": "PWS - Plumbing & Welding Shop",
         "code": "PWS",
         "lat":  43.81526579736887,
         "lon":  -111.7853107728127,
-        "info": "Central shop for plumbing and welding services.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Central shop for plumbing and welding services."
       },
       {
         "name": "RGS - Radio and Graphic Services Bldg.",
@@ -270,8 +256,7 @@
         "lat":  43.81706519459516,
         "lon":  -111.7789434430949,
         "img": "RGS-RadioandGraphicServicesBldg.jpg",
-        "info": "University Communications, KBYI FM 100.5, KBYR 91.5, Creative Services (graphic design and photography).",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "University Communications, KBYI FM 100.5, KBYR 91.5, Creative Services (graphic design and photography)."
       },
       {
         "name": "RIC - Ricks Hall (women)",
@@ -279,8 +264,7 @@
         "lat":  43.81812607978744,
         "lon":  -111.778914594058,
         "img": "RIC-RicksHallwomen.jpg",
-        "info": "Women's housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Women's housing."
       },
       {
         "name": "RIG - Rigby Hall (faculty offices)",
@@ -288,8 +272,7 @@
         "lat":  43.81696924342953,
         "lon":  -111.7841900066221,
         "img": "RIG-RigbyHallfacultyoffices.jpg",
-        "info": "Faculty offices, Student Orientation Office.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Faculty offices, Student Orientation Office."
       },
       {
         "name": "RKS - Thomas E. Ricks Bldg.",
@@ -297,8 +280,7 @@
         "lat":  43.81514466531412,
         "lon": -111.7812015011548,
         "img": "RKS-ThomasERicksBldg.jpg",
-        "info": "Department of History, Geography and Political Science; Department of Mathematics; Department of Psychology; and Department of Sociology and Social Work.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of History, Geography and Political Science; Department of Mathematics; Department of Psychology; and Department of Sociology and Social Work."
       },
       {
         "name": "ROM - George S. Romney Bldg.",
@@ -306,8 +288,7 @@
         "lat":  43.81943529937006,
         "lon":  -111.7832273352486,
         "img": "ROM-GeorgeSRomneyBldg.jpg",
-        "info": "Department of Chemistry, Department of Geology, Department of Recreation Leadership, Department of Physics, the planetarium, hall displays, and the Geology Museum.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Chemistry, Department of Geology, Department of Recreation Leadership, Department of Physics, the planetarium, hall displays, and the Geology Museum."
       },
       {
         "name": "SHC - Student Health & Counseling Center",
@@ -316,7 +297,7 @@
         "lon":  -111.7792542421602,
         "img": "SHC-StudentHealthCounselingCenter.jpg",
         "info": "Student Health Center (pharmacy, laboratory, x-ray and orthopedic services), Student Counseling Center (individual, group, and marital counseling).",
-        "link": "http://www.byui.edu/agriculture/"
+        "link": "http://www.byui.edu/health-center"
       },
       {
         "name": "SMI - Joseph Fielding Smith Bldg.",
@@ -324,8 +305,7 @@
         "lat": 43.81920193746524,
         "lon": -111.7815120835109,
         "img": "SMI-JosephFieldingSmithBldg.jpg",
-        "info": "Department of Accounting, Department of Business Management, Department of Economics, Department of Computer Information Technology, Department of Foreign Languages & Literatures, Online Testing Center.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Accounting, Department of Business Management, Department of Economics, Department of Computer Information Technology, Department of Foreign Languages & Literatures, Online Testing Center."
       },
       {
         "name": "SNO - Eliza R. Snow Performing Arts Center",
@@ -334,7 +314,7 @@
         "lon":  -111.7834341454015,
         "img": "SNO-ElizaRSnowPerformingArtsCenter.jpg",
         "info": "Department of Music, Department of Theatre, Barrus Concert Hall, Recital Hall, Snow Drama Theater, Blackbox Theatre, and costume shop.",
-        "link": "http://www.byui.edu/agriculture/"
+        "link": "http://www2.byui.edu/music/"
       },
       {
         "name": "SPO - Jacob Spori Bldg.",
@@ -342,8 +322,7 @@
         "lat": 43.82013049760194,
         "lon": -111.7814491412516,
         "img": "SPO-JacobSporiBldg.jpg",
-        "info": "Department of Communication, Department of Art, art galleries, and artifacts from original Spori Building.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Communication, Department of Art, art galleries, and artifacts from original Spori Building."
       },
       {
         "name": "STA - BYU-Idaho Stadium",
@@ -351,16 +330,14 @@
         "lat": 43.8203142379387,
         "lon": -111.7858582214964,
         "img": "STA-BYU-IdahoStadium.jpg",
-        "info": "Location of the Outdoor Resource Center. Equipment rentals and retail sales.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Location of the Outdoor Resource Center. Equipment rentals and retail sales."
       },
       {
         "name": "TAY - John Taylor Bldg.",
         "code": "TAY",
         "lat":  43.81705797643297,
         "lon":  -111.7811963030408,
-        "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area."
       },
       {
         "name": "TRK - BYU-I Track & Field",
@@ -368,8 +345,7 @@
         "lat": 43.82062309752545,
         "lon": -111.7844109782628,
         "img": "BYU-IdahoTrack.jpg",
-        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden."
       },
       {
         "name": "TRG - Thomas E. Ricks Memorial Gardens",
@@ -377,32 +353,28 @@
         "lat": 43.81582205080509,
         "lon": -111.7815419421354,
         "img": "TRG-ThomasERicksMemorialGardens.jpg",
-        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden."
       },
       {
         "name": "UV  - University Village (families)",
         "code": "UV",
         "lat": 43.81043018645631,
         "lon": -111.7880177484073,
-        "info": "Family housing.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Family housing."
       },
       {
         "name": "VOS - Vehicle Operations Service Station",
         "code": "VOS",
         "lat": 43.81528245659366,
         "lon": -111.7859468775369,
-        "info": "Support area for the university's fleet services.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Support area for the university's fleet services."
       },
       {
         "name": "University Stake Center",
         "code": "UniversityStakeCenter",
         "lat": 43.81091259491949,
         "lon": -111.7810747356341,
-        "info": "Meetinghouse for The Church of Jesus Christ of Latter-day Saints.",
-        "link": "http://www.byui.edu/agriculture/"
+        "info": "Meetinghouse for The Church of Jesus Christ of Latter-day Saints."
       },
       {
         "name": "Rexburg Temple",
@@ -410,7 +382,7 @@
         "lat": 43.810832416805,
         "lon": -111.7784921749187,
         "info": "Owned and operated by The Church of Jesus Christ of Latter-day Saints.",
-        "link": "http://www.byui.edu/agriculture/"
+        "link": "http://www.lds.org/church/temples/rexburg-idaho?lang=eng"
       }
     ],
     "parking": [
@@ -463,14 +435,17 @@
         "code": "CAFEKIMBALL",
         "lat":  43.81663558951467,
         "lon": -111.7814087838211,
-        "info": "1st Floor of the Kimball building on the South end of the commons. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 10:00 a.m. - 1:30 p.m. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/cafe-kimball'>http://www.byui.edu/food-services/locations-and-hours/cafe-kimball</a>"
+        "img": "Cafe-Kimball.jpg",
+        "info": "1st Floor of the Kimball building on the South end of the commons. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 10:00 a.m. - 1:30 p.m.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/cafe-kimball"
       },
       {
         "name": "Café McKay",
         "code": "CAFEMCKAY",
         "lat":  43.81909299926238,
         "lon": -111.7830128352975,
-        "info": "1st Floor of the McKay Library.<br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 8:30 a.m. - 3:15 p.m.<br/>*Closed Tuesdays for devotional at 1:45 p.m. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/cafe-mckay'>http://www.byui.edu/food-services/locations-and-hours/cafe-mckay</a>"
+        "info": "1st Floor of the McKay Library.<br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 8:30 a.m. - 3:15 p.m.<br/>*Closed Tuesdays for devotional at 1:45 p.m.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/cafe-mckay"
       },
       {
         "name": "Caliente",
@@ -478,35 +453,40 @@
         "img": "caliente.jpg",
         "lat":  43.81852167946543,
         "lon": -111.7824973903352,
-        "info": "Located on the 2nd floor of the MC.<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/caliente'>http://www.byui.edu/food-services/locations-and-hours/caliente</a>"
+        "info": "Located on the 2nd floor of the MC.<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/caliente"
       },
       {
         "name": "Chef's Point",
         "code": "CHEFSPOINT",
         "lat":  43.81857137498275,
         "lon": -111.7824269019565,
-        "info": "Located on the 2nd floor of the MC.<br/><strong>Hours of Operation:</strong><br/>Monday through Saturday: 11:00 a.m. - 2:00 p.m. and 4:00 p.m. - 6:00 p.m <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/chefs-point'>http://www.byui.edu/food-services/locations-and-hours/chefs-point</a>"
+        "info": "Located on the 2nd floor of the MC.<br/><strong>Hours of Operation:</strong><br/>Monday through Saturday: 11:00 a.m. - 2:00 p.m. and 4:00 p.m. - 6:00 p.m",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/chefs-point"
       },
       {
         "name": "Far East Fusion",
         "code": "FAREASTFUSION",
         "lat":  43.81854131350695,
         "lon": -111.7824559091124,
-        "info": "Located on the 2nd floor of the MC. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 11:00 a.m. - 6:00 p.m. <br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/far-east-fusion'>http://www.byui.edu/food-services/locations-and-hours/far-east-fusion</a>"
+        "info": "Located on the 2nd floor of the MC. <br/><br/><strong>Hours of Operation:</strong> <br/>Monday through Friday: 11:00 a.m. - 6:00 p.m. <br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/far-east-fusion"
       },
       {
         "name": "Freshëns",
         "code": "FRESHENS",
         "lat":  43.81857636264045,
         "lon": -111.7826563925517,
-        "info": "<strong>About Freshëns:</strong> <br/>Freshëns sells smoothies, frozen treats, doughnuts, bagels, muffins, cookies and more! <br/>Located on the 1st floor of the MC <br/><br/><strong>Hours of Operation</strong> <br/>7:00 a.m.-6:00 p.m., Monday-Friday <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/freshens'>http://www.byui.edu/food-services/locations-and-hours/freshens</a>"
+        "info": "<strong>About Freshëns:</strong> <br/>Freshëns sells smoothies, frozen treats, doughnuts, bagels, muffins, cookies and more! <br/>Located on the 1st floor of the MC <br/><br/><strong>Hours of Operation</strong> <br/>7:00 a.m.-6:00 p.m., Monday-Friday",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/freshens"
       },
       {
         "name": "Garden View Café",
         "code": "GARDENVIEWCAFE",
         "lat":   43.815024,
         "lon":  -111.780930,
-        "info": "Located on the 1st floor of the Ricks Building <br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 8:30 a.m. - 2:30 p.m.<br/>*Closes for Devotional at 2:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe'>http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe</a>"
+        "info": "Located on the 1st floor of the Ricks Building <br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 8:30 a.m. - 2:30 p.m.<br/>*Closes for Devotional at 2:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/garden-view-cafe"
       },
       {
         "name": "Grand Teton Grill",
@@ -514,21 +494,24 @@
         "img": "Teton-Grill.jpg",
         "lat":  43.81862574632019,
         "lon": -111.7824118292022,
-        "info": "Located on the 2nd floor of the MC<br/><br/><strong>Hours of Operation: </strong><br/>Monday through Friday: 8:30 a.m. - 6:00 p.m., Saturday:  11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday. <br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill'>http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill</a>"
+        "info": "Located on the 2nd floor of the MC<br/><br/><strong>Hours of Operation: </strong><br/>Monday through Friday: 8:30 a.m. - 6:00 p.m., Saturday:  11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/grand-teton-grill"
       },
       {
         "name": "Harvest Hills Bakery",
         "code": "HARVESTHILLSBAKERY",
         "lat":  43.81851277918786,
         "lon": -111.7826159175001,
-        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Friday: 8:30 a.m. - 2:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery'>http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery</a>"
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Friday: 8:30 a.m. - 2:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/harvest-hills-bakery"
       },
       {
         "name": "Henry's Fork BBQ",
         "code": "HENRYSFORKBBQ",
         "lat":  43.81853149418591,
         "lon": -111.7825524476314,
-        "info": "Stacks and wraps food, located on the 2nd floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 2:00 p.m.<br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq'>http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq</a>"
+        "info": "Stacks and wraps food, located on the 2nd floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 2:00 p.m.<br/>*Closed for devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/henrys-fork-bbq"
       },
       {
         "name": "MC Market",
@@ -536,7 +519,8 @@
         "img": "McMarket.jpg",
         "lat":  43.81861464827622,
         "lon": -111.7826526017039,
-        "info": "Located on the 1st floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday-Friday: 9:00 am - 7:00 pm<br/>Saturdays: 10:00 am - 7:00pm<br/>(Closed for Devotional on Tuesdays)<br/>Sunday: Closed<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/mc-market'>http://www.byui.edu/food-services/locations-and-hours/mc-market</a>"
+        "info": "Located on the 1st floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday-Friday: 9:00 am - 7:00 pm<br/>Saturdays: 10:00 am - 7:00pm<br/>(Closed for Devotional on Tuesdays)<br/>Sunday: Closed",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/mc-market"
       },
       {
         "name": "Salad Bar",
@@ -544,7 +528,8 @@
         "img": "Salad.jpg",
         "lat":  43.81863461978169,
         "lon": -111.7824785411088,
-        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/salad-bar'>http://www.byui.edu/food-services/locations-and-hours/salad-bar</a>"
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong><br/>Monday through Friday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/salad-bar"
       },
       {
         "name": "Stacks and Wraps",
@@ -552,14 +537,16 @@
         "img": "Stacks-and-Wraps.jpg",
         "lat":  43.81865148142322,
         "lon": -111.7824055117548,
-        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Saturday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps'>http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps</a>"
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation</strong><br/>Monday through Saturday: 11:00 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/stacks-and-wraps"
       },
       {
         "name": "Tuscan Valley",
         "code": "TUSCANVALLEY",
         "lat":  43.81868128717473,
         "lon": -111.7823956951955,
-        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong>Monday through Friday: 10:30 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.<br/><br/><a href='http://www.byui.edu/food-services/locations-and-hours/tuscan-valley'>http://www.byui.edu/food-services/locations-and-hours/tuscan-valley</a>"
+        "info": "Located on the 2nd  floor of the MC<br/><br/><strong>Hours of Operation:</strong>Monday through Friday: 10:30 a.m. - 6:00 p.m.<br/>*Closed for Devotional from 2:00 p.m. to 3:00 p.m. every Tuesday.",
+        "link": "http://www.byui.edu/food-services/locations-and-hours/tuscan-valley"
       }
     ],
     "vending": [
@@ -969,7 +956,8 @@
         "lat":  43.819730,
         "lon": -111.782326,
         "img": "http://www2.byui.edu/images/copyspot.asp",
-        "info": "The Copy Spot is a place to print, bind, laminate and make copies.<br/><br/><a href='http://www2.byui.edu/CopySpot/'>http://www2.byui.edu/CopySpot/</a>"
+        "info": "The Copy Spot is a place to print, bind, laminate and make copies.",
+        "link": "http://www2.byui.edu/CopySpot/"
       },
       {
         "name": "Thomas E. Ricks Gardens",
@@ -977,7 +965,8 @@
         "lat":  43.815641,
         "lon": -111.780212,
         "img": "http://www2.byui.edu/images/gardens.asp",
-        "info": "The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.<br/><br/><a href='http://www2.byui.edu/Horticulture/norman%20work/gardens.htm'>http://www2.byui.edu/Horticulture/norman%20work/gardens.htm</a>"
+        "info": "The Thomas E. Ricks Gardens are located between the Thomas E. Ricks building and the Taylor Chapel (top right). They are named for the founder of the school and provide a peaceful atmosphere for students to relax between classes. This camera looks west into the gardens from the Gordon B. Hinckley Building. The gardens were dedicated on February 18, 2005 by Elder David A. Bednar, former President of BYU-Idaho. The gardens are an extension of the horticulture program.",
+        "link": "http://www2.byui.edu/Horticulture/norman%20work/gardens.htm"
       },
       {
         "name": "Rexburg Temple",
@@ -985,7 +974,8 @@
         "lat":  43.814627,
         "lon": -111.781345,
         "img": "http://www2.byui.edu/images/temple.asp",
-        "info": "The LDS Temple in Rexburg.<br/><br/><a href='http://www.byui.edu/galleries/rexburg-temple'>http://www.byui.edu/galleries/rexburg-temple</a>"
+        "info": "The LDS Temple in Rexburg.",
+        "link": "http://www.byui.edu/galleries/rexburg-temple"
       },
       {
         "name": "Smith Quad",
@@ -1001,7 +991,8 @@
         "lat":  43.818364,
         "lon": -111.783068,
         "img": "http://www2.byui.edu/images/testingCenter.asp",
-        "info": "The Testing Center<br/><br/><a href='http://testing.byui.edu/'>http://testing.byui.edu/</a>"
+        "info": "The Testing Center",
+        "link": "http://testing.byui.edu/"
       },
       {
         "name": "Rexburg Weather",

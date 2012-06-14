@@ -198,7 +198,7 @@ function listCategories() {
             }
             if (s.video) {var video = s.video;}
             if (s.icon) {var iconpath = 'images/icons/numeral-icons/' + s.icon;} else {var iconpath = 'images/icons/numeral-icons/' + defaultIcon;}
-            //if (s.link) {var link = s.link;}
+            if (s.link) {var link = s.link;}
             if (s.code) {var id = category + '_' + code;}
 
             var marker = new google.maps.Marker({
@@ -245,29 +245,29 @@ function listCategories() {
           {
             content += '<img src="' + img + '" alt="' + name + '" width="40%"/>';
           }
-          if (video)
-            /* If no html video support detected, play quicktime video using quicktime plugin */
-            if (html5Video !== true)
-            {
-              content += '<iframe src="video/objects/' + '/' + category + '/' + video + '.mov"></iframe><br/>';
-            }
-            /* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
-            else {
-            content += '<video width="100%" id="' + category + '_id "class="html5_video" controls autoplay preload >' +
-                         '<source src="video/objects/' + '/' + category + '/' + video + '.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" width="100%" />' +
-                         '<source src="video/objects/' + '/' + category + '/' + video + '.webm" type="video/webm;" codecs="vp8, vorbis" width="100%" />' +
-                         'Your browser does not support the <code>video</code> element.' +
-                       '</video><br/>';
-            }
+          // video content portion taken until a decent support model can be created
+          // if (video)
+          //   /* If no html video support detected, play quicktime video using quicktime plugin */
+          //   if (html5Video !== true)
+          //   {
+          //     content += '<iframe src="video/objects/' + '/' + category + '/' + video + '.mov"></iframe><br/>';
+          //   }
+          //   /* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
+          //   else {
+          //   content += '<video width="100%" id="' + category + '_id "class="html5_video" controls autoplay preload >' +
+          //                '<source src="video/objects/' + '/' + category + '/' + video + '.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" width="100%" />' +
+          //                '<source src="video/objects/' + '/' + category + '/' + video + '.webm" type="video/webm;" codecs="vp8, vorbis" width="100%" />' +
+          //                'Your browser does not support the <code>video</code> element.' +
+          //              '</video><br/>';
+          // }
           if (info)
           {
             content += info;
           }
-          // Link area taken out until more link data has been added to the datafile
-          // if (link)
-          // {
-          //   content += '<br/><a href="' + link + '">More information about ' + name + ' on the web</a>';
-          // }
+          if (link)
+          {
+            content += '<br/><br/><a href="' + link + '" target="_blank">More information about ' + name + ' on the web</a>';
+          }
           content += '</div>' +
           '</div>';
 
