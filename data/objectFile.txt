@@ -563,319 +563,158 @@
     ],
     "vending": [
       {
-        "name": "Combo - BRN",
-        "code": "1",
-        "lat":  43.81903274177699,
-        "lon": -111.778850821976,
-        "info": "2nd floor lounge, above laundry room.<br/>Combo Machine."
-      },
-      {
-        "name": "Combo - KER",
-        "code": "2",
-        "lat":  43.81907857414526,
-        "lon": -111.77954226089,
-        "info": "1st floor laundry room.<br/>Combo."
-      },
-      {
-        "name": "Combo - LAM",
-        "code": "2",
-        "lat":  43.81803886557335,
-        "lon": -111.7795172461913,
-        "info": "1st floor laundry room.<br/>Combo."
-      },
-      {
-        "name": "Combo - PER",
-        "code": "2",
-        "lat":  43.81906110267827,
-        "lon": -111.7803649885445,
-        "info": "1st floor laundry room.<br/>Combo."
-      },
-      {
-        "name": "Combo - RIC",
-        "code": "2",
-        "lat":  43.81794189084471,
-        "lon": -111.7788253793899,
-        "info": "1st floor laundry room.<br/>Combo. Nearby machines provide food, snacks, drinks and frozen goods."
-      },
-      {
-        "name": "Drinks - BID",
-        "code": "3",
-        "lat":  43.81708528609551,
-        "lon": -111.7851676792425,
-        "info": "1st floor lounge.<br/>Drinks. Other machines nearby with food and snacks."
-      },
-      {
-        "name": "Drinks - CHP",
-        "code": "4",
-        "lat":  43.81800009170572,
-        "lon": -111.7803323290123,
-        "info": "1st floor laundry room.<br/>Drinks. Nearby machines provide food and snacks."
-      },
-      {
-        "name": "Drinks - CLK",
-        "code": "5",
-        "lat":  43.820303,
-        "lon": -111.781949,
-        "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
-      },
-      {
-        "name": "Drinks - KIM",
-        "code": "6",
-        "lat":  43.81693401824815,
-        "lon": -111.7813540546474,
-        "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
-      },
-      {
-        "name": "Drinks - MC",
-        "code": "6",
-        "lat":  43.81821004565384,
-        "lon": -111.7828223737763,
-        "info": "1st floor lounge.<br/>Drinks. Nearby machines provide food and snacks."
-      },
-      {
-        "name": "Drinks - RIC",
-        "code": "6",
-        "lat":  43.81793549175497,
-        "lon": -111.778812820225,
-        "info": "1st floor laundry room.<br/>Drinks. Nearby machines provide food, snacks, and frozen goods."
-      },
-      {
-        "name": "Food - BID",
-        "code": "7",
-        "lat":  43.81709848501499,
-        "lon": -111.7851941283088,
-        "info": "1st floor entryway.<br/>Drinks. Nearby machines provide snacks and food."
-      },
-      {
-        "name": "Food - BCTR",
-        "code": "8",
-        "lat":  43.81801134364651,
-        "lon": -111.7848386836669,
-        "info": "1st floor (court level), side room.<br/>Food. Other machines nearby include Snacks."
-      },
-      {
-        "name": "Food - CHP",
-        "code": "9",
-        "lat":  43.81797618830873,
-        "lon": -111.780358984969,
-        "info": "1st floor laundry room.<br/>Food. Nearby machines include snacks and drinks."
-      },
-      {
-        "name": "Food - CLK",
-        "code": "10",
-        "lat":  43.82031095304359,
-        "lon": -111.7819731471874,
-        "info": "1st floor entryway.<br/>Food. Nearby machines include snacks and drinks."
-      },
-      {
-        "name": "Food - HIN",
-        "code": "11",
-        "lat":  43.81611,
-        "lon": -111.779708,
-        "info": "2nd floor, gym level, adjoining North-East entryway.<br/>Food. Nearby machine serves snacks."
-      },
-      {
-        "name": "Food - KIM",
-        "code": "12",
-        "lat":  43.81693290566433,
-        "lon": -111.781373104311,
-        "info": "1st floor entryway.<br/>Food. Nearby machines provide snacks and drinks."
-      },
-      {
-        "name": "Food - MC",
-        "code": "12",
-        "lat":  43.818233,
-        "lon": -111.782822,
-        "info": "1st floor lounge.<br/>Food. Nearby machines provide snacks and drinks."
-      },
-      {
-        "name": "Food - MCK",
-        "code": "12",
-        "lat":  43.819066,
-        "lon": -111.783145,
-        "info": "1st floor lobby.<br/>Food. Nearby machines provide snacks."
-      },
-      {
-        "name": "Food - RIC",
-        "code": "12",
-        "lat":  43.81794421185616,
-        "lon": -111.7788435864017,
-        "info": "1st floor laundry room.<br/>Food. Nearby machines provide frozen goods, snacks, and drinks."
-      },
-      {
-        "name": "Food - RIG",
-        "code": "12",
-        "lat":  43.81696482697952,
-        "lon": -111.7844262965071,
-        "info": "1st floor lounge<br/>Food. Other machine nearby with snacks."
-      },
-      {
-        "name": "Food - ROM",
-        "code": "12",
-        "lat":  43.82000767445552,
-        "lon": -111.7832005928064,
-        "info": "Stairway landing between 1st and 2nd floors.<br/>Food. Other machine nearby with Snacks."
-      },
-      {
-        "name": "Food - SMI",
-        "code": "12",
-        "lat":  43.8192314306082,
-        "lon": -111.7816695208319,
-        "info": "Entryway landing between 1st and 2nd floors.<br/>Food. Other machine nearby with Snacks."
-      },
-      {
-        "name": "Food - SPO",
-        "code": "12",
-        "lat":  43.82083022215371,
-        "lon": -111.7823424255988,
-        "info": "2nd floor hallway.<br/>Food. Other machine nearby with Snacks."
-      },
-      {
-        "name": "Food - TAY",
-        "code": "12",
-        "lat":  43.81672922830764,
-        "lon": -111.7823378735806,
-        "info": "1st floor, off of hallway and commons.<br/>Food. Other machine nearby with Snacks."
-      },
-      {
-        "name": "Food - HRT",
-        "code": "12",
-        "lat":  43.81946877697342,
-        "lon": -111.7850283205154,
-        "info": "2nd floor, at crossing of two highways.<br/>Food."
-      },
-      {
-        "name": "Snacks - AGB",
+        "name": "AGB (snacks)",
         "code": "13",
         "lat":  43.81306032643038,
         "lon": -111.7833001800025,
         "info": "Main floor lobby area.<br/>Two snack machines."
       },
       {
-        "name": "Snacks - BCTR",
-        "code": "14",
-        "lat":  43.818022,
-        "lon": -111.784842,
-        "info": "1st floor (court level), side room.<br/>Snacks. Other machine nearby includes Food."
+        "name": "BCTR (food, snacks)",
+        "code": "8",
+        "lat":  43.81801134364651,
+        "lon": -111.7848386836669,
+        "info": "1st floor (court level), side room."
       },
       {
-        "name": "Snacks - BID",
-        "code": "15",
-        "lat":  43.8170414380551,
-        "lon": -111.7852682365325,
-        "info": "1st floor lounge.<br/>Snacks. Other machines nearby with food, drinks, and snacks."
-      },
-      {
-        "name": "Snacks - BEN",
+        "name": "BEN (Snacks)",
         "code": "16",
         "lat":  43.815478,
         "lon": -111.783254,
-        "info": "First floor hallway, near the central stairs.<br/>Snacks."
+        "info": "First floor hallway, near the central stairs."
       },
       {
-        "name": "Snacks - CHP",
-        "code": "17",
-        "lat":  43.81799551693868,
-        "lon": -111.7803133722136,
-        "info": "1st floor laundry room.<br/>Snacks. Nearby machines include food and drinks."
+        "name": "BID (food, drinks, snacks)",
+        "code": "3",
+        "lat":  43.81708528609551,
+        "lon": -111.7851676792425,
+        "info": "1st floor lounge."
       },
       {
-        "name": "Snacks - CLK",
-        "code": "18",
-        "lat":  43.820355,
-        "lon": -111.782017,
-        "info": "1st floor entryway.<br/>Snacks. Nearby machines provide food and drinks."
+        "name": "BRN (Combo)",
+        "code": "1",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "2nd floor lounge, above laundry room."
       },
       {
-        "name": "Snacks - HIN",
-        "code": "19",
-        "lat":  43.816101,
-        "lon": -111.779706,
-        "info": "2nd floor, gym level, adjoining North-East entryway.<br/>Snacks. Nearby machine serves food."
+        "name": "CHP (food, drinks, snacks)",
+        "code": "4",
+        "lat":  43.81800009170572,
+        "lon": -111.7803323290123,
+        "info": "1st floor laundry room."
       },
       {
-        "name": "Snacks - KIM",
-        "code": "20",
-        "lat":  43.81693284853189,
-        "lon": -111.7813921714127,
-        "info": "1st floor entryway.<br/>Snacks. Nearby machines provide food and drinks."
+        "name": "CLK (food, drinks, snacks)",
+        "code": "5",
+        "lat":  43.820303,
+        "lon": -111.781949,
+        "info": "1st floor entryway."
       },
       {
-        "name": "Snacks - KRK",
+        "name": "HIN (food, snacks)",
+        "code": "11",
+        "lat":  43.81611,
+        "lon": -111.779708,
+        "info": "2nd floor, gym level, adjoining North-East entryway."
+      },
+      {
+        "name": "HRT (food)",
+        "code": "12",
+        "lat":  43.81946877697342,
+        "lon": -111.7850283205154,
+        "info": "2nd floor, at crossing of two highways."
+      },
+      {
+        "name": "KER (Combo)",
+        "code": "2",
+        "lat":  43.81907857414526,
+        "lon": -111.77954226089,
+        "info": "1st floor laundry room."
+      },
+      {
+        "name": "KIM (food, drinks, snacks)",
+        "code": "6",
+        "lat":  43.81693401824815,
+        "lon": -111.7813540546474,
+        "info": "1st floor entryway."
+      },
+      {
+        "name": "KRK (Snacks)",
         "code": "21",
         "lat":  43.820973,
         "lon": -111.781728,
-        "info": "2nd floor, ticketing lobby.<br/>Snacks."
+        "info": "2nd floor, ticketing lobby."
       },
       {
-        "name": "Snacks - MC",
-        "code": "22",
-        "lat":  43.818223,
-        "lon": -111.78282,
-        "info": "1st floor lounge.<br/>Snacks. Nearby machines provide food and drinks."
+        "name": "LAM (Combo)",
+        "code": "2",
+        "lat":  43.81803886557335,
+        "lon": -111.7795172461913,
+        "info": "1st floor laundry room."
       },
       {
-        "name": "Snacks - MCK",
-        "code": "22",
-        "lat":  43.81906731952363,
-        "lon": -111.7831444841312,
-        "info": "1st floor lobby.<br/>Snacks. Nearby machines provide food."
+        "name": "MC (food, drinks, snacks)",
+        "code": "6",
+        "lat":  43.81821004565384,
+        "lon": -111.7828223737763,
+        "info": "1st floor lounge."
       },
       {
-        "name": "Snacks - RIC",
-        "code": "23",
-        "lat":  43.81794996200994,
-        "lon": -111.7788183873172,
-        "info": "1st floor laundry room.<br/>Snacks. Nearby machines provide food, frozen goods, and drinks."
+        "name": "MCK (food, snacks)",
+        "code": "12",
+        "lat":  43.819066,
+        "lon": -111.783145,
+        "info": "1st floor lobby."
       },
       {
-        "name": "Snacks - RIG",
-        "code": "24",
-        "lat":  43.81695754638777,
-        "lon": -111.7844135810928,
-        "info": "1st floor lounge<br/>Snacks. Other machine nearby with Food."
+        "name": "PER (Combo)",
+        "code": "2",
+        "lat":  43.81906110267827,
+        "lon": -111.7803649885445,
+        "info": "1st floor laundry room."
       },
       {
-        "name": "Snacks - ROM",
-        "code": "25",
-        "lat":  43.82001386792193,
-        "lon": -111.7832144343634,
-        "info": "Stairway landing between 1st and 2nd floors.<br/>Snacks. Other machine nearby with Food."
+        "name": "RIC (food, drinks, snacks, combo, frozen)",
+        "code": "2",
+        "lat":  43.81794189084471,
+        "lon": -111.7788253793899,
+        "info": "1st floor laundry room."
       },
       {
-        "name": "Snacks - SMI",
-        "code": "25",
-        "lat":  43.81924206309931,
-        "lon": -111.7816667901026,
-        "info": "Entryway landing between 1st and 2nd floors.<br/>Snacks. Other machine nearby with Food."
+        "name": "RIG (food, snacks)",
+        "code": "12",
+        "lat":  43.81696482697952,
+        "lon": -111.7844262965071,
+        "info": "1st floor lounge"
       },
       {
-        "name": "Snacks - SPO",
-        "code": "26",
-        "lat":  43.82084258876398,
-        "lon": -111.7823436128672,
-        "info": "2nd floor hallway.<br/>Snacks. Other machine nearby with Food."
+        "name": "ROM (food, snacks)",
+        "code": "12",
+        "lat":  43.82000767445552,
+        "lon": -111.7832005928064,
+        "info": "Stairway landing between 1st and 2nd floors."
       },
       {
-        "name": "Snacks - TAY",
-        "code": "27",
-        "lat":  43.8167338906422,
-        "lon": -111.7823379398784,
-        "info": "1st floor, off of hallway and commons.<br/>Snacks. Other machine nearby with food."
+        "name": "SMI (food, snacks)",
+        "code": "12",
+        "lat":  43.8192314306082,
+        "lon": -111.7816695208319,
+        "info": "Entryway landing between 1st and 2nd floors."
       },
       {
-        "name": "Snacks - HRT",
-        "code": "28",
-        "lat":  43.81976078691972,
-        "lon": -111.785793676725,
-        "info": "1st floor, in entryway stairwell.<br/>Snacks. Two machines."
+        "name": "SPO (food, snacks)",
+        "code": "12",
+        "lat":  43.82083022215371,
+        "lon": -111.7823424255988,
+        "info": "2nd floor hallway."
       },
       {
-        "name": "Frozen - RIC",
-        "code": "29",
-        "lat":  43.81795481405909,
-        "lon": -111.778829976755,
-        "info": "1st floor laundry room.<br/>Frozen. Nearby machines provide food, snacks, and drinks."
+        "name": "TAY (food, snacks)",
+        "code": "12",
+        "lat":  43.81672922830764,
+        "lon": -111.7823378735806,
+        "info": "1st floor, off of hallway and commons."
       }
     ],
     "playfields": [

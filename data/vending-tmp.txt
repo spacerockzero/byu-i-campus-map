@@ -1,0 +1,158 @@
+"vending": [
+			{
+        "name": "AGB (snacks)",
+        "code": "13",
+        "lat":  43.81306032643038,
+        "lon": -111.7833001800025,
+        "info": "Main floor lobby area.<br/>Two snack machines."
+      },
+			{
+        "name": "BCTR (food, snacks)",
+        "code": "8",
+        "lat":  43.81801134364651,
+        "lon": -111.7848386836669,
+        "info": "1st floor (court level), side room."
+      },
+      {
+        "name": "BEN (Snacks)",
+        "code": "16",
+        "lat":  43.815478,
+        "lon": -111.783254,
+        "info": "First floor hallway, near the central stairs."
+      },
+			{
+        "name": "BID (food, drinks, snacks)",
+        "code": "3",
+        "lat":  43.81708528609551,
+        "lon": -111.7851676792425,
+        "info": "1st floor lounge."
+      },
+			{
+        "name": "BRN (Combo)",
+        "code": "1",
+        "lat":  43.81903274177699,
+        "lon": -111.778850821976,
+        "info": "2nd floor lounge, above laundry room."
+      },
+      {
+        "name": "CHP (food, drinks, snacks)",
+        "code": "4",
+        "lat":  43.81800009170572,
+        "lon": -111.7803323290123,
+        "info": "1st floor laundry room."
+      },
+      {
+        "name": "CLK (food, drinks, snacks)",
+        "code": "5",
+        "lat":  43.820303,
+        "lon": -111.781949,
+        "info": "1st floor entryway."
+      },
+      {
+        "name": "HIN (food, snacks)",
+        "code": "11",
+        "lat":  43.81611,
+        "lon": -111.779708,
+        "info": "2nd floor, gym level, adjoining North-East entryway."
+      },
+      {
+        "name": "HRT (food)",
+        "code": "12",
+        "lat":  43.81946877697342,
+        "lon": -111.7850283205154,
+        "info": "2nd floor, at crossing of two highways."
+      },
+      {
+        "name": "KER (Combo)",
+        "code": "2",
+        "lat":  43.81907857414526,
+        "lon": -111.77954226089,
+        "info": "1st floor laundry room."
+      },
+      {
+        "name": "KIM (food, drinks, snacks)",
+        "code": "6",
+        "lat":  43.81693401824815,
+        "lon": -111.7813540546474,
+        "info": "1st floor entryway."
+      },
+      {
+        "name": "KRK (Snacks)",
+        "code": "21",
+        "lat":  43.820973,
+        "lon": -111.781728,
+        "info": "2nd floor, ticketing lobby."
+      },
+      {
+        "name": "LAM (Combo)",
+        "code": "2",
+        "lat":  43.81803886557335,
+        "lon": -111.7795172461913,
+        "info": "1st floor laundry room."
+      },
+      {
+        "name": "MC (food, drinks, snacks)",
+        "code": "6",
+        "lat":  43.81821004565384,
+        "lon": -111.7828223737763,
+        "info": "1st floor lounge."
+      },
+      {
+        "name": "MCK (food, snacks)",
+        "code": "12",
+        "lat":  43.819066,
+        "lon": -111.783145,
+        "info": "1st floor lobby."
+      },
+      {
+        "name": "PER (Combo)",
+        "code": "2",
+        "lat":  43.81906110267827,
+        "lon": -111.7803649885445,
+        "info": "1st floor laundry room."
+      },
+      {
+        "name": "RIC (food, drinks, snacks, combo, frozen)",
+        "code": "2",
+        "lat":  43.81794189084471,
+        "lon": -111.7788253793899,
+        "info": "1st floor laundry room."
+      },
+      {
+        "name": "RIG (food, snacks)",
+        "code": "12",
+        "lat":  43.81696482697952,
+        "lon": -111.7844262965071,
+        "info": "1st floor lounge"
+      },
+      {
+        "name": "ROM (food, snacks)",
+        "code": "12",
+        "lat":  43.82000767445552,
+        "lon": -111.7832005928064,
+        "info": "Stairway landing between 1st and 2nd floors."
+      },
+      {
+        "name": "SMI (food, snacks)",
+        "code": "12",
+        "lat":  43.8192314306082,
+        "lon": -111.7816695208319,
+        "info": "Entryway landing between 1st and 2nd floors."
+      },
+      {
+        "name": "SPO (food, snacks)",
+        "code": "12",
+        "lat":  43.82083022215371,
+        "lon": -111.7823424255988,
+        "info": "2nd floor hallway."
+      },
+      {
+        "name": "TAY (food, snacks)",
+        "code": "12",
+        "lat":  43.81672922830764,
+        "lon": -111.7823378735806,
+        "info": "1st floor, off of hallway and commons."
+      }
+      
+
+]
