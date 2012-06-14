@@ -254,6 +254,15 @@
         "info": "Central shop for plumbing and welding services."
       },
       {
+        "name": "Rexburg Temple",
+        "code": "RexburgTemple",
+        "lat": 43.810832416805,
+        "lon": -111.7784921749187,
+        "img": "Rexburg-Temple.jpg",
+        "info": "Owned and operated by The Church of Jesus Christ of Latter-day Saints.",
+        "link": "http://www.lds.org/church/temples/rexburg-idaho?lang=eng"
+      },
+      {
         "name": "RGS - Radio and Graphic Services Bldg.",
         "code": "RGS",
         "lat":  43.81706519459516,
@@ -344,6 +353,14 @@
         "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area."
       },
       {
+        "name": "TRG - Thomas E. Ricks Memorial Gardens",
+        "code": "TRG",
+        "lat": 43.81582205080509,
+        "lon": -111.7815419421354,
+        "img": "TRG-ThomasERicksMemorialGardens.jpg",
+        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden."
+      },
+      {
         "name": "TRK - BYU-I Track & Field",
         "code": "TRK",
         "lat": 43.82062309752545,
@@ -352,12 +369,11 @@
         "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden."
       },
       {
-        "name": "TRG - Thomas E. Ricks Memorial Gardens",
-        "code": "TRG",
-        "lat": 43.81582205080509,
-        "lon": -111.7815419421354,
-        "img": "TRG-ThomasERicksMemorialGardens.jpg",
-        "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden."
+        "name": "University Stake Center",
+        "code": "UniversityStakeCenter",
+        "lat": 43.81091259491949,
+        "lon": -111.7810747356341,
+        "info": "Meetinghouse for The Church of Jesus Christ of Latter-day Saints."
       },
       {
         "name": "UV  - University Village (families)",
@@ -373,22 +389,6 @@
         "lat": 43.81528245659366,
         "lon": -111.7859468775369,
         "info": "Support area for the university's fleet services."
-      },
-      {
-        "name": "University Stake Center",
-        "code": "UniversityStakeCenter",
-        "lat": 43.81091259491949,
-        "lon": -111.7810747356341,
-        "info": "Meetinghouse for The Church of Jesus Christ of Latter-day Saints."
-      },
-      {
-        "name": "Rexburg Temple",
-        "code": "RexburgTemple",
-        "lat": 43.810832416805,
-        "lon": -111.7784921749187,
-        "img": "Rexburg-Temple.jpg",
-        "info": "Owned and operated by The Church of Jesus Christ of Latter-day Saints.",
-        "link": "http://www.lds.org/church/temples/rexburg-idaho?lang=eng"
       }
     ],
     "parking": [
