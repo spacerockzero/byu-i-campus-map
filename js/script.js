@@ -25,14 +25,14 @@
   var parkingLayer;
 
   //html5 video detection
-  var noHtmlVideo = false;
-  if (Modernizr.video) {
-    // let's play some video!
-    html5Video = true;
-  } else {
-    // no native video support available :(
-    html5Video = false;
-  }
+  // var noHtmlVideo = false;
+  // if (Modernizr.video) {
+  //   // let's play some video!
+  //   html5Video = true;
+  // } else {
+  //   // no native video support available :(
+  //   html5Video = false;
+  // }
 
 // POPULATE CATEGORY LIST
 

@@ -45,7 +45,6 @@
         "text": "Recreational areas often scheduled for Student Activities.",
         "icon": "green",
         "type": 0,
-        "url": "Playfields",
         "link": "http://www.byui.edu/activities"
       },
       {
