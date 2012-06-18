@@ -45,6 +45,7 @@
         "text": "Recreational areas often scheduled for Student Activities.",
         "icon": "green",
         "type": 0,
+        "url": "Playfields",
         "link": "http://www.byui.edu/activities"
       },
       {
@@ -756,6 +757,41 @@
         "lat":  43.81399306804928,
         "lon": -111.7844636070457,
         "info": "Recreational area often scheduled for Student Activities."
+      },
+      {
+        "name": "BYU-I Center Courts",
+        "code": "8",
+        "lat":  43.81841703577014,
+        "lon": -111.7844832223163,
+        "info": "The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full indoor basketball and volleyball courts. Indoor full running and walking track."
+      },
+      {
+        "name": "Hart Auxilary Gym",
+        "code": "8",
+        "lat":  43.81955263347049,
+        "lon": -111.7844997879188,
+        "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional"
+      },
+      {
+        "name": "Hart Fitness Center",
+        "code": "8",
+        "lat":  43.81955907356128,
+        "lon": -111.7861131438963,
+        "info": "<strong>Hours of operation:</strong><br/>Monday - Saturday<br/>5:00 a.m. - 11:45 p.m.<br/>Phone number 496-7490<br/><br/>The Fitness Center, located in the Hart building, is a state of the art facility. It is equipped with both cardiovascular and strength training equipment. Our cardiovascular equipment includes treadmills, elliptical trainers, stair steppers and cycling/spinning bikes.  We have for your convenience, weight machines and free weights to accommodate all your strength training needs."
+      },
+      {
+        "name": "Hart Main Gym",
+        "code": "8",
+        "lat":  43.81953783834503,
+        "lon": -111.7854134929677,
+        "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional<br/><br/>The John W. Hart building is BYU-Idaho&apos;s center for physical education and fitness. It is home to the Department of Physical Education, the Physical Activities arm of the Activities Program, the Wellness Center, and other facilities of physical fitness. The building contains the Hart Auditorium, a 3,741 seat arena for sports and performing events (can hold up to 4,900 depending on the event and seating configuration), as well as campus ecclesiastical and academic gatherings. The Hart also houses a 25 yard swimming pool, fully equipped weight training and aerobic fitness areas, a field house, three basketball courts including one full size court in the Hart Auditorium, and raquetball courts. Both men&apos;s and women&apos;s locker rooms are available with clothing and lockers available for rental. The Hart Building is primarily for the use of currently enrolled BYU-Idaho students and BYU-Idaho employees, but members of the community and other guests can obtain limited use passes to use the Hart facilities."
+      },
+      {
+        "name": "Raquetball Courts",
+        "code": "9",
+        "lat":  43.81927662896208,
+        "lon": -111.7861592748414,
+        "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional"
       },
       {
         "name": "Stadium Track and Field",

@@ -1,10 +1,9 @@
 /* BYU-I Campus Map */
-/* 5.29.2012 */
+/* 6.18.2012 */
 
 // LOADING SECTION
   // GLOBAL VARS
 
-  //var map;
   var categories = new Array();
   var categoryItems = new Array();
 
