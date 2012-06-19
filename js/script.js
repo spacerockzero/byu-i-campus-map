@@ -320,13 +320,14 @@ function listCategories() {
       var contains = s.contains;
       var borderColor = s.borderColor;
       var fillColor = s.fillColor;
+      var polyIcon = s.icon;
 
       // push category to array to check if populated later
 
       markerCatArray[markerCatArray.length] = category;
 
           //build polygon key icon
-          var icon = '<div class="polygon_key" style="border-color:' + borderColor + ';background-color:' + fillColor + '">&nbsp;</div>';
+          var icon = '<div class="polygon_key" style="border-color:' + borderColor + ';background-color:' + fillColor + '">&nbsp;</div><img src="images/polygons/' + category + "/" + polyIcon + '"/>';
 
           //specify target to insert html into
           var target = 'div#category_div_' + category + ' ul';

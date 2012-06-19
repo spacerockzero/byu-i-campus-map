@@ -396,43 +396,50 @@
         "name":         "City Resident Street Parking",
         "contains":     "Street residential areas",
         "borderColor":  "#32e21b",
-        "fillColor":    "#98f08d"
+        "fillColor":    "#98f08d",
+        "icon":         "cityresident.png"
       },
       {
         "name":         "City Street Parking",
         "contains":     "Street Munipical Areas",
         "borderColor":  "#fd25a2",
-        "fillColor":    "#fe92d0"
+        "fillColor":    "#fe92d0",
+        "icon":         "citystreet.png"
+      },
+      {
+        "name":         "Visitor's Parking",
+        "contains":     "Parking for Visitors. Does not require a pass, but pass-holders will be ticketed here.",
+        "borderColor":  "#ffffff",
+        "fillColor":    "#dddddd",
+        "icon":         "visitor.png"
       },
       {
         "name":         "Faculty & Staff Parking",
         "contains":     "Parking for Faculty & Staff",
         "borderColor":  "#f51515",
-        "fillColor":    "#fa8a8a"
+        "fillColor":    "#fa8a8a",
+        "icon":         "staff.png"
       },
       {
-        "name":         "Student North Pass",
-        "contains":     "Parking for students with a North Parking Pass",
+        "name":         "North Parking Zone",
+        "contains":     "Parking for those with a North Parking Pass",
         "borderColor":  "#1652de",
-        "fillColor":    "#8aa8ee"
+        "fillColor":    "#8aa8ee",
+        "icon":         "northzone.png"
       },
       {
-        "name":         "Student South Pass",
-        "contains":     "Parking for students with a South Parking Pass",
+        "name":         "South Parking Zone",
+        "contains":     "Parking for those with a South Parking Pass",
         "borderColor":  "#f5ff02",
-        "fillColor":    "#faff80"
-      },
-      {
-        "name":         "West Campus Drive",
-        "contains":     "Parking on West Campus Drive",
-        "borderColor":  "#2aa1ef",
-        "fillColor":    "#94d0f7"
+        "fillColor":    "#faff80",
+        "icon":         "southzone.png"
       },
       {
         "name":         "Free Parking Lot",
         "contains":     "Free parking for all campus passes and F pass holders",
         "borderColor":  "#bb7700",
-        "fillColor":    "#a97d77"
+        "fillColor":    "#a97d77",
+        "icon":         "free.png"
       }
     ],
     "foodanddining": [
@@ -758,6 +765,13 @@
         "info": "Recreational area often scheduled for Student Activities."
       },
       {
+        "name": "Bowling Center",
+        "code": "8",
+        "lat":  43.81823134565679,
+        "lon": -111.7822454340857,
+        "info": "Bottom floor of the Manwaring Center<br/><br/><strong>Bowling Center Hours:</strong><br/>Monday-Saturday 1:00p.m.-10:30p.m.<br/>Have any questions, please call us at 496-7460."
+      },
+      {
         "name": "BYU-I Center Courts",
         "code": "8",
         "lat":  43.81841703577014,
@@ -798,6 +812,13 @@
         "lat":  43.82096963524247,
         "lon": -111.7852831224419,
         "info": "Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities."
+      },
+      {
+        "name": "Swimming Pool",
+        "code": "9",
+        "lat":  43.81928888888889,
+        "lon": -111.7846573564554,
+        "info": "25 yard swimming pool.<br/><br/><strong>Pool Schedule:</strong><br/><a target='_blank' href='http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool'>http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool</a><br/><strong>Pool Rules:</strong><br/><a target='_blank' href='http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool/pool-rules'>http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool/pool-rules</a><br/><strong>Swim Suit Policy:</strong><br/><a target='_blank' href='http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/swim-suit-policy'>http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/swim-suit-policy</a>"
       },
       {
         "name": "Tennis Courts - West",
