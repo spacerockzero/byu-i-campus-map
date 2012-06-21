@@ -518,6 +518,19 @@ footer {
   height: 100%;
   width: 100%;
 }
+#menu_tab {
+  display: none;
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  background-color: lightBlue;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  border-radius: 10px 0px 0px 10px;
+  border: 3px solid silver;
+}
 #menu {
   display: block;
   background: #326BA9;
@@ -668,12 +681,15 @@ footer {
 #menu .marker_category span.polygon_name:hover {
   text-shadow: none;
 }
-#menu .marker_category .polygon_key {
+#menu .marker_category .polygon_list .polygon_key {
   width: 20px;
   height: 19px;
   float: left;
   margin: 5px 0px 5px 10px;
   border: 2px solid;
+}
+#menu .marker_category .polygon_list img {
+  padding: 2px 0px 2px 9px;
 }
 #menu ul {
   list-style: none;
@@ -758,8 +774,35 @@ footer {
 }
 /* #Media Queries
 ================================================== */
-/* Smaller than standard 960 (devices and browsers) */
-/* Tablet Portrait size to standard 960 (devices and browsers) */
 /* All Mobile Sizes (devices and browser) */
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 950px) {
+  #map_canvas {
+    width: 100%;
+    position: absolute;
+  }
+  #menu {
+    width: 85%;
+    position: fixed;
+    right: 0;
+  }
+  #menu_tab {
+    display: block;
+  }
+}
+/* All desktop / larger Sizes (devices and browser) */
+@media only screen and (min-width: 951px) {
+  #map_canvas {
+    float: left;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  #menu {
+    width: 240px;
+    position: relative;
+    display: block;
+  }
+  #menu_tab {
+    display: none;
+  }
+}

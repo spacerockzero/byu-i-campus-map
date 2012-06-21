@@ -779,7 +779,7 @@
         "info": "The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full indoor basketball and volleyball courts. Indoor full running and walking track."
       },
       {
-        "name": "Hart Auxilary Gym",
+        "name": "Hart Auxiliary Gym",
         "code": "8",
         "lat":  43.81955263347049,
         "lon": -111.7844997879188,
@@ -800,7 +800,7 @@
         "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional<br/><br/>The John W. Hart building is BYU-Idaho&apos;s center for physical education and fitness. It is home to the Department of Physical Education, the Physical Activities arm of the Activities Program, the Wellness Center, and other facilities of physical fitness. The building contains the Hart Auditorium, a 3,741 seat arena for sports and performing events (can hold up to 4,900 depending on the event and seating configuration), as well as campus ecclesiastical and academic gatherings. The Hart also houses a 25 yard swimming pool, fully equipped weight training and aerobic fitness areas, a field house, three basketball courts including one full size court in the Hart Auditorium, and raquetball courts. Both men&apos;s and women&apos;s locker rooms are available with clothing and lockers available for rental. The Hart Building is primarily for the use of currently enrolled BYU-Idaho students and BYU-Idaho employees, but members of the community and other guests can obtain limited use passes to use the Hart facilities."
       },
       {
-        "name": "Raquetball Courts",
+        "name": "Racquetball Courts",
         "code": "9",
         "lat":  43.81927662896208,
         "lon": -111.7861592748414,
@@ -811,6 +811,7 @@
         "code": "9",
         "lat":  43.82096963524247,
         "lon": -111.7852831224419,
+        "img": "BYU-IdahoTrack.jpg",
         "info": "Artificial field turf muti-use full track, football and soccer field. Recreational area often scheduled for Student Activities."
       },
       {

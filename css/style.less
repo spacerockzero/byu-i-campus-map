@@ -40,6 +40,17 @@ header,footer {
 	width:100%;
 	//.transition(width, 500ms);
 }
+#menu_tab {
+	display:none;
+	width: 50px;
+	height: 200px;
+	position: absolute;
+	background-color: lightBlue;
+	.opacity(0);
+	//right: 87%;
+	border-radius: 10px 0px 0px 10px;
+	border: 3px solid silver;
+}
 #menu { 
 	display:block;
 	background: #326BA9; 
@@ -190,12 +201,17 @@ header,footer {
 				text-shadow:none;
 			}
 		}
-		.polygon_key {
-			width: 20px;
-			height: 19px;
-			float: left;
-			margin:5px 0px 5px 10px;
-			border: 2px solid;
+		.polygon_list {
+			.polygon_key {
+				width: 20px;
+				height: 19px;
+				float: left;
+				margin:5px 0px 5px 10px;
+				border: 2px solid;
+			}
+			img {
+				padding: 2px 0px 2px 9px;
+			}
 		}
 	}
 	ul {
@@ -285,51 +301,56 @@ header,footer {
 }
 /* #Media Queries
 ================================================== */
-
-  /* Smaller than standard 960 (devices and browsers) */
-  // @media only screen and (max-width: 959px) {
-  // 	#menu {
-  // 		width:300px;
-  // 		position: relative;
-		// right: 0;
-  // 	}
-  // }
-
-  /* Tablet Portrait size to standard 960 (devices and browsers) */
-  // @media only screen and (max-width: 767px) {
-  // 	  	#menu {
-  // 		width:90%;
-  // 		position:fixed;
-  // 		right: -90%;
-  // 	}
-  // }
-
+	//950px width for debugging, change back to 768 when done
   /* All Mobile Sizes (devices and browser) */
-  // @media only screen and (max-width: 767px) {
-  // 	  	#menu {
-  // 		width:240px;
-  // 		position: fixed;
-		// right: -240px;
-  // 	}
-  // }
+  @media only screen and (max-width: 950px) {
+  	#map_canvas {
+  		width:100%;
+  		position:absolute;
+  	}
+  	#menu {
+  		width:85%;
+  		position: fixed;
+			right: 0;
+  	}
+  	#menu_tab {
+			//.opacity(100);
+			//.transition(opacity);
+			//.transition-duration(500ms);
+			display:block;
+		}
+  }
 
-  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-  // @media only screen and (min-width: 480px) and (max-width: 767px) {
-  // 	  	#menu {
-  // 		width:90%;
-  // 		position: fixed;
-		// right: -100%;
-  // 	}
-  // }
-
-  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  // @media only screen and (max-width: 479px) {
-  // 	  	#menu {
-  // 		width:90%;
-  // 		position: fixed;
-		// right: -100%;
-  // 	}
-  // }
+  /* All desktop / larger Sizes (devices and browser) */
+  @media only screen and (min-width: 951px) {
+  	#map_canvas {
+  		float:left; 
+			display:block;
+			height:100%;
+			width:100%;
+  	}
+  	#menu {
+  	// 	width:85%;
+  	// 	position: fixed;
+			// right: 0;
+			width:240px;
+			position: relative; 
+			display:block;
+			 
+			// float:right; 
+			// background: #326BA9;
+			// //.transition(width, 500ms); 
+			// list-style:none; 
+			// padding:10px; 
+			// height: 100%;
+			// overflow: auto;
+			
+			// box-shadow: 0px 0px 20px #000;
+  	}
+  	#menu_tab {
+			display:none;
+		}
+  }
 
 
 

@@ -19,8 +19,8 @@
   // LOAD JSON AND KML FILES INTO VAR
   /* changed JSON file to txt to get past lehi server filetype filters */
   var objectFile = 'data/objectFile.txt';
-  var polygonFile = 'http://www2.byui.edu/Map/parking_data.xml';
-  var campusFile = 'http://lehi3.byui.edu/Map/campus-outline.xml';
+  var polygonFile = 'http://www2.byui.edu/Map/parking_data2.xml';
+  var campusFile = 'http://www2.byui.edu/Map/campus-outline.xml';
 
   var parkingLayer;
 
@@ -432,29 +432,74 @@ function listCategories() {
   // }//end fitToMarkers()
 
   // Resize map pane to fit with menu width
+  var mobile = 0;
+  var menuOn = 0;
   function windowResize() {
-  //commented out parts of mobile/tablet strategy until it's ready
-  //$(function() {  
-    // if ($('body').width() < 768) {
-      
-    //   console.log("mobile view");
-
-    //   var bodyWidth = $('body').width();
-    //   $('#map_canvas').css("width","100%");
-    //   //$('#menu').css("width":"90%","position":"fixed","right": "-90%");
-
-    // } else {
-
-      //console.log("desktop view");
-
+ 
+    if ($('body').width() < 950) {
+      console.log("mobile view");
+      var menuWidth = $('#menu').width();
+      //var bodyWidth = $('body').width();
+      var vertCenter = ($('#map_canvas').height() - 200) / 2;
+      $('#map_canvas').css("width","100%");
+      $('#menu_tab').css(
+        "top", vertCenter,
+        "right", menuWidth
+      ).animate({opacity: 1}, 500, function(){});
+      menuOn = 1;
+      //is mobile size
+      mobile = 1;
+    
+    } else {
+      //leave menu set to open when transitioning to desktop width
+      // if (menuOn == 0) {
+      //   openMenu();
+      // }
+      console.log("desktop view");
       var menuWidth = $('#menu').width() + 20;
       //var mapWidth = $('#map_canvas').width();
       var bodyWidth = $('body').width();
       $('#map_canvas').width(bodyWidth - menuWidth);
-      //$('#menu').css("width":"300px","position":"relative","right": "0");
+      //is not mobile size
+      mobile = 0;
     }
     
-  //});//end windowResize()
+  }//end windowResize()
+  
+//mobile menu functions 
+  
+  function openMenu() {
+
+    var menuWidth = $('#menu').width() + 20;
+    //animate menu sliding onto screen
+    $('#menu').animate({
+        right: "0",
+      }, 500, function() {
+    });
+    //animate menu-tab sliding onto screen, stuck to the menu
+    $('#menu_tab').animate({
+        right: menuWidth,
+      }, 500, function() {
+    });
+    menuOn = 1;
+    console.log("menu is on");
+  }
+  function closeMenu() {
+    
+    var menuWidth = $('#menu').width() + 20;
+    //animate menu slide-out
+    $('#menu').animate({
+        right: -(menuWidth),
+      }, 500, function() {
+    });
+    //animate menu-tab slide-out
+    $('#menu_tab').animate({
+        right: "0",
+      }, 500, function() {
+    });
+    menuOn = 0;
+    console.log("menu is off");
+  }
 
 // BINDINGS
 $(window).load(function() {
@@ -474,23 +519,43 @@ $(window).load(function() {
     populateCategories(category, obj, catIndex, type);
   });
 
+  //automatigically switch to vector map for close-up, and satellite map for farther view
   google.maps.event.addListener(map, 'zoom_changed', function () {
-    // google.maps.event.addListenerOnce(map, 'bounds_changed', function (e) {
-    //         my_zoom_handler(); // do your job here
-    // });
     var z = map.getZoom();
-    console.log("zoom changed to " + z);
     if (z >= 17){
       //closer, do vector texture map
-      console.log("zoom >= 17");
       map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
     }
     else {
       //farther, do satellite texture map
-      console.log("zoom < 17");
       map.setMapTypeId(google.maps.MapTypeId.HYBRID);
     }
   });
+
+  var menuWidth = $('#menu').width() + 20;
+  $('#menu_tab').css("right", menuWidth);
+
+  //mobile menu functionality
+    //mobile menu click event
+  $('#menu_tab').live('click', function() {
+    //if menu is off-screen, bring it on-screen
+    if (menuOn == 0){
+      openMenu();
+    }
+    //if menu is on-screen, bring it off-screen
+    else {
+      closeMenu();
+    }
+  });//end click event
+
+  //mobile swipe events (almost ready)
+  // if (mobile == 1){
+  //   $(document).wipetouch({
+  //     //tapToClick: true, // if user taps the screen, triggers a click event
+  //     // wipeLeft: function() {openMenu()}// do something when user wipes to the left,
+  //     // wipeRight: function() {closeMenu()}// do something when user wipes to the right
+  //   });
+  // }
     
 });//end (window).load()
 
