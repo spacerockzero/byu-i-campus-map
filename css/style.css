@@ -782,11 +782,13 @@ footer {
   }
   #menu {
     width: 85%;
-    position: fixed;
+    position: absolute;
     right: 0;
+    overflow: scroll;
   }
   #menu_tab {
     display: block;
+    right: 85%;
   }
 }
 /* All desktop / larger Sizes (devices and browser) */

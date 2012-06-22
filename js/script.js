@@ -444,7 +444,7 @@ function listCategories() {
       $('#map_canvas').css("width","100%");
       $('#menu_tab').css(
         "top", vertCenter,
-        "right", menuWidth
+        "right", "85%"
       ).animate({opacity: 1}, 500, function(){});
       menuOn = 1;
       //is mobile size
@@ -478,7 +478,7 @@ function listCategories() {
     });
     //animate menu-tab sliding onto screen, stuck to the menu
     $('#menu_tab').animate({
-        right: menuWidth,
+        right: "85%",
       }, 500, function() {
     });
     menuOn = 1;
@@ -494,7 +494,7 @@ function listCategories() {
     });
     //animate menu-tab slide-out
     $('#menu_tab').animate({
-        right: "0",
+        right: "0%",
       }, 500, function() {
     });
     menuOn = 0;
