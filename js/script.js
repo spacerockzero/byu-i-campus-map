@@ -243,7 +243,7 @@ function listCategories() {
           '<div>';
           if (img)
           {
-            content += '<img src="' + img + '" alt="' + name + '" width="40%"/>';
+            content += '<img src="' + img + '" alt="' + name + '" width="40%" style="float:right"/>';
           }
           // video content portion taken until a decent support model can be created
           // if (video)

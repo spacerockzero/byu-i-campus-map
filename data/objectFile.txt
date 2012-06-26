@@ -234,8 +234,8 @@
         "name": "PPO - Physical Plant Office Bldg.",
         "code": "PPO",
         "img": "PPO.jpg",
-        "lat": 43.81605433714605,
-        "lon": -111.7853369234744,
+        "lat":  43.816114,
+        "lon": -111.785559,
         "info": "Physical Facilities Office and administrative offices for buildings and grounds, custodial, media services, telecommunications, safety, and support services."
       },
       {
@@ -265,8 +265,8 @@
       {
         "name": "RGS - Radio and Graphic Services Bldg.",
         "code": "RGS",
-        "lat":  43.81706519459516,
-        "lon":  -111.7789434430949,
+        "lat":   43.817248,
+        "lon":  -111.779400,
         "img": "RGS-RadioandGraphicServicesBldg.jpg",
         "info": "University Communications, KBYI FM 100.5, KBYR 91.5, Creative Services (graphic design and photography)."
       },
@@ -297,8 +297,8 @@
       {
         "name": "ROM - George S. Romney Bldg.",
         "code": "ROM",
-        "lat":  43.81943529937006,
-        "lon":  -111.7832273352486,
+        "lat":   43.819988,
+        "lon":  -111.783261,
         "img": "ROM-GeorgeSRomneyBldg.jpg",
         "info": "Department of Chemistry, Department of Geology, Department of Recreation Leadership, Department of Physics, the planetarium, hall displays, and the Geology Museum."
       },
@@ -322,8 +322,8 @@
       {
         "name": "SNO - Eliza R. Snow Performing Arts Center",
         "code": "SNO",
-        "lat":  43.82040568861844,
-        "lon":  -111.7834341454015,
+        "lat":   43.821094,
+        "lon":  -111.783580,
         "img": "SNO-ElizaRSnowPerformingArtsCenter.jpg",
         "info": "Department of Music, Department of Theatre, Barrus Concert Hall, Recital Hall, Snow Drama Theater, Blackbox Theatre, and costume shop.",
         "link": "http://www2.byui.edu/music/"
@@ -331,16 +331,16 @@
       {
         "name": "SPO - Jacob Spori Bldg.",
         "code": "SPO",
-        "lat": 43.82013049760194,
-        "lon": -111.7814491412516,
+        "lat":   43.820767,
+        "lon": -111.782499,
         "img": "SPO-JacobSporiBldg.jpg",
         "info": "Department of Communication, Department of Art, art galleries, and artifacts from original Spori Building."
       },
       {
         "name": "STA - BYU-Idaho Stadium",
         "code": "STA",
-        "lat": 43.8203142379387,
-        "lon": -111.7858582214964,
+        "lat": 43.820806,
+        "lon": -111.786127,
         "img": "STA-BYU-IdahoStadium.jpg",
         "info": "Location of the Outdoor Resource Center. Equipment rentals and retail sales."
       },
@@ -348,8 +348,8 @@
         "name": "TAY - John Taylor Bldg.",
         "code": "TAY",
         "img": "TAY.jpg",
-        "lat":  43.81705797643297,
-        "lon":  -111.7811963030408,
+        "lat":   43.816868,
+        "lon":  -111.782552,
         "info": "Department of Religious Education, Department of Humanities & Philosophy, campus stake center, student commons area."
       },
       {
@@ -363,8 +363,8 @@
       {
         "name": "TRK - BYU-I Track & Field",
         "code": "TRK",
-        "lat": 43.82062309752545,
-        "lon": -111.7844109782628,
+        "lat":  43.820805,
+        "lon": -111.785301,
         "img": "BYU-IdahoTrack.jpg",
         "info": "A horticulture research area, picnic structure, reception area, test gardens, fruit tree orchard, flowerbeds, and a native garden."
       },
@@ -769,6 +769,7 @@
         "code": "8",
         "lat":  43.81823134565679,
         "lon": -111.7822454340857,
+        "img": "Bowling.jpg",
         "info": "Bottom floor of the Manwaring Center<br/><br/><strong>Bowling Center Hours:</strong><br/>Monday-Saturday 1:00p.m.-10:30p.m.<br/>Have any questions, please call us at 496-7460."
       },
       {
@@ -776,6 +777,7 @@
         "code": "8",
         "lat":  43.81841703577014,
         "lon": -111.7844832223163,
+        "img": "BYU-I-center-courts-.jpg",
         "info": "The 435,000-square-foot building, containing a 15,000-seat auditorium and a multi-purpose area large enough for 10 full indoor basketball and volleyball courts. Indoor full running and walking track."
       },
       {
@@ -783,6 +785,7 @@
         "code": "8",
         "lat":  43.81955263347049,
         "lon": -111.7844997879188,
+        "img": "Hart-Aux-Gym.jpg",
         "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional"
       },
       {
@@ -790,6 +793,7 @@
         "code": "8",
         "lat":  43.81955907356128,
         "lon": -111.7861131438963,
+        "img": "Fitness-Center.jpg",
         "info": "<strong>Hours of operation:</strong><br/>Monday - Saturday<br/>5:00 a.m. - 11:45 p.m.<br/>Phone number 496-7490<br/><br/>The Fitness Center, located in the Hart building, is a state of the art facility. It is equipped with both cardiovascular and strength training equipment. Our cardiovascular equipment includes treadmills, elliptical trainers, stair steppers and cycling/spinning bikes.  We have for your convenience, weight machines and free weights to accommodate all your strength training needs."
       },
       {
@@ -797,6 +801,7 @@
         "code": "8",
         "lat":  43.81953783834503,
         "lon": -111.7854134929677,
+        "img": "Hart-Main-Gym.jpg",
         "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional<br/><br/>The John W. Hart building is BYU-Idaho&apos;s center for physical education and fitness. It is home to the Department of Physical Education, the Physical Activities arm of the Activities Program, the Wellness Center, and other facilities of physical fitness. The building contains the Hart Auditorium, a 3,741 seat arena for sports and performing events (can hold up to 4,900 depending on the event and seating configuration), as well as campus ecclesiastical and academic gatherings. The Hart also houses a 25 yard swimming pool, fully equipped weight training and aerobic fitness areas, a field house, three basketball courts including one full size court in the Hart Auditorium, and raquetball courts. Both men&apos;s and women&apos;s locker rooms are available with clothing and lockers available for rental. The Hart Building is primarily for the use of currently enrolled BYU-Idaho students and BYU-Idaho employees, but members of the community and other guests can obtain limited use passes to use the Hart facilities."
       },
       {
@@ -804,6 +809,7 @@
         "code": "9",
         "lat":  43.81927662896208,
         "lon": -111.7861592748414,
+        "img": "Racquetball.jpg",
         "info": "<strong>The Hart Building Hours:</strong><br/>Monday - Saturday<br/>5:00 AM to 11:30 PM<br/>Closed during Devotional"
       },
       {
@@ -819,6 +825,7 @@
         "code": "9",
         "lat":  43.81928888888889,
         "lon": -111.7846573564554,
+        "img": "Swimming.jpg",
         "info": "25 yard swimming pool.<br/><br/><strong>Pool Schedule:</strong><br/><a target='_blank' href='http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool'>http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool</a><br/><strong>Pool Rules:</strong><br/><a target='_blank' href='http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool/pool-rules'>http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/pool/pool-rules</a><br/><strong>Swim Suit Policy:</strong><br/><a target='_blank' href='http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/swim-suit-policy'>http://www.byui.edu/activities/resources/exercise-facilities-and-play-fields/hart-building/swim-suit-policy</a>"
       },
       {
@@ -826,6 +833,7 @@
         "code": "10",
         "lat":  43.81936445832934,
         "lon": -111.7871018896488,
+        "img": "Tennis-Courts-West.jpg",
         "info": "Recreational area often scheduled for Student Activities.<"
       },
       {
@@ -833,6 +841,7 @@
         "code": "11",
         "lat":  43.81712830137598,
         "lon": -111.7786622733956,
+        "img": "Tennis-Courts-East.jpg",
         "info": "Recreational area often scheduled for Student Activities."
       },
       {
@@ -840,6 +849,7 @@
         "code": "5",
         "lat":  43.81281083420959,
         "lon": -111.7854493760957,
+        "img": "UpperFields.jpg",
         "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       },
       {
@@ -847,6 +857,7 @@
         "code": "6",
         "lat":  43.81245500730314,
         "lon": -111.7854668088413,
+        "img": "UpperFields.jpg",
         "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       },
       {
@@ -854,6 +865,7 @@
         "code": "7",
         "lat":  43.81204689742254,
         "lon": -111.785439936203,
+        "img": "UpperFields.jpg",
         "info": "Grass fields used for flag football and ultimate frisbee. Recreational area often scheduled for Student Activities."
       }
     ],
