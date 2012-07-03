@@ -17,7 +17,30 @@
 		
 		<!-- Mobile viewport optimized: h5bp.com/viewport -->
   		<meta name="viewport" content="width=device-width">
-		
+			<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=false"></script>
+			<script type="text/javascript" src="js/libs/jquery-1.7.min.js"></script>
+			<!--<script type="text/javascript" src="js/libs/spin.min.js"></script>-->
+			<script type="text/javascript" src="js/libs/modernizr-2.5.3.min.js"></script>
+			<!--<script type="text/javascript">
+				var opts = {
+				  lines: 13, // The number of lines to draw
+				  length: 16, // The length of each line
+				  width: 10, // The line thickness
+				  radius: 23, // The radius of the inner circle
+				  rotate: 0, // The rotation offset
+				  color: '#000', // #rgb or #rrggbb
+				  speed: 0.8, // Rounds per second
+				  trail: 60, // Afterglow percentage
+				  shadow: false, // Whether to render a shadow
+				  hwaccel: false, // Whether to use hardware acceleration
+				  className: 'spinner', // The CSS class to assign to the spinner
+				  zIndex: 2e9, // The z-index (defaults to 2000000000)
+				  top: 'auto', // Top position relative to parent in px
+				  left: 'auto' // Left position relative to parent in px
+				};
+				var target = document.getElementById('foo');
+				var spinner = new Spinner(opts).spin(target);
+			</script>-->
 		<title>BYU-Idaho Campus Map</title>
 
 		<!-- favicon section for all device types -->
@@ -37,7 +60,7 @@
 		<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        		chromium.org/developers/how-tos/chrome-frame-getting-started -->
 		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
+			<div id="preview"></div>
 	  	<div id="map_canvas"></div>
 	  	<div id="menu_tab">Pull<br/>Menu<br/>Out<br/></div>
 	  	<div id="menu" style="float:right">
@@ -52,11 +75,10 @@
 	  	</div>
 	</body>
 
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?&sensor=false"></script>
-	<script type="text/javascript" src="js/libs/jquery-1.7.min.js"></script>
+	
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/libs/s_code.js"></script>
-  <script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script>
+  <!--<script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script>-->
   <script type="text/javascript" src="js/libs/omniture_code.js"></script>
   <script type="text/javascript">
 	  var _gaq = _gaq || [];
