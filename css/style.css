@@ -772,39 +772,19 @@ footer {
 .ie7 #menu .marker_category {
   border-radius: 0px;
 }
-/* #Media Queries
-================================================== */
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 950px) {
-  #map_canvas {
-    width: 100%;
-    position: absolute;
-  }
-  #menu {
-    width: 85%;
-    position: absolute;
-    right: 0;
-    overflow: scroll;
-  }
-  #menu_tab {
-    display: block;
-    right: 85%;
-  }
+/* #Mobile View */
+#mobile #map_canvas {
+  width: 100%;
+  position: absolute;
+}
+#mobile #menu {
+  width: 85%;
+  position: absolute;
+  right: 0;
+  overflow: scroll;
+}
+#mobile #menu_tab {
+  display: block;
+  right: 85%;
 }
 /* All desktop / larger Sizes (devices and browser) */
-@media only screen and (min-width: 951px) {
-  #map_canvas {
-    float: left;
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
-  #menu {
-    width: 240px;
-    position: relative;
-    display: block;
-  }
-  #menu_tab {
-    display: none;
-  }
-}
