@@ -780,6 +780,8 @@ footer {
   overflow: scroll;
   display: block;
   position: relative;
+  height: 77%;
+  padding: 0 0 10px;
 }
 #mobile #menu #menu_tab {
   width: 40px;
