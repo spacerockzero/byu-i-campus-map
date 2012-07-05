@@ -41,21 +41,23 @@
 		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 			<div id="preview"></div>
 	  	<div id="map_canvas"></div>
-	  	<div id="menu_tab">Pull<br/>Menu<br/>Out<br/></div>
 	  	<div id="menu" style="float:right">
+	  		<div id="menu_tab" class="swipe">Pull<br/>Menu<br/>Out<br/></div>
 	  		<a href="http://www.byui.edu/">
 	  			<img src="images/interface/byuilogo.png" alt="Brigham Young University Logo" height="41" width="70">
-	  		<h1 id="title">Campus Map</h1>
+	  			<h1 id="title">Campus Map</h1>
 	  		</a>
-	  		
-	  		<nav id="categories"></nav>
-	  		<a id="feedback" target="_blank" href="http://www.byui.edu/feedback/maps">Feedback &raquo; </a>
-	  		<p id="updated">Last updated 06.21.2012</p>
+	  		<div id="menu_container">
+		  		<nav id="categories"></nav>
+		  		<a id="feedback" target="_blank" href="http://www.byui.edu/feedback/maps">Feedback &raquo; </a>
+		  		<p id="updated">Last updated 07.05.2012</p>
+		  	</div><!-- /menu_container -->
 	  	</div>
 	</body>
 
-	
+	<script type="text/javascript" src="js/libs/jquery.jswipe.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+
   <script type="text/javascript" src="js/libs/s_code.js"></script>
   <!--<script type="text/javascript" src="js/libs/jquery.wipetouch.js"></script>-->
   <script type="text/javascript" src="js/libs/omniture_code.js"></script>

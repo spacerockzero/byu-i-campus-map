@@ -1,5 +1,28 @@
 /* BYU-I Campus Map */
-/* 6.27.2012 */
+/* 07.05.2012 */
+
+//mobile detection and handling
+// Resize map pane to fit with menu width
+  var mobile = 0;
+  var menuOn = 0;
+
+  if ($('body').width() < 950) {
+    
+    var mobile = 1;
+    $('body').attr('id',"mobile");
+    
+    var menuWidth = $('#menu').width();
+    var vertCenter = ($('#map_canvas').height() - 200) / 2;
+    $('#map_canvas').css("width","100%");
+    $('#menu_tab').css(
+      "top", vertCenter,
+      "right", "85%"
+    ).animate({opacity: 1}, 500, function(){});
+
+  } else {
+    var mobile = 0;
+  }
+  //end mobile handling
 
 // LOADING SECTION
   // GLOBAL VARS
@@ -232,52 +255,55 @@ function listCategories() {
             // Listener that builds the infopane popups on marker click
             google.maps.event.addListener(marker, 'click', function() {
 
-          // Check to see if an InfoWindow already exists
-          if (!infoWindow) {
-            infoWindow = new google.maps.InfoWindow();
-          }
+              // Check to see if an InfoWindow already exists
+              if (!infoWindow) {
+                infoWindow = new google.maps.InfoWindow();
+              }
+              //close menu to show object just selected
+              if (mobile == 1 && menuOn == 1){
+                closeMenu();
+              }
+              // Create the info panes which hold content about each building
+              var content = '<div id="' + category + '_info" class="infopane">' +
+              '<h2>' + name + '</h2>' +
+              '<div>';
+              if (img)
+              {
+                content += '<img src="' + img + '" alt="' + name + '" width="40%" style="float:right"/>';
+              }
+              // video content portion taken until a decent support model can be created
+              // if (video)
+              //   /* If no html video support detected, play quicktime video using quicktime plugin */
+              //   if (html5Video !== true)
+              //   {
+              //     content += '<iframe src="video/objects/' + '/' + category + '/' + video + '.mov"></iframe><br/>';
+              //   }
+              //   /* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
+              //   else {
+              //   content += '<video width="100%" id="' + category + '_id "class="html5_video" controls autoplay preload >' +
+              //                '<source src="video/objects/' + '/' + category + '/' + video + '.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" width="100%" />' +
+              //                '<source src="video/objects/' + '/' + category + '/' + video + '.webm" type="video/webm;" codecs="vp8, vorbis" width="100%" />' +
+              //                'Your browser does not support the <code>video</code> element.' +
+              //              '</video><br/>';
+              // }
+              if (info)
+              {
+                content += info;
+              }
+              if (link)
+              {
+                content += '<br/><br/><a href="' + link + '" target="_blank">More information about ' + name + ' on the web</a>';
+              }
+              content += '</div>' +
+              '</div>';
 
-          // Create the info panes which hold content about each building
-          var content = '<div id="' + category + '_info" class="infopane">' +
-          '<h2>' + name + '</h2>' +
-          '<div>';
-          if (img)
-          {
-            content += '<img src="' + img + '" alt="' + name + '" width="40%" style="float:right"/>';
-          }
-          // video content portion taken until a decent support model can be created
-          // if (video)
-          //   /* If no html video support detected, play quicktime video using quicktime plugin */
-          //   if (html5Video !== true)
-          //   {
-          //     content += '<iframe src="video/objects/' + '/' + category + '/' + video + '.mov"></iframe><br/>';
-          //   }
-          //   /* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
-          //   else {
-          //   content += '<video width="100%" id="' + category + '_id "class="html5_video" controls autoplay preload >' +
-          //                '<source src="video/objects/' + '/' + category + '/' + video + '.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" width="100%" />' +
-          //                '<source src="video/objects/' + '/' + category + '/' + video + '.webm" type="video/webm;" codecs="vp8, vorbis" width="100%" />' +
-          //                'Your browser does not support the <code>video</code> element.' +
-          //              '</video><br/>';
-          // }
-          if (info)
-          {
-            content += info;
-          }
-          if (link)
-          {
-            content += '<br/><br/><a href="' + link + '" target="_blank">More information about ' + name + ' on the web</a>';
-          }
-          content += '</div>' +
-          '</div>';
+              // Set the content of the InfoWindow
+              infoWindow.setContent(content);
 
-          // Set the content of the InfoWindow
-          infoWindow.setContent(content);
+              // Open the InfoWindow
+              infoWindow.open(map, marker);
 
-          // Open the InfoWindow
-          infoWindow.open(map, marker);
-
-        }); //end click listener
+            }); //end click listener
 
       });//end markers each loop
 
@@ -431,37 +457,18 @@ function listCategories() {
 
   // }//end fitToMarkers()
 
-  // Resize map pane to fit with menu width
-  var mobile = 0;
-  var menuOn = 0;
   function windowResize() {
  
-    if ($('body').width() < 950) {
+    if (mobile == 1) {
       console.log("mobile view");
-      var menuWidth = $('#menu').width();
-      //var bodyWidth = $('body').width();
-      var vertCenter = ($('#map_canvas').height() - 200) / 2;
-      $('#map_canvas').css("width","100%");
-      $('#menu_tab').css(
-        "top", vertCenter,
-        "right", "85%"
-      ).animate({opacity: 1}, 500, function(){});
-      menuOn = 1;
-      //is mobile size
-      mobile = 1;
-    
+      menuOn = 1;    
     } else {
-      //leave menu set to open when transitioning to desktop width
-      // if (menuOn == 0) {
-      //   openMenu();
-      // }
       console.log("desktop view");
       var menuWidth = $('#menu').width() + 20;
       //var mapWidth = $('#map_canvas').width();
       var bodyWidth = $('body').width();
       $('#map_canvas').width(bodyWidth - menuWidth);
       //is not mobile size
-      mobile = 0;
     }
     
   }//end windowResize()
@@ -533,7 +540,7 @@ $(window).load(function() {
   });
 
   var menuWidth = $('#menu').width() + 20;
-  $('#menu_tab').css("right", menuWidth);
+  //$('#menu_tab').css("right", menuWidth);
 
   //mobile menu functionality
     //mobile menu click event
@@ -566,6 +573,11 @@ $(document).click(function(e){
   }
 });
 
+$('.swipe').swipe({
+     swipeLeft: function() { openMenu() },
+     swipeRight: function() { closeMenu() },
+})
+
 //window resize event trigger
 window.onresize = function() {
   // resize map pane when window is resized to fit menu
@@ -575,6 +587,7 @@ window.onresize = function() {
   // SELECT & PAN TO OBJECT FROM EXTERNAL SOURCE (FUTURE FEATURE)
     // OPEN / SHOW INFO PANE (should already be populated from when category was opened)
     // WRITE OBJECT ID TO URL HISTORY
+
 
 
 

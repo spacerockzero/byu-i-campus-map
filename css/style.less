@@ -40,17 +40,7 @@ header,footer {
 	width:100%;
 	//.transition(width, 500ms);
 }
-#menu_tab {
-	display:none;
-	width: 50px;
-	height: 200px;
-	position: absolute;
-	background-color: lightBlue;
-	.opacity(0);
-	//right: 87%;
-	border-radius: 10px 0px 0px 10px;
-	border: 3px solid silver;
-}
+
 #menu { 
 	display:block;
 	background: #326BA9; 
@@ -73,6 +63,9 @@ header,footer {
 			float:left;
 			padding-left:5px;
 		}
+	}
+	#menu_tab {
+		display:none;
 	}
 	#title {
 		// text-align: center;
@@ -308,17 +301,33 @@ header,footer {
   		position:absolute;
   	}
   	#menu {
-  		width:85%;
+  		width:80%;
   		position: absolute;
 			right: 0;
 			overflow:scroll;
+			overflow-x: visible;
+			overflow-y: visible;
+  	}
+  	#menu_container {
+  		overflow:scroll;
+  		// overflow-x:scroll;
+  		// overflow-y:scroll;
+  		display: block;
+			position: relative;
   	}
   	#menu_tab {
-			//.opacity(100);
-			//.transition(opacity);
-			//.transition-duration(500ms);
+  		width:40px;
+  		height: 200px;
+  		position: absolute;
+			border-radius: 10px 0px 0px 10px;
+			border: 3px solid silver;
 			display:block;
-			right:85%;
+			left:-46px;
+			.opacity(100);
+			background:silver;
+			background: -webkit-gradient(linear, left, right, from(#fff), to(#dddddd));
+			background: -moz-linear-gradient(left,  #fff,  #dddddd);
+			//filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd');
 		}
   }
 

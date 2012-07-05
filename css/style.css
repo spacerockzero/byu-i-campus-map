@@ -518,19 +518,6 @@ footer {
   height: 100%;
   width: 100%;
 }
-#menu_tab {
-  display: none;
-  width: 50px;
-  height: 200px;
-  position: absolute;
-  background-color: lightBlue;
-  filter: alpha(opacity=0);
-  -khtml-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-  border-radius: 10px 0px 0px 10px;
-  border: 3px solid silver;
-}
 #menu {
   display: block;
   background: #326BA9;
@@ -552,6 +539,9 @@ footer {
 #menu > a > img {
   float: left;
   padding-left: 5px;
+}
+#menu #menu_tab {
+  display: none;
 }
 #menu #title {
   text-shadow: 2px 2px 7px #111;
@@ -778,13 +768,32 @@ footer {
   position: absolute;
 }
 #mobile #menu {
-  width: 85%;
+  width: 80%;
   position: absolute;
   right: 0;
   overflow: scroll;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+#mobile #menu_container {
+  overflow: scroll;
+  display: block;
+  position: relative;
 }
 #mobile #menu_tab {
+  width: 40px;
+  height: 200px;
+  position: absolute;
+  border-radius: 10px 0px 0px 10px;
+  border: 3px solid silver;
   display: block;
-  right: 85%;
+  left: -46px;
+  filter: alpha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  background: silver;
+  background: -webkit-gradient(linear, left, right, from(#ffffff), to(#dddddd));
+  background: -moz-linear-gradient(left, #ffffff, #dddddd);
 }
 /* All desktop / larger Sizes (devices and browser) */
