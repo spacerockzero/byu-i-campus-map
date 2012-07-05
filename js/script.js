@@ -12,12 +12,13 @@
     $('body').attr('id',"mobile");
     
     var menuWidth = $('#menu').width();
-    var vertCenter = ($('#map_canvas').height() - 200) / 2;
+    //"height() - 100 / 2" below means map height - tab height / 2 to vertically center
+    var vertCenter = ($('#map_canvas').height() - 100) / 2;
     $('#map_canvas').css("width","100%");
     $('#menu_tab').css(
       "top", vertCenter,
       "right", "85%"
-    ).animate({opacity: 1}, 500, function(){});
+    );
 
   } else {
     var mobile = 0;
@@ -442,21 +443,6 @@ function listCategories() {
     return this[array_name];
   }//end perform()  
 
-  // Pan & Zoom map to show all markers
-  // function fitToMarkers(markers) {
-
-  //   var bounds = new google.maps.LatLngBounds();
-
-  //     // Create bounds from markers
-  //     for (var index in markers) {
-  //       var latlng = markers[index].getPosition();
-  //       bounds.extend(latlng);
-  //     }
-
-  //     map.fitBounds(bounds);
-
-  // }//end fitToMarkers()
-
   function windowResize() {
  
     if (mobile == 1) {
@@ -491,6 +477,7 @@ function listCategories() {
     menuOn = 1;
     console.log("menu is on");
   }
+
   function closeMenu() {
     
     var menuWidth = $('#menu').width() + 20;
@@ -540,7 +527,6 @@ $(window).load(function() {
   });
 
   var menuWidth = $('#menu').width() + 20;
-  //$('#menu_tab').css("right", menuWidth);
 
   //mobile menu functionality
     //mobile menu click event
@@ -555,14 +541,7 @@ $(window).load(function() {
     }
   });//end click event
 
-  //mobile swipe events (almost ready)
-  // if (mobile == 1){
-  //   $(document).wipetouch({
-  //     //tapToClick: true, // if user taps the screen, triggers a click event
-  //     // wipeLeft: function() {openMenu()}// do something when user wipes to the left,
-  //     // wipeRight: function() {closeMenu()}// do something when user wipes to the right
-  //   });
-  // }
+
     
 });//end (window).load()
 
@@ -574,9 +553,16 @@ $(document).click(function(e){
 });
 
 $('.swipe').swipe({
-     swipeLeft: function() { openMenu() },
-     swipeRight: function() { closeMenu() },
-})
+  
+  swipeLeft: function() {
+    alert("inside left swipe event");
+    openMenu();
+  },
+  swipeRight: function() {
+    alert("inside right swipe event");
+    closeMenu(); 
+  },
+});
 
 //window resize event trigger
 window.onresize = function() {

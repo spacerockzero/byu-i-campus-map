@@ -782,18 +782,45 @@ footer {
 }
 #mobile #menu_tab {
   width: 40px;
-  height: 200px;
+  height: 100px;
   position: absolute;
-  border-radius: 10px 0px 0px 10px;
-  border: 3px solid silver;
   display: block;
-  left: -46px;
+  left: -43px;
   filter: alpha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  background: silver;
-  background: -webkit-gradient(linear, left, right, from(#ffffff), to(#dddddd));
-  background: -moz-linear-gradient(left, #ffffff, #dddddd);
+  border-radius: 10px 0px 0px 10px;
+  border-top: 3px solid silver;
+  border-left: 3px solid silver;
+  border-bottom: 3px solid silver;
+  box-shadow: -10px 0px 11px rgba(0, 0, 0, 0.5);
+  background: #326BA9;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(left, #649ae0 0%, #326ba9 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #649ae0), color-stop(100%, #326ba9));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, #649ae0 0%, #326ba9 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, #649ae0 0%, #326ba9 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, #649ae0 0%, #326ba9 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to right, #649ae0 0%, #326ba9 100%);
+  /* W3C */
+
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#649ae0', endColorstr='#326ba9', GradientType=1);
+  /* IE6-9 */
+
+}
+#mobile #menu_tab:hover {
+  cursor: pointer;
 }
 /* All desktop / larger Sizes (devices and browser) */
