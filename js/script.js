@@ -465,22 +465,30 @@ function listCategories() {
 
     var menuWidth = $('#menu').width() + 20;
     //animate menu sliding onto screen
-    $('#menu').animate({
-        right: "0",
-      }, 500, function() {
-    }).removeClass('closed');
+    //having some performance issues with js animation on phones
+    // $('#menu').animate({
+    //     right: "0",
+    //   }, 500, function() {
+    // }).removeClass('closed');
+    $('#menu').css(
+        "right", "0"
+      ).removeClass('closed');
     menuOn = 1;
     console.log("menu is on");
   }
 
   function closeMenu() {
     
-    var menuWidth = $('#menu').width() + 20;
+    var menuWidth = $('#menu').width() * -1 + 20;
     //animate menu slide-out
-    $('#menu').animate({
-        right: -(menuWidth),
-      }, 500, function() {
-    }).addClass('closed');
+    //having some performance issues with js animation on phones
+    // $('#menu').animate({
+    //     right: -(menuWidth),
+    //   }, 500, function() {
+    // }).addClass('closed');
+    $('#menu').css(
+        "right", menuWidth
+      ).addClass('closed');
     menuOn = 0;
     console.log("menu is off");
   }
