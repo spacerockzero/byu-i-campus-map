@@ -307,84 +307,58 @@ header,footer {
 			overflow:scroll;
 			overflow-x: visible;
 			overflow-y: visible;
-  	}
-  	#menu_container {
-  		overflow:scroll;
-  		// overflow-x:scroll;
-  		// overflow-y:scroll;
-  		display: block;
-			position: relative;
-  	}
-  	#menu_tab {
-  		width:40px;
-  		height: 100px;
-  		position: absolute;
-  		display:block;
-			left:-43px;
-			.opacity(100);
-			border-radius: 10px 0px 0px 10px;
-			border-top: 3px solid silver;
 			border-left: 3px solid silver;
-			border-bottom: 3px solid silver;
-			box-shadow: -10px 0px 11px rgba(0, 0, 0, 0.5);
-			// background:silver;
-			// background: -webkit-gradient(linear, left, right, from(#fff), to(#dddddd));
-			// background: -moz-linear-gradient(left,  #fff,  #dddddd);
-			//filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd');
-			background: #326BA9; /* Old browsers */
-			background: -moz-linear-gradient(left,  #649ae0 0%, #326ba9 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, right top, color-stop(0%,#649ae0), color-stop(100%,#326ba9)); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* IE10+ */
-			background: linear-gradient(to right,  #649ae0 0%,#326ba9 100%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#649ae0', endColorstr='#326ba9',GradientType=1 ); /* IE6-9 */
-			&:hover{
-				cursor: pointer;
-			}
+			#menu_container {
+	  		overflow:scroll;
+	  		// overflow-x:scroll;
+	  		// overflow-y:scroll;
+	  		display: block;
+				position: relative;
+	  	}
+	  	#menu_tab {
+	  		width:40px;
+	  		height: 100px;
+	  		position: absolute;
+	  		display:block;
+				left:-43px;
+				// .opacity(100);
+				border-radius: 10px 0px 0px 10px;
+				border-top: 3px solid silver;
+				border-left: 3px solid silver;
+				border-bottom: 3px solid silver;
+				box-shadow: -10px 0px 11px rgba(0, 0, 0, 0.5);
+				//cross-browser background gradient >>
+				background: #326BA9; /* Old browsers */
+				background: -moz-linear-gradient(left,  #649ae0 0%, #326ba9 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%,#649ae0), color-stop(100%,#326ba9)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* IE10+ */
+				background: linear-gradient(to right,  #649ae0 0%,#326ba9 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#649ae0', endColorstr='#326ba9',GradientType=1 ); /* IE6-9 */
+				&:hover{
+					cursor: pointer;
+				}
+				#arrow {
+					//menu open is default
+					position: relative;
+					top: 37px;
+					left: 15px;
+					width:13px;
+					height:22px;
+					overflow:hidden;
+					background-image:url(../images/interface/menu-open-tab.png);
+					background-repeat:no-repeat;
+					background-position:-13px 0px;
+				}
+	  	}
+	  	&.closed {
+	  		#menu_tab {
+		  		#arrow {
+		  			background-position:0px 0;
+		  			left:12px;
+		  		}
+		  	}
+	  	}
 		}
   }
-
-  /* All desktop / larger Sizes (devices and browser) */
-  // @media only screen and (min-width: 951px) {
-  // 	#map_canvas {
-  // 		float:left; 
-		// 	display:block;
-		// 	height:100%;
-		// 	width:100%;
-  // 	}
-  // 	#menu {
-  // 	// 	width:85%;
-  // 	// 	position: fixed;
-		// 	// right: 0;
-		// 	width:240px;
-		// 	position: relative; 
-		// 	display:block;
-			 
-		// 	// float:right; 
-		// 	// background: #326BA9;
-		// 	// //.transition(width, 500ms); 
-		// 	// list-style:none; 
-		// 	// padding:10px; 
-		// 	// height: 100%;
-		// 	// overflow: auto;
-			
-		// 	// box-shadow: 0px 0px 20px #000;
-  // 	}
-  // 	#menu_tab {
-		// 	display:none;
-		// }
-  // }
-
-
-
-
-
-
-
-
-
-
-
-
-

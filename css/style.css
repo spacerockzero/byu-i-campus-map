@@ -774,22 +774,19 @@ footer {
   overflow: scroll;
   overflow-x: visible;
   overflow-y: visible;
+  border-left: 3px solid silver;
 }
-#mobile #menu_container {
+#mobile #menu #menu_container {
   overflow: scroll;
   display: block;
   position: relative;
 }
-#mobile #menu_tab {
+#mobile #menu #menu_tab {
   width: 40px;
   height: 100px;
   position: absolute;
   display: block;
   left: -43px;
-  filter: alpha(opacity=100);
-  -khtml-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
   border-radius: 10px 0px 0px 10px;
   border-top: 3px solid silver;
   border-left: 3px solid silver;
@@ -820,7 +817,21 @@ footer {
   /* IE6-9 */
 
 }
-#mobile #menu_tab:hover {
+#mobile #menu #menu_tab:hover {
   cursor: pointer;
 }
-/* All desktop / larger Sizes (devices and browser) */
+#mobile #menu #menu_tab #arrow {
+  position: relative;
+  top: 37px;
+  left: 15px;
+  width: 13px;
+  height: 22px;
+  overflow: hidden;
+  background-image: url(../images/interface/menu-open-tab.png);
+  background-repeat: no-repeat;
+  background-position: -13px 0px;
+}
+#mobile #menu.closed #menu_tab #arrow {
+  background-position: 0px 0;
+  left: 12px;
+}

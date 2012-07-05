@@ -468,12 +468,7 @@ function listCategories() {
     $('#menu').animate({
         right: "0",
       }, 500, function() {
-    });
-    //animate menu-tab sliding onto screen, stuck to the menu
-    $('#menu_tab').animate({
-        right: "85%",
-      }, 500, function() {
-    });
+    }).removeClass('closed');
     menuOn = 1;
     console.log("menu is on");
   }
@@ -485,12 +480,7 @@ function listCategories() {
     $('#menu').animate({
         right: -(menuWidth),
       }, 500, function() {
-    });
-    //animate menu-tab slide-out
-    $('#menu_tab').animate({
-        right: "0%",
-      }, 500, function() {
-    });
+    }).addClass('closed');
     menuOn = 0;
     console.log("menu is off");
   }
