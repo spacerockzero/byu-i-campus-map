@@ -771,11 +771,11 @@ footer {
   width: 92%;
   position: absolute;
   right: 0;
-  -webkit-transition: right 200ms ease-in-out;
-  -moz-transition: right 200ms ease-in-out;
-  -ms-transition: right 200ms ease-in-out;
-  -o-transition: right 200ms ease-in-out;
-  transition: right 200ms ease-in-out;
+  -webkit-transition: right 1000ms ease-out;
+  -moz-transition: right 1000ms ease-out;
+  -ms-transition: right 1000ms ease-out;
+  -o-transition: right 1000ms ease-out;
+  transition: right 1000ms ease-out;
   overflow: scroll;
   overflow-x: visible;
   overflow-y: visible;

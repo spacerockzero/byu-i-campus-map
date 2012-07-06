@@ -6,7 +6,7 @@
   var mobile = 0;
   var menuOn = 0;
 
-  if ($('body').width() < 950) {
+  if ($('body').width() < 1024) {
     
     var mobile = 1;
     $('body').attr('id',"mobile");
