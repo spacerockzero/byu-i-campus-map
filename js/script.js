@@ -463,7 +463,7 @@ function listCategories() {
   
   function openMenu() {
 
-    var menuWidth = $('#menu').width() + 20;
+    var menuWidth = $('#menu').width() - 20;
     //animate menu sliding onto screen
     //having some performance issues with js animation on phones
     // $('#menu').animate({
@@ -479,7 +479,7 @@ function listCategories() {
 
   function closeMenu() {
     
-    var menuWidth = $('#menu').width() * -1 + 20;
+    var menuWidth = $('#menu').width() * -1 - 20;
     //animate menu slide-out
     //having some performance issues with js animation on phones
     // $('#menu').animate({
