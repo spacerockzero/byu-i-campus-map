@@ -768,7 +768,7 @@ footer {
   position: absolute;
 }
 #mobile #menu {
-  width: 92%;
+  width: 90%;
   position: absolute;
   right: 0;
   -webkit-transition: right 1000ms ease-out;

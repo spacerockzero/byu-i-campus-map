@@ -115,14 +115,9 @@ function listCategories() {
     }
   };
 
-  
-
   // INIT
   function initialize() {
 
-
-
-    //build map object
     map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
 
     infoWindow = new google.maps.InfoWindow();
@@ -138,56 +133,10 @@ function listCategories() {
                   });
     campusLayer.setMap(map);
 
-    if(mobile = 1){
-      // If mobile, Try HTML5 geolocation
-      if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-          var pos = new google.maps.LatLng(position.coords.latitude,
-                                           position.coords.longitude);
-
-          // var infowindow = new google.maps.InfoWindow({
-          //   map: map,
-          //   position: pos,
-          //   content: 'Location found using HTML5.'
-          // });
-          var locationMarker = new google.maps.Marker({
-              position: pos,
-              map: map,
-              title: "YOU ARE HERE!",
-              icon: "images/icons/here.png"
-            });
-
-          map.setCenter(pos);
-        }, function() {
-          //handleNoGeolocation(true);
-        });
-      } else {
-        // Browser doesn't support Geolocation
-        //handleNoGeolocation(false);
-      }
-    }
-
     //zoom in a bit more than usual
     //map.setZoom(map.getZoom() + 1);
 
   }//end initialize()
-
-  function handleNoGeolocation(errorFlag) {
-    if (errorFlag) {
-      var content = 'Error: The Geolocation service failed.';
-    } else {
-      var content = 'Error: Your browser doesn\'t support geolocation.';
-    }
-
-    var options = {
-      map: map,
-      position: myLatlng,
-      content: content
-    };
-
-    var infowindow = new google.maps.InfoWindow(options);
-    map.setCenter(options.position);
-  }
 
 // MAP FUNCTIONS
 
@@ -601,17 +550,17 @@ $(document).click(function(e){
   }
 });
 
-// $('.swipe').swipe({
+$('.swipe').swipe({
   
-//   swipeLeft: function() {
-//     alert("inside left swipe event");
-//     openMenu();
-//   },
-//   swipeRight: function() {
-//     alert("inside right swipe event");
-//     closeMenu(); 
-//   },
-// });
+  swipeLeft: function() {
+    alert("inside left swipe event");
+    openMenu();
+  },
+  swipeRight: function() {
+    alert("inside right swipe event");
+    closeMenu(); 
+  },
+});
 
 //window resize event trigger
 window.onresize = function() {
