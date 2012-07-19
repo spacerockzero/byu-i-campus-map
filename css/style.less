@@ -301,56 +301,105 @@ header,footer {
   		position:absolute;
   	}
   	#menu {
-  		width:90%;
+  		width:80%;
   		position: absolute;
 			right: 0;
-			.transition(right, 1000ms, ease-out);
-			overflow:scroll;
-			overflow-x: visible;
-			overflow-y: visible;
+			-webkit-transform: translate3d(0, 0, 0);
+			-webkit-backface-visibility: hidden;
+		  -webkit-perspective: 1000;
+			.transition(right, 500ms, linear);
+			overflow:scroll !important;
+			overflow-x: visible !important;
+			overflow-y: visible !important;
 			border-left: 3px solid silver;
+			#title{
+				text-shadow:none;
+				top: 5px;
+				position: relative;
+			}
 			#menu_container {
 	  		overflow:scroll;
 	  		display: block;
 				position: relative;
 				height: 95%;
 				padding: 0 0 10px;
+				.marker_category{
+					background:white;
+					box-shadow: none;
+					// &> div{
+					// 	display:block;
+					// 	height:100%;
+					// }
+					&:hover {
+						background: white;
+					}
+					&:active {
+						background: white;
+					}
+					.inner_desc {
+						font-size:12px;
+					}
+					.cat_menu {
+						// display:block;
+						// visibility: visible;
+						// height:100%;
+						// &.hidden{
+						// 	height:0%;
+						// }
+					}
+				}
+				.object_name, .polygon_name {
+					font-size: 14px;
+					padding: 2px 0 12px;
+					text-shadow:none;
+				}
 	  	}
 	  	#menu_tab {
-	  		width:40px;
+	  		// width:40px;
+	  		width:95px;
 	  		height: 100px;
 	  		position: absolute;
 	  		display:block;
-				left:-43px;
-				// .opacity(100);
-				border-radius: 10px 0px 0px 10px;
-				border-top: 3px solid silver;
-				border-left: 3px solid silver;
-				border-bottom: 3px solid silver;
-				box-shadow: -10px 0px 11px rgba(0, 0, 0, 0.5);
-				//cross-browser background gradient >>
-				background: #326BA9; /* Old browsers */
-				background: -moz-linear-gradient(left,  #649ae0 0%, #326ba9 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, right top, color-stop(0%,#649ae0), color-stop(100%,#326ba9)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* IE10+ */
-				background: linear-gradient(to right,  #649ae0 0%,#326ba9 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#649ae0', endColorstr='#326ba9',GradientType=1 ); /* IE6-9 */
+				// left:-43px;
+				left:-95px;
+
 				&:hover{
 					cursor: pointer;
 				}
-				#arrow {
-					//menu open is default
+				#inner_tab{
+					display: block;
 					position: relative;
-					top: 37px;
-					left: 15px;
-					width:13px;
-					height:22px;
-					overflow:hidden;
-					background-image:url(../images/interface/menu-open-tab.png);
-					background-repeat:no-repeat;
-					background-position:-13px 0px;
+					height: 100%;
+					left: 50px;
+					width: 42px;
+
+					// .opacity(100);
+					border-radius: 10px 0px 0px 10px;
+					border-top: 3px solid silver;
+					border-left: 3px solid silver;
+					border-bottom: 3px solid silver;
+					box-shadow: -10px 0px 11px rgba(0, 0, 0, 0.5);
+					//cross-browser background gradient >>
+					background: #326BA9; /* Old browsers */
+					background: -moz-linear-gradient(left,  #649ae0 0%, #326ba9 100%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, right top, color-stop(0%,#649ae0), color-stop(100%,#326ba9)); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(left,  #649ae0 0%,#326ba9 100%); /* IE10+ */
+					background: linear-gradient(to right,  #649ae0 0%,#326ba9 100%); /* W3C */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#649ae0', endColorstr='#326ba9',GradientType=1 ); /* IE6-9 */
+					#arrow {
+						//menu open is default
+						position: relative;
+						top: 37px;
+						left: 15px;
+						width:13px;
+						height:22px;
+						overflow:hidden;
+						background-image:url(../images/interface/menu-open-tab.png);
+						background-repeat:no-repeat;
+						background-position:-13px 0px;
+					}
 				}
 	  	}
 	  	&.closed {

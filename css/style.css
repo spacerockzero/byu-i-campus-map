@@ -768,18 +768,26 @@ footer {
   position: absolute;
 }
 #mobile #menu {
-  width: 90%;
+  width: 80%;
   position: absolute;
   right: 0;
-  -webkit-transition: right 1000ms ease-out;
-  -moz-transition: right 1000ms ease-out;
-  -ms-transition: right 1000ms ease-out;
-  -o-transition: right 1000ms ease-out;
-  transition: right 1000ms ease-out;
-  overflow: scroll;
-  overflow-x: visible;
-  overflow-y: visible;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transition: right 500ms linear;
+  -moz-transition: right 500ms linear;
+  -ms-transition: right 500ms linear;
+  -o-transition: right 500ms linear;
+  transition: right 500ms linear;
+  overflow: scroll !important;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
   border-left: 3px solid silver;
+}
+#mobile #menu #title {
+  text-shadow: none;
+  top: 5px;
+  position: relative;
 }
 #mobile #menu #menu_container {
   overflow: scroll;
@@ -788,12 +796,41 @@ footer {
   height: 95%;
   padding: 0 0 10px;
 }
+#mobile #menu #menu_container .marker_category {
+  background: white;
+  box-shadow: none;
+}
+#mobile #menu #menu_container .marker_category:hover {
+  background: white;
+}
+#mobile #menu #menu_container .marker_category:active {
+  background: white;
+}
+#mobile #menu #menu_container .marker_category .inner_desc {
+  font-size: 12px;
+}
+#mobile #menu #menu_container .object_name,
+#mobile #menu #menu_container .polygon_name {
+  font-size: 14px;
+  padding: 2px 0 12px;
+  text-shadow: none;
+}
 #mobile #menu #menu_tab {
-  width: 40px;
+  width: 95px;
   height: 100px;
   position: absolute;
   display: block;
-  left: -43px;
+  left: -95px;
+}
+#mobile #menu #menu_tab:hover {
+  cursor: pointer;
+}
+#mobile #menu #menu_tab #inner_tab {
+  display: block;
+  position: relative;
+  height: 100%;
+  left: 50px;
+  width: 42px;
   border-radius: 10px 0px 0px 10px;
   border-top: 3px solid silver;
   border-left: 3px solid silver;
@@ -824,10 +861,7 @@ footer {
   /* IE6-9 */
 
 }
-#mobile #menu #menu_tab:hover {
-  cursor: pointer;
-}
-#mobile #menu #menu_tab #arrow {
+#mobile #menu #menu_tab #inner_tab #arrow {
   position: relative;
   top: 37px;
   left: 15px;

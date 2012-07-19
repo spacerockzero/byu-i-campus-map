@@ -82,7 +82,7 @@ function listCategories() {
         .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '" alt="type_' + type + '">' +
           '<img class="cat_icon" src="images/icons/numeral-icons/' + icon + '/0.png" alt="' + id + '"/>' +
            title + '<span class="cat_indicator">&nbsp;</span></a><div id="category_div_' +
-           name + '" class="hidden"/>')
+           name + '" class="hidden cat_menu"/>')
         .appendTo('#categories');
 
         markerArray[i - 0] = new Array();
@@ -553,11 +553,11 @@ $(document).click(function(e){
 $('.swipe').swipe({
   
   swipeLeft: function() {
-    alert("inside left swipe event");
+    //alert("inside left swipe event");
     openMenu();
   },
   swipeRight: function() {
-    alert("inside right swipe event");
+    //alert("inside right swipe event");
     closeMenu(); 
   },
 });
