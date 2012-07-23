@@ -133,16 +133,13 @@ function listCategories() {
                   });
     campusLayer.setMap(map);
 
-    //zoom in a bit more than usual
-    //map.setZoom(map.getZoom() + 1);
-
   }//end initialize()
 
 // MAP FUNCTIONS
 
   // BEGIN CATEGORY POPULATION ROUTING
   function populateCategories(category, obj, catIndex, type) {
-    
+    console.log("start populateCategories");
     //close any open info windows
     infoWindow.close();
     category = category.substring(9);
@@ -170,6 +167,7 @@ function listCategories() {
         }
       }
     }
+    console.log("end populateCategories");
   } // end populateCategories()
 
   // POPULATE OBJECT CATEGORY AND MAP MARKERS
@@ -509,6 +507,7 @@ $(window).load(function() {
     catIndex = $(this).attr('name'),
     type = $(this).attr('alt').substring(5);
     populateCategories(category, obj, catIndex, type);
+    //console.log(category,obj,catIndex,type);
   });
 
   //automatigically switch to vector map for close-up, and satellite map for farther view
