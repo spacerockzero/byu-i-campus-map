@@ -82,7 +82,7 @@ function listCategories() {
         .html('<a href="#" class="marker_category_a" name="catIndex_' + i + '" id="category_' + name + '" alt="type_' + type + '">' +
           '<img class="cat_icon" src="images/icons/numeral-icons/' + icon + '/0.png" alt="' + id + '"/>' +
            title + '<span class="cat_indicator">&nbsp;</span></a><div id="category_div_' +
-           name + '" class="hidden"/>')
+           name + '" class="hidden cat_menu"/>')
         .appendTo('#categories');
 
         markerArray[i - 0] = new Array();
@@ -511,14 +511,6 @@ $(window).load(function() {
     populateCategories(category, obj, catIndex, type);
   });
 
-  $('.marker_category_a').load(function() {
-    category = $(this).attr('id'),
-    obj = $(this).siblings('div'),
-    catIndex = $(this).attr('name'),
-    type = $(this).attr('alt').substring(5);
-    populateCategories(category, obj, catIndex, type);
-  });
-
   //automatigically switch to vector map for close-up, and satellite map for farther view
   google.maps.event.addListener(map, 'zoom_changed', function () {
     var z = map.getZoom();
@@ -561,9 +553,11 @@ $(document).click(function(e){
 $('.swipe').swipe({
   
   swipeLeft: function() {
+    //alert("inside left swipe event");
     openMenu();
   },
   swipeRight: function() {
+    //alert("inside right swipe event");
     closeMenu(); 
   },
 });
