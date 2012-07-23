@@ -6,6 +6,56 @@
   var mobile = 0;
   var menuOn = 0;
 
+  //offline detection
+  // window.addEventListener("offline", function(e) {
+  //   alert("offline");
+  // }, false);
+
+  // window.addEventListener("online", function(e) {
+  //   //alert("online");
+  // }, false);
+
+  // window.applicationCache.addEventListener("error", function(e) {
+  //   alert("Error fetching manifest: a good chance we are offline");
+  // });
+
+ 
+  window.onorientationchange = function() {
+    /*window.orientation returns a value that indicates whether iPhone is in portrait mode, landscape mode with the screen turned to the
+      left, or landscape mode with the screen turned to the right. */
+    var orientation = window.orientation;
+    switch(orientation) {
+      case 0:
+          /* If in portrait mode, sets the body's class attribute to portrait. Consequently, all style definitions matching the body[class="portrait"] declaration
+             in the iPhoneOrientation.css file will be selected and used to style "Handling iPhone or iPod touch Orientation Events". */
+          //document.body.setAttribute("class","portrait");
+          window.location.reload(); 
+          /* Add a descriptive message on "Handling iPhone or iPod touch Orientation Events"  */
+          //document.getElementById("currentOrientation").innerHTML="Now in portrait orientation (Home button on the bottom).";
+          break; 
+         
+      case 90:
+          /* If in landscape mode with the screen turned to the left, sets the body's class attribute to landscapeLeft. In this case, all style definitions matching the
+             body[class="landscapeLeft"] declaration in the iPhoneOrientation.css file will be selected and used to style "Handling iPhone or iPod touch Orientation Events". */
+          window.location.reload(); 
+          // document.body.setAttribute("class","landscapeLeft");
+         
+          // document.getElementById("currentOrientation").innerHTML="Now in landscape orientation and turned to the left (Home button to the right).";
+          break;
+     
+      case -90: 
+          /* If in landscape mode with the screen turned to the right, sets the body's class attribute to landscapeRight. Here, all style definitions matching the
+             body[class="landscapeRight"] declaration in the iPhoneOrientation.css file will be selected and used to style "Handling iPhone or iPod touch Orientation Events". */
+          window.location.reload(); 
+          // document.body.setAttribute("class","landscapeRight");
+         
+          // document.getElementById("currentOrientation").innerHTML="Now in landscape orientation and turned to the right (Home button to the left).";
+          break;
+    }
+  }
+ 
+
+
   if ($('body').width() < 1024) {
     
     var mobile = 1;
@@ -61,7 +111,7 @@
 // POPULATE CATEGORY LIST
 
 function listCategories() {
-
+    console.time('listCategories');
     // Assign handlers immediately after making the request
     $.getJSON(objectFile, function(data) {
 
@@ -86,7 +136,7 @@ function listCategories() {
         .appendTo('#categories');
 
         markerArray[i - 0] = new Array();
-        markerArray[name + '_bounds'] = new Array();
+        //markerArray[name + '_bounds'] = new Array();
 
       });/*end each loop*/
 
@@ -95,7 +145,7 @@ function listCategories() {
     .success(function() {/*console.log('json success')*/})
     .error(function() {/*console.log('json failed')*/})
     .complete(function() {/*console.log('json completed')*/});//end getJSON main
-
+    console.timeEnd('listCategories');
   }/* end listCategories() */
 
 
@@ -117,7 +167,7 @@ function listCategories() {
 
   // INIT
   function initialize() {
-
+    console.time('initialize');
     map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
 
     infoWindow = new google.maps.InfoWindow();
@@ -135,14 +185,14 @@ function listCategories() {
 
     //zoom in a bit more than usual
     //map.setZoom(map.getZoom() + 1);
-
+    console.timeEnd('initialize');
   }//end initialize()
 
 // MAP FUNCTIONS
 
   // BEGIN CATEGORY POPULATION ROUTING
   function populateCategories(category, obj, catIndex, type) {
-    
+    console.time('populateCategory');
     //close any open info windows
     infoWindow.close();
     category = category.substring(9);
@@ -170,11 +220,12 @@ function listCategories() {
         }
       }
     }
+    console.timeEnd('populateCategory');
   } // end populateCategories()
 
   // POPULATE OBJECT CATEGORY AND MAP MARKERS
   function loadPins(category, obj, markersExist) {
-
+    console.time('loadPins');
     if (markersExist == false) {
 
       var catID = 'category not found';
@@ -194,19 +245,19 @@ function listCategories() {
       });
 
       var catTarget = 'div#category_div_' + category;
-
+      
       $('<div name="' + categories[catID].name + '_cat_description" class="cat_description"/>')
       .html('<div class="inner_desc">' + categories[catID].text + '<br/><a class="cat_link" href="'+ categories[catID].link +'" target="_blank" >' + categories[catID].link + '</a></div>')
       .appendTo(catTarget);
-
+      
       $('<ul class="object_list"/>').appendTo(catTarget);
 
           // create var for extending map bounds to fit all markers
-          var bounds = new google.maps.LatLngBounds();
+          //var bounds = new google.maps.LatLngBounds();
 
           // create building navigation list
           $.each(categoryItems[category], function(i, s) {
-
+            //console.time('catItem');
             var name = s.name;
             if (s.code) {var code = s.code;}
             var lat = s.lat;
@@ -232,7 +283,7 @@ function listCategories() {
               icon: iconpath + '/' + (i+1) + ".png"
             });
 
-            markerArray[category + '_bounds'][markerArray[category + '_bounds'].length] = bounds;
+            //markerArray[category + '_bounds'][markerArray[category + '_bounds'].length] = bounds;
 
             markerCatArray[markerCatArray.length] = category;
 
@@ -245,11 +296,12 @@ function listCategories() {
             .html('<img src="' + iconpath + '/' + (i+1) + '.png" alt="' + id + '"/><span class="object_name">' + name + '</span>')
             .click(function() {
               //console.log("this = " + $(this).parent().toggleClass('active_item'));
-              
+              console.time('infoPane');
               $(this).siblings('li').removeClass('active_item');
               $(this).toggleClass('active_item');
               //console.log("obj = " + obj);
               displayPoint(marker, i);
+              console.timeEnd('infoPane');
             })
             .appendTo(target);
 
@@ -272,21 +324,6 @@ function listCategories() {
               {
                 content += '<img src="' + img + '" alt="' + name + '" width="40%" style="float:right"/>';
               }
-              // video content portion taken until a decent support model can be created
-              // if (video)
-              //   /* If no html video support detected, play quicktime video using quicktime plugin */
-              //   if (html5Video !== true)
-              //   {
-              //     content += '<iframe src="video/objects/' + '/' + category + '/' + video + '.mov"></iframe><br/>';
-              //   }
-              //   /* If html5 video supported is detected, play with one of the two following formats to cover all modern browsers */
-              //   else {
-              //   content += '<video width="100%" id="' + category + '_id "class="html5_video" controls autoplay preload >' +
-              //                '<source src="video/objects/' + '/' + category + '/' + video + '.mp4" type="video/mp4;" codecs="avc1.42E01E, mp4a.40.2" width="100%" />' +
-              //                '<source src="video/objects/' + '/' + category + '/' + video + '.webm" type="video/webm;" codecs="vp8, vorbis" width="100%" />' +
-              //                'Your browser does not support the <code>video</code> element.' +
-              //              '</video><br/>';
-              // }
               if (info)
               {
                 content += info;
@@ -305,11 +342,11 @@ function listCategories() {
               infoWindow.open(map, marker);
 
             }); //end click listener
-
+      //console.timeEnd('catItem');
       });//end markers each loop
 
     }//end if markersExist
-
+    console.timeEnd('loadPins');
   } //end loadPins()
 
   // POPULATE POLYGON CATEGORY AND MAP DATA
@@ -504,11 +541,15 @@ $(window).load(function() {
 
   //bind category populating and hide/show to the menu item
   $('.marker_category_a').live('click', function() {
+    
     category = $(this).attr('id'),
     obj = $(this).siblings('div'),
     catIndex = $(this).attr('name'),
     type = $(this).attr('alt').substring(5);
+
+    console.time('PopulateExecute');
     populateCategories(category, obj, catIndex, type);
+    console.timeEnd('PopulateExecute');
   });
 
   $('.marker_category_a').load(function() {
@@ -558,15 +599,15 @@ $(document).click(function(e){
   }
 });
 
-$('.swipe').swipe({
+// $('.swipe').swipe({
   
-  swipeLeft: function() {
-    openMenu();
-  },
-  swipeRight: function() {
-    closeMenu(); 
-  },
-});
+//   swipeLeft: function() {
+//     openMenu();
+//   },
+//   swipeRight: function() {
+//     closeMenu(); 
+//   },
+// });
 
 //window resize event trigger
 window.onresize = function() {

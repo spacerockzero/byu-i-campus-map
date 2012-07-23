@@ -1,0 +1,13 @@
+CACHE MANIFEST
+#v0.0.12
+
+CACHE:
+js/libs/jquery-1.7.min.js
+js/script.js
+js/libs/modernizr-2.5.3.min.js
+js/libs/jquery.jswipe.js
+data/objectFile.txt
+#css/style-0.0.0.11.css
+
+NETWORK:
+*
