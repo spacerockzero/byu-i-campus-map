@@ -1,5 +1,5 @@
 /* BYU-I Campus Map */
-/* 07.25.2012 */
+/* 07.05.2012 */
 
 //mobile detection and handling
 // Resize map pane to fit with menu width
@@ -26,23 +26,16 @@
     var orientation = window.orientation;
     switch(orientation) {
       case 0:
-        /* If in portrait mode, sets the body's class attribute to portrait. Consequently, all style definitions matching the body[class="portrait"] declaration
-           in the iPhoneOrientation.css file will be selected and used to style "Handling iPhone or iPod touch Orientation Events". */
         //document.body.setAttribute("class","portrait");
         window.location.reload(); 
-        /* Add a descriptive message on "Handling iPhone or iPod touch Orientation Events"  */
         break; 
          
       case 90:
-        /* If in landscape mode with the screen turned to the left, sets the body's class attribute to landscapeLeft. In this case, all style definitions matching the
-             body[class="landscapeLeft"] declaration in the iPhoneOrientation.css file will be selected and used to style "Handling iPhone or iPod touch Orientation Events". */
         window.location.reload(); 
         // document.body.setAttribute("class","landscapeLeft");
         break;
      
       case -90: 
-        /* If in landscape mode with the screen turned to the right, sets the body's class attribute to landscapeRight. Here, all style definitions matching the
-           body[class="landscapeRight"] declaration in the iPhoneOrientation.css file will be selected and used to style "Handling iPhone or iPod touch Orientation Events". */
         window.location.reload(); 
         // document.body.setAttribute("class","landscapeRight");
         break;
@@ -122,14 +115,16 @@ function listCategories() {
         .appendTo('#categories');
 
         markerArray[i - 0] = new Array();
+        //markerArray[name + '_bounds'] = new Array();
 
       });/*end each loop*/
 
     })
     // JSON XHR error handlers
-    .success(function() {/*console.log('json success')*/})
-    .error(function() {/*console.log('json failed')*/})
-    .complete(function() {/*console.log('json completed')*/});//end getJSON main
+    // .success(function() {/*console.log('json success')*/})
+    // .error(function() {/*console.log('json failed')*/})
+    // .complete(function() {/*console.log('json completed')*/})
+    ;//end getJSON main
     console.timeEnd('listCategories');
   }/* end listCategories() */
 
@@ -152,11 +147,11 @@ function listCategories() {
 
   // INIT
   function initialize() {
-
+    console.time('initialize');
     map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
 
     infoWindow = new google.maps.InfoWindow();
-    
+    listCategories();
 
     //load campus boundary map layer
     campusLayer = new google.maps.KmlLayer(campusFile,
@@ -167,7 +162,10 @@ function listCategories() {
                       zoom: 18
                   });
     campusLayer.setMap(map);
-    listCategories();
+
+    //zoom in a bit more than usual
+    //map.setZoom(map.getZoom() + 1);
+    console.timeEnd('initialize');
   }//end initialize()
 
 // MAP FUNCTIONS
@@ -234,9 +232,12 @@ function listCategories() {
       
       $('<ul class="object_list"/>').appendTo(catTarget);
 
+          // create var for extending map bounds to fit all markers
+          //var bounds = new google.maps.LatLngBounds();
+
           // create building navigation list
           $.each(categoryItems[category], function(i, s) {
-
+            //console.time('catItem');
             var name = s.name;
             if (s.code) {var code = s.code;}
             var lat = s.lat;
@@ -262,6 +263,8 @@ function listCategories() {
               icon: iconpath + '/' + (i+1) + ".png"
             });
 
+            //markerArray[category + '_bounds'][markerArray[category + '_bounds'].length] = bounds;
+
             markerCatArray[markerCatArray.length] = category;
 
             markerArray[catID][markerArray[catID].length] = marker;
@@ -272,11 +275,13 @@ function listCategories() {
             $("<li name='" + id + "'/>")
             .html('<img src="' + iconpath + '/' + (i+1) + '.png" alt="' + id + '"/><span class="object_name">' + name + '</span>')
             .click(function() {
-
+              //console.log("this = " + $(this).parent().toggleClass('active_item'));
+              console.time('infoPane');
               $(this).siblings('li').removeClass('active_item');
               $(this).toggleClass('active_item');
+              //console.log("obj = " + obj);
               displayPoint(marker, i);
-
+              console.timeEnd('infoPane');
             })
             .appendTo(target);
 
@@ -317,6 +322,7 @@ function listCategories() {
               infoWindow.open(map, marker);
 
             }); //end click listener
+      //console.timeEnd('catItem');
       });//end markers each loop
 
     }//end if markersExist
@@ -392,19 +398,21 @@ function listCategories() {
   function showHideCategory(category, obj, catIndex, type) {
 
     // COLLAPSE/SHOW CHILD OBJECT LIST
-    if(!mobile){obj.stop().slideToggle();}
-    obj.toggleClass('hidden');
-    obj.siblings('a.marker_category_a').children('span.cat_indicator').toggleClass('active');
+    //obj.stop().slideToggle();
+    //obj.toggleClass('hidden');
+    //obj.siblings('a.marker_category_a').children('span.cat_indicator').toggleClass('active');
 
     // IF Polygons
     if (type == 1) {
 
       //Hide this layer's polygons
       if (obj.attr('class') == 'hidden') {
+        //console.log('obj == hidden, set map to null');
         parkingLayer.setMap(null);
       }
       //Show this layer's polygons
       else {
+        //console.log('obj != hidden, set map to show');
         parkingLayer.setMap(map);
       }
 
@@ -420,6 +428,7 @@ function listCategories() {
       }
       else {
         for (var i in markerArray[catIndex]) {
+          //fitToMarkers(markerArray[catIndex]);
           markerArray[catIndex][i].setVisible(true);
         }
       }
@@ -454,17 +463,15 @@ function listCategories() {
   function windowResize() {
  
     if (mobile == 1) {
-      //is mobile size
       console.log("mobile view");
       menuOn = 1;    
     } else {
-      //is not mobile size
       console.log("desktop view");
       var menuWidth = $('#menu').width() + 20;
       //var mapWidth = $('#map_canvas').width();
       var bodyWidth = $('body').width();
       $('#map_canvas').width(bodyWidth - menuWidth);
-      
+      //is not mobile size
     }
     
   }//end windowResize()
@@ -474,6 +481,12 @@ function listCategories() {
   function openMenu() {
 
     var menuWidth = $('#menu').width() - 20;
+    //animate menu sliding onto screen
+    //having some performance issues with js animation on phones
+    // $('#menu').animate({
+    //     right: "0",
+    //   }, 500, function() {
+    // }).removeClass('closed');
     $('#menu').css(
         "right", "0"
       ).removeClass('closed');
@@ -484,6 +497,12 @@ function listCategories() {
   function closeMenu() {
     
     var menuWidth = $('#menu').width() * -1 - 20;
+    //animate menu slide-out
+    //having some performance issues with js animation on phones
+    // $('#menu').animate({
+    //     right: -(menuWidth),
+    //   }, 500, function() {
+    // }).addClass('closed');
     $('#menu').css(
         "right", menuWidth
       ).addClass('closed');
@@ -559,6 +578,16 @@ $(document).click(function(e){
     $('li').removeClass('active_item');
   }
 });
+
+// $('.swipe').swipe({
+  
+//   swipeLeft: function() {
+//     openMenu();
+//   },
+//   swipeRight: function() {
+//     closeMenu(); 
+//   },
+// });
 
 //window resize event trigger
 window.onresize = function() {
