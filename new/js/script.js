@@ -18,6 +18,14 @@
   // window.applicationCache.addEventListener("error", function(e) {
   //   alert("Error fetching manifest: a good chance we are offline");
   // });
+/* console fallback for old IE */
+// if (typeof console == "undefined") {
+//   var console = { 
+//     log: function() {
+//       consoleMsg();
+//     } 
+//   };
+// }
 
  
   window.onorientationchange = function() {
@@ -97,7 +105,7 @@
 // POPULATE CATEGORY LIST
 
 function listCategories() {
-    console.time('listCategories');
+    //console.time('listCategories');
     // Assign handlers immediately after making the request
     $.getJSON(objectFile, function(data) {
 
@@ -130,7 +138,7 @@ function listCategories() {
     .success(function() {/*console.log('json success')*/})
     .error(function() {/*console.log('json failed')*/})
     .complete(function() {/*console.log('json completed')*/});//end getJSON main
-    console.timeEnd('listCategories');
+    /*console.timeEnd('listCategories');*/
   }/* end listCategories() */
 
 
@@ -174,7 +182,7 @@ function listCategories() {
 
   // BEGIN CATEGORY POPULATION ROUTING
   function populateCategories(category, obj, catIndex, type) {
-    console.time('populateCategory');
+    // console.time('populateCategory');
     //close any open info windows
     infoWindow.close();
     category = category.substring(9);
@@ -202,12 +210,12 @@ function listCategories() {
         }
       }
     }
-    console.timeEnd('populateCategory');
+    // console.timeEnd('populateCategory');
   } // end populateCategories()
 
   // POPULATE OBJECT CATEGORY AND MAP MARKERS
   function loadPins(category, obj, markersExist) {
-    console.time('loadPins');
+    // console.time('loadPins');
     if (markersExist == false) {
 
       var catID = 'category not found';
@@ -320,7 +328,7 @@ function listCategories() {
       });//end markers each loop
 
     }//end if markersExist
-    console.timeEnd('loadPins');
+    // console.timeEnd('loadPins');
   } //end loadPins()
 
   // POPULATE POLYGON CATEGORY AND MAP DATA
@@ -455,11 +463,11 @@ function listCategories() {
  
     if (mobile == 1) {
       //is mobile size
-      console.log("mobile view");
+      // console.log("mobile view");
       menuOn = 1;    
     } else {
       //is not mobile size
-      console.log("desktop view");
+      // console.log("desktop view");
       var menuWidth = $('#menu').width() + 20;
       //var mapWidth = $('#map_canvas').width();
       var bodyWidth = $('body').width();
@@ -478,7 +486,7 @@ function listCategories() {
         "right", "0"
       ).removeClass('closed');
     menuOn = 1;
-    console.log("menu is on");
+    // console.log("menu is on");
   }
 
   function closeMenu() {
@@ -488,7 +496,7 @@ function listCategories() {
         "right", menuWidth
       ).addClass('closed');
     menuOn = 0;
-    console.log("menu is off");
+    // console.log("menu is off");
   }
 
 // BINDINGS
@@ -508,9 +516,9 @@ $(window).load(function() {
     catIndex = $(this).attr('name'),
     type = $(this).attr('alt').substring(5);
 
-    console.time('PopulateExecute');
+    // console.time('PopulateExecute');
     populateCategories(category, obj, catIndex, type);
-    console.timeEnd('PopulateExecute');
+    // console.timeEnd('PopulateExecute');
   });
 
   $('.marker_category_a').load(function() {
